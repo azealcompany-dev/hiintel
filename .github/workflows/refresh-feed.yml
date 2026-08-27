@@ -1,4 +1,4 @@
-name: Refresh SDR BDR AE feed
+name: Refresh feed
 
 on:
   schedule:
@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      HIINTEL_FEED_TOKEN: ${{ secrets.HIINTEL_FEED_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - name: Pull company boards
@@ -23,22 +21,6 @@ jobs:
           git add feed.json
           if git diff --staged --quiet; then
             echo "No feed changes"
-            exit 0
-          fi
-          git commit -m "Refresh SDR, BDR, and AE openings from company boards."
-          git push
-      - name: Publish to public hiintel-feed
-        if: ${{ env.HIINTEL_FEED_TOKEN != '' }}
-        run: |
-          tmp="$(mktemp -d)"
-          git clone --depth 1 "https://x-access-token:${HIINTEL_FEED_TOKEN}@github.com/azealcompany-dev/hiintel-feed.git" "$tmp"
-          cp feed.json "$tmp/feed.json"
-          cd "$tmp"
-          git config user.name "hiintel-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add feed.json
-          if git diff --staged --quiet; then
-            echo "Public feed already current"
             exit 0
           fi
           git commit -m "Refresh SDR, BDR, and AE openings from company boards."

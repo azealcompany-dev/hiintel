@@ -16,7 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 COMPANIES_PATH = ROOT / "scripts" / "companies.json"
-UA = "HiIntelFeedBuilder/1.0 (+https://github.com/azealcompany-dev/hiring-intel)"
+UA = "HiintelFeedBuilder/1.0 (+https://github.com/azealcompany-dev/hiintel)"
 
 TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
@@ -286,7 +286,7 @@ def build(companies: list[dict]) -> dict:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Build HiIntel SDR/BDR/AE feed.json")
+    parser = argparse.ArgumentParser(description="Build Hiintel SDR/BDR/AE feed.json")
     parser.add_argument("--companies", type=Path, default=COMPANIES_PATH)
     parser.add_argument("--out", type=Path, default=ROOT / "feed.json")
     args = parser.parse_args()

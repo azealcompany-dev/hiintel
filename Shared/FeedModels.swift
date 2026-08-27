@@ -13,6 +13,44 @@ struct Opening: Codable, Identifiable, Hashable, Sendable {
 
     var jobURL: URL? { URL(string: url) }
 
+    var lookingForPlain: String { HTMLText.plain(lookingFor) }
+    var companyBriefPlain: String { HTMLText.plain(companyBrief) }
+    var postedDate: Date? { FeedDates.parsePosted(postedAt) }
+
+    var companyInitials: String {
+        let words = company.split { $0.isWhitespace || $0 == "-" }.filter { !$0.isEmpty }
+        if words.count >= 2 {
+            return String(words[0].prefix(1) + words[1].prefix(1)).uppercased()
+        }
+        let alnum = company.filter { $0.isLetter || $0.isNumber }
+        let letters = alnum.isEmpty ? company : String(alnum)
+        return String(letters.prefix(2)).uppercased()
+    }
+
+    var shortLocation: String {
+        let loc = location.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !loc.isEmpty else { return "" }
+        let lower = loc.lowercased()
+        if lower == "remote" || lower.hasPrefix("remote,") || lower.hasPrefix("remote ")
+            || lower.hasPrefix("remote-") || lower.hasPrefix("remote/") {
+            return "Remote"
+        }
+        if lower == "hybrid" { return "Hybrid" }
+        if lower == "united states - remote" || lower.hasPrefix("us remote") { return "Remote" }
+        let first = loc.split { $0 == "," || $0 == "•" || $0 == ";" }
+            .first
+            .map { String($0).trimmingCharacters(in: .whitespacesAndNewlines) } ?? loc
+        let firstLower = first.lowercased()
+        if firstLower == "remote" || firstLower.contains("remote") && first.count <= 24 {
+            return "Remote"
+        }
+        return first
+    }
+
+    func isNew(relativeTo updated: Date?) -> Bool {
+        FeedDates.isNew(posted: postedDate, updated: updated)
+    }
+
     init(
         id: String,
         company: String,
@@ -54,6 +92,8 @@ struct OpeningsFeed: Codable, Hashable, Sendable {
     let openings: [Opening]
 
     static let empty = OpeningsFeed(updatedAt: nil, openings: [])
+
+    var updatedDate: Date? { FeedDates.parseUpdated(updatedAt) }
 
     init(updatedAt: String?, openings: [Opening]) {
         self.updatedAt = updatedAt

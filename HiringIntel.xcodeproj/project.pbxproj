@@ -9,17 +9,28 @@
 /* Begin PBXBuildFile section */
 		06AC07E56800D32BE54B4986 /* FeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0052F66EAC752CEEE3BE13A /* FeedModels.swift */; };
 		083A2D3DF7662CEA375E5787 /* HiringIntelWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 36EC87DADD1D26A5DB47478A /* HiringIntelWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0E7B0D94F7F11247561FCB68 /* OpeningMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE81C12877A37E831154A0 /* OpeningMarks.swift */; };
 		1119ED58FE5F9D6D72937EF5 /* HiringIntelWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4EF00EBBFD455B6A45638 /* HiringIntelWidget.swift */; };
+		12E02B77D3724DB66BE0D7DD /* OpeningTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713EB85585997EAC409C68A2 /* OpeningTracker.swift */; };
+		18F0B00F6BD9A08AFB6D0537 /* FilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B523DF67399CC0E4E779A5 /* FilterBarView.swift */; };
+		1B2274319280A1AB4B3D30F8 /* OpeningRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E555F30774C407AC4C08B8 /* OpeningRowView.swift */; };
 		2F44A71CF704E9F1DECC9527 /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = ECD45C2F8779E524DDB5A78D /* feed.json */; };
 		4063D7DB8422B6FCA10E157D /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = ECD45C2F8779E524DDB5A78D /* feed.json */; };
 		4234CF2780CBE3B7B9436B42 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453AE6B30DFD82D4D39B4FC /* FeedStore.swift */; };
 		4B4F74075DC13A1716EAF099 /* FeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0052F66EAC752CEEE3BE13A /* FeedModels.swift */; };
 		4F5C09D79187F21EF160B730 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453AE6B30DFD82D4D39B4FC /* FeedStore.swift */; };
 		6805A19C66742CFDF0626E0B /* HiringIntelWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE62C412D0B0434D2EDC3349 /* HiringIntelWidgetBundle.swift */; };
+		71571F2A04799F5D02897432 /* FeedDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E970C7C4268B70545E7EF /* FeedDates.swift */; };
+		80876130C588C35562C56042 /* OpeningDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B9B59A34E43AAB82546CE /* OpeningDetailView.swift */; };
+		92258C1A73275552899A1BEF /* FeedDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E970C7C4268B70545E7EF /* FeedDates.swift */; };
 		A037F1FDE67A900A2C5D8185 /* HiringIntelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F447E75FF09317EE21DA7FE2 /* HiringIntelApp.swift */; };
+		A35B7163E800F1090B09C26E /* HTMLText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6B14D949620385B8DDEFB /* HTMLText.swift */; };
 		B40021727FFFD2FD60A819AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4E16D63FC2947967C5A6C /* ContentView.swift */; };
 		C98FA2BCD23909151546EE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59614F23BDBBD292DCDBCC74 /* Assets.xcassets */; };
 		CE413735152C22663CD020CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C86B57E90BF4BF8540213 /* Assets.xcassets */; };
+		DC4B8D98EA852929C1AE808F /* OpeningFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A778255ADBB69E245F304 /* OpeningFilters.swift */; };
+		ECA335C3C1FB8BB55DADFAAC /* HTMLText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6B14D949620385B8DDEFB /* HTMLText.swift */; };
+		F3D1A40C82CE895E595C78BA /* OpeningMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE81C12877A37E831154A0 /* OpeningMarks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,16 +60,24 @@
 /* Begin PBXFileReference section */
 		2453AE6B30DFD82D4D39B4FC /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 		36EC87DADD1D26A5DB47478A /* HiringIntelWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = HiringIntelWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDE81C12877A37E831154A0 /* OpeningMarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningMarks.swift; sourceTree = "<group>"; };
+		52B523DF67399CC0E4E779A5 /* FilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBarView.swift; sourceTree = "<group>"; };
 		59614F23BDBBD292DCDBCC74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66E555F30774C407AC4C08B8 /* OpeningRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningRowView.swift; sourceTree = "<group>"; };
+		6A5B9B59A34E43AAB82546CE /* OpeningDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningDetailView.swift; sourceTree = "<group>"; };
+		713EB85585997EAC409C68A2 /* OpeningTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningTracker.swift; sourceTree = "<group>"; };
 		8F6C86B57E90BF4BF8540213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96026BB3872AD4321261FEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B442A5D1FFB81F79163345AE /* HiringIntel.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HiringIntel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC6B14D949620385B8DDEFB /* HTMLText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLText.swift; sourceTree = "<group>"; };
 		BE62C412D0B0434D2EDC3349 /* HiringIntelWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiringIntelWidgetBundle.swift; sourceTree = "<group>"; };
+		C06A778255ADBB69E245F304 /* OpeningFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningFilters.swift; sourceTree = "<group>"; };
 		D3A4EF00EBBFD455B6A45638 /* HiringIntelWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiringIntelWidget.swift; sourceTree = "<group>"; };
 		ECD45C2F8779E524DDB5A78D /* feed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = feed.json; sourceTree = "<group>"; };
 		F0052F66EAC752CEEE3BE13A /* FeedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModels.swift; sourceTree = "<group>"; };
 		F447E75FF09317EE21DA7FE2 /* HiringIntelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiringIntelApp.swift; sourceTree = "<group>"; };
 		F6B4E16D63FC2947967C5A6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC5E970C7C4268B70545E7EF /* FeedDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -76,8 +95,13 @@
 			children = (
 				8F6C86B57E90BF4BF8540213 /* Assets.xcassets */,
 				F6B4E16D63FC2947967C5A6C /* ContentView.swift */,
+				52B523DF67399CC0E4E779A5 /* FilterBarView.swift */,
 				F447E75FF09317EE21DA7FE2 /* HiringIntelApp.swift */,
 				96026BB3872AD4321261FEE7 /* Info.plist */,
+				6A5B9B59A34E43AAB82546CE /* OpeningDetailView.swift */,
+				C06A778255ADBB69E245F304 /* OpeningFilters.swift */,
+				66E555F30774C407AC4C08B8 /* OpeningRowView.swift */,
+				713EB85585997EAC409C68A2 /* OpeningTracker.swift */,
 			);
 			path = HiringIntel;
 			sourceTree = "<group>";
@@ -106,8 +130,11 @@
 		FE3A12B280619A30ACF1A7D6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				FC5E970C7C4268B70545E7EF /* FeedDates.swift */,
 				F0052F66EAC752CEEE3BE13A /* FeedModels.swift */,
 				2453AE6B30DFD82D4D39B4FC /* FeedStore.swift */,
+				BCC6B14D949620385B8DDEFB /* HTMLText.swift */,
+				3EDE81C12877A37E831154A0 /* OpeningMarks.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -218,10 +245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92258C1A73275552899A1BEF /* FeedDates.swift in Sources */,
 				06AC07E56800D32BE54B4986 /* FeedModels.swift in Sources */,
 				4F5C09D79187F21EF160B730 /* FeedStore.swift in Sources */,
+				A35B7163E800F1090B09C26E /* HTMLText.swift in Sources */,
 				1119ED58FE5F9D6D72937EF5 /* HiringIntelWidget.swift in Sources */,
 				6805A19C66742CFDF0626E0B /* HiringIntelWidgetBundle.swift in Sources */,
+				F3D1A40C82CE895E595C78BA /* OpeningMarks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,9 +260,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B40021727FFFD2FD60A819AF /* ContentView.swift in Sources */,
+				71571F2A04799F5D02897432 /* FeedDates.swift in Sources */,
 				4B4F74075DC13A1716EAF099 /* FeedModels.swift in Sources */,
 				4234CF2780CBE3B7B9436B42 /* FeedStore.swift in Sources */,
+				18F0B00F6BD9A08AFB6D0537 /* FilterBarView.swift in Sources */,
+				ECA335C3C1FB8BB55DADFAAC /* HTMLText.swift in Sources */,
 				A037F1FDE67A900A2C5D8185 /* HiringIntelApp.swift in Sources */,
+				80876130C588C35562C56042 /* OpeningDetailView.swift in Sources */,
+				DC4B8D98EA852929C1AE808F /* OpeningFilters.swift in Sources */,
+				0E7B0D94F7F11247561FCB68 /* OpeningMarks.swift in Sources */,
+				1B2274319280A1AB4B3D30F8 /* OpeningRowView.swift in Sources */,
+				12E02B77D3724DB66BE0D7DD /* OpeningTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +356,7 @@
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HiringIntelWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HiIntel;
+				INFOPLIST_KEY_CFBundleDisplayName = Hiintel;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.azealcompany.hiringintel.widget;
 				PRODUCT_MODULE_NAME = HiringIntelWidget;
@@ -330,7 +368,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -342,7 +380,7 @@
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HiringIntelWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HiIntel;
+				INFOPLIST_KEY_CFBundleDisplayName = Hiintel;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.azealcompany.hiringintel.widget;
 				PRODUCT_MODULE_NAME = HiringIntelWidget;
@@ -354,7 +392,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -369,12 +407,13 @@
 				"COMBINE_HIDPI_IMAGES[sdk=macosx*]" = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = HiringIntel/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HiIntel;
-				INFOPLIST_KEY_CFBundleName = HiIntel;
+				INFOPLIST_KEY_CFBundleDisplayName = Hiintel;
+				INFOPLIST_KEY_CFBundleName = Hiintel;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +427,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -473,12 +512,13 @@
 				"COMBINE_HIDPI_IMAGES[sdk=macosx*]" = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = HiringIntel/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HiIntel;
-				INFOPLIST_KEY_CFBundleName = HiIntel;
+				INFOPLIST_KEY_CFBundleDisplayName = Hiintel;
+				INFOPLIST_KEY_CFBundleName = Hiintel;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,7 +532,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};

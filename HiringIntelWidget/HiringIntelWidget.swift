@@ -43,7 +43,15 @@ struct Provider: TimelineProvider {
             return Timeline(entries: [entry], policy: .after(now.addingTimeInterval(15 * 60)))
         }
 
-        let rotating = Array(feed.openings.prefix(24))
+        let saved = OpeningMarks.savedIDs()
+        let ordered: [Opening]
+        if saved.isEmpty {
+            ordered = feed.openings
+        } else {
+            ordered = feed.openings.filter { saved.contains($0.id) }
+                + feed.openings.filter { !saved.contains($0.id) }
+        }
+        let rotating = Array(ordered.prefix(24))
         var entries: [FeedEntry] = []
         for (index, opening) in rotating.enumerated() {
             entries.append(
@@ -65,7 +73,7 @@ struct HiringIntelWidget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             HiringIntelWidgetView(entry: entry)
         }
-        .configurationDisplayName("HiIntel")
+        .configurationDisplayName("Hiintel")
         .description("Live openings from your feed.")
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
         .contentMarginsDisabled()
@@ -101,7 +109,7 @@ struct HiringIntelWidgetView: View {
 
     private var empty: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text("HiIntel")
+            Text("Hiintel")
                 .font(.system(size: 15, weight: .semibold))
                 .foregroundStyle(WidgetInk.primary)
             Text("No openings yet")
@@ -135,15 +143,15 @@ struct HiringIntelWidgetView: View {
                     .lineLimit(2)
             }
             if family == .systemLarge {
-                if !opening.lookingFor.isEmpty {
+                if !opening.lookingForPlain.isEmpty {
                     Spacer(minLength: 8)
-                    Text(opening.lookingFor)
+                    Text(opening.lookingForPlain)
                         .font(.system(size: 13, weight: .regular))
                         .foregroundStyle(WidgetInk.secondary)
                         .lineLimit(4)
                 }
-                if !opening.companyBrief.isEmpty {
-                    Text(opening.companyBrief)
+                if !opening.companyBriefPlain.isEmpty {
+                    Text(opening.companyBriefPlain)
                         .font(.system(size: 12, weight: .regular))
                         .foregroundStyle(WidgetInk.tertiary)
                         .lineLimit(3)

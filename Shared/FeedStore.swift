@@ -14,7 +14,7 @@ enum FeedStore {
     static let widgetKind = "com.azealcompany.hiringintel.jobs"
     static let backgroundRefreshID = "com.azealcompany.hiringintel.refresh"
     static let diskFeedPath = "/Users/phlegonjoseph/HiringIntel/feed.json"
-    static let remoteFeedURL = URL(string: "https://raw.githubusercontent.com/azealcompany-dev/hiintel-feed/main/feed.json")!
+    static let remoteFeedURL = URL(string: "https://raw.githubusercontent.com/azealcompany-dev/hiintel/main/feed.json")!
     static let widgetFetchTimeout: TimeInterval = 6
     static let hostFetchTimeout: TimeInterval = 10
     static let timelineRefreshInterval: TimeInterval = 30 * 60
@@ -90,6 +90,14 @@ enum FeedStore {
         try? fm.createDirectory(at: dest.deletingLastPathComponent(), withIntermediateDirectories: true)
         do {
             if let existing = try? Data(contentsOf: dest), existing == data {
+                return true
+            }
+            // Empty remote JSON must not wipe a good App Group cache.
+            if let incoming = try? JSONDecoder().decode(OpeningsFeed.self, from: data),
+               incoming.openings.isEmpty,
+               let existing = try? Data(contentsOf: dest),
+               let cached = try? JSONDecoder().decode(OpeningsFeed.self, from: existing),
+               !cached.openings.isEmpty {
                 return true
             }
             try data.write(to: dest, options: .atomic)

@@ -1,49 +1,42 @@
-# HiIntel
+# Hiintel
 
-Thin host app + WidgetKit extension (iOS 17+ and macOS 14+). Display name is HiIntel.
+iOS 17+ / macOS 14+ openings reader + WidgetKit. Display name is **Hiintel**.
 
-Live openings are fetched from GitHub raw (this repo must stay **public**):
+One public repo holds the app and the live feed. The host and widget fetch:
 
-    https://raw.githubusercontent.com/azealcompany-dev/hiintel-feed/main/feed.json
+    https://raw.githubusercontent.com/azealcompany-dev/hiintel/main/feed.json
 
-Widget and host cache a successful fetch as `OpeningsFeed.json` in App Group `group.com.azealcompany.hiringintel`, then reload widget timelines. Bundled `feed.json` is the offline fallback. Fetch failures fall back silently (App Group cache, then bundle). Mac disk `~/HiringIntel/feed.json` is a local-dev extra only.
+They cache a successful fetch as `OpeningsFeed.json` in App Group `group.com.azealcompany.hiringintel`, then reload widget timelines. Bundled `feed.json` is the offline fallback. Fetch failures stay on cache/bundle. Mac disk `~/HiringIntel/feed.json` is a local-dev extra only.
 
-A private feed repo makes GitHub raw return 404 and the app stays on cache/bundle.
+The app does not scrape ATS or HTML career pages.
 
-The host list fetches whenever you open the app, on pull-to-refresh, and about once a day via Background App Refresh. Widget timelines still rotate openings and refetch on each timeline.
+## Feed
 
-## Builder refresh
-
-The live source of truth is `main/feed.json` in **`azealcompany-dev/hiintel-feed`**. Empty `openings: []` is valid — the list and widgets show "No openings yet".
-
-`scripts/build_feed.py` pulls **SDR, BDR, and Account Executive** roles from public Greenhouse, Lever, and Ashby boards listed in `scripts/companies.json`. It does not scrape HTML career pages. Run locally:
+`scripts/build_feed.py` pulls **SDR, BDR, and Account Executive** roles from public Greenhouse, Lever, and Ashby boards in `scripts/companies.json`. Run locally:
 
     python3 scripts/build_feed.py --out feed.json
 
-A GitHub Action runs that script daily (`0 13 * * *` UTC) and commits `feed.json` here. To also update the public raw URL the app reads, add repo secret `HIINTEL_FEED_TOKEN` with write access to `azealcompany-dev/hiintel-feed`.
+A GitHub Action runs that script daily (`0 13 * * *` UTC) and commits `feed.json` here. Empty `openings: []` is valid and does not wipe a good on-device cache.
 
-Local overwrite for Mac-only debugging (do not rename):
+## Host
 
-    /Users/phlegonjoseph/HiringIntel/feed.json
+Search, family / where / when chips, newest vs by-company, Openings / Saved / Applied. Saved and applied are local to the App Group, keyed by opening id (no iCloud). Pull-to-refresh uses the same live JSON.
 
-Host fetches on launch / appear. Widget `getTimeline` waits briefly for fetch-or-timeout, then rotates openings and asks WidgetKit to refresh in 15–30 minutes.
+## Widget
 
-SAMPLE openings exist only in Xcode widget previews, not in feed.json.
+Long-press the Home Screen → Edit / + → Add Widget → Hiintel.
 
-## Add the widget (iOS)
-
-Long-press the Home Screen → Edit / + → Add Widget → HiIntel.
-
-- Small: company + roleFamily / role
-- Medium: + location + role
-- Large: + lookingFor + companyBrief (truncated)
+- Small: company + role
+- Medium: + location
+- Large: + lookingFor + companyBrief (plain text)
 - Tap opens the posting URL
+- Rotates the first 24 openings (saved ids first when present)
 
 ## Bundle IDs
 
-- Host (iOS + Mac): com.azealcompany.hiringintel
-- Widget: com.azealcompany.hiringintel.widget
-- Team: B8VKLXY4L2
+- Host (iOS + Mac): `com.azealcompany.hiringintel`
+- Widget: `com.azealcompany.hiringintel.widget`
+- Team: `B8VKLXY4L2`
 
 ## Generate & build
 

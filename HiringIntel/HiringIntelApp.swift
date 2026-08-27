@@ -29,6 +29,9 @@ struct HiringIntelApp: App {
                     JobOpener.open(url)
                 }
         }
+        #if os(macOS)
+        .defaultSize(width: 1100, height: 720)
+        #endif
         .onChange(of: scenePhase) { _, phase in
             if phase == .active {
                 _ = FeedStore.seedAppGroupIfNeeded()
