@@ -3,7 +3,7 @@ import WidgetKit
 
 enum FeedStore {
     static let appGroupID = "group.com.azealcompany.hiringintel"
-    static let feedFileName = "feed.json"
+    static let feedFileName = "OpeningsFeed.json"
     static let widgetKind = "com.azealcompany.hiringintel.jobs"
     static let diskFeedPath = "/Users/phlegonjoseph/HiringIntel/feed.json"
 
@@ -16,7 +16,7 @@ enum FeedStore {
     static var homeFeedURL: URL {
         URL(fileURLWithPath: NSHomeDirectory(), isDirectory: true)
             .appendingPathComponent("HiringIntel", isDirectory: true)
-            .appendingPathComponent(feedFileName)
+            .appendingPathComponent("feed.json")
     }
 
     static var bundledFeedURL: URL? {
@@ -30,7 +30,7 @@ enum FeedStore {
         return bundleURL
             .deletingLastPathComponent()
             .deletingLastPathComponent()
-            .appendingPathComponent(feedFileName)
+            .appendingPathComponent("feed.json")
     }
 
     static func load() -> OpeningsFeed {

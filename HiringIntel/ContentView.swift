@@ -10,7 +10,7 @@ struct ContentView: View {
             Group {
                 if feed.openings.isEmpty {
                     ContentUnavailableView(
-                        "No openings",
+                        "No openings yet",
                         systemImage: "briefcase",
                         description: Text("When feed.json has openings, they appear here and in the widget.")
                     )

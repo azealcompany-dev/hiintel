@@ -8,9 +8,9 @@
 	<array>
 		<string>group.com.azealcompany.hiringintel</string>
 	</array>
-	<key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
+	<key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
 	<array>
-		<string>/HiringIntel/feed.json</string>
+		<string>/Users/phlegonjoseph/HiringIntel/feed.json</string>
 	</array>
 </dict>
 </plist>

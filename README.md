@@ -1,18 +1,35 @@
 # Hiring Intel
 
-Thin host app + WidgetKit extension. Openings come from `feed.json` in this folder (owned by Builder, gitignored). The app copies that file into the App Group and reloads widget timelines.
+Thin host app + WidgetKit extension (iOS 17+ and macOS 14+). Openings come from `~/HiringIntel/feed.json` (owned by Builder, gitignored). The host copies that file into App Group `group.com.azealcompany.hiringintel` and reloads widget timelines.
+
+## Builder refresh
+
+Overwrite this file in place (do not rename):
+
+    /Users/phlegonjoseph/HiringIntel/feed.json
+
+Then open Hiring Intel (it copies on appear / becoming active) or wait for the next widget timeline reload (every 30 minutes). Empty `openings: []` is valid — widgets show "No openings yet".
+
+SAMPLE openings exist only in Xcode widget previews, not in feed.json.
 
 ## Add the widget (iOS)
 
-Long-press the Home Screen → tap **Edit** (or **+**) → **Add Widget** → search **Hiring Intel** → Small, Medium, or Large.
+Long-press the Home Screen → Edit / + → Add Widget → Hiring Intel.
 
-- Small: company + role
-- Medium: + location
-- Large: + looking for + company brief
-- Tap opens the posting
+- Small: company + roleFamily / role
+- Medium: + location + role
+- Large: + lookingFor + companyBrief (truncated)
+- Tap opens the posting URL
 
-## Generate
+## Bundle IDs
 
-```sh
-xcodegen generate
-```
+- Host (iOS + Mac): com.azealcompany.hiringintel
+- Widget: com.azealcompany.hiringintel.widget
+- Team: B8VKLXY4L2
+
+## Generate & build
+
+    xcodegen generate
+    xcodebuild -project HiringIntel.xcodeproj -scheme HiringIntel \
+      -destination 'id=00008140-00194D9E3C0B001C' \
+      -allowProvisioningUpdates DEVELOPMENT_TEAM=B8VKLXY4L2

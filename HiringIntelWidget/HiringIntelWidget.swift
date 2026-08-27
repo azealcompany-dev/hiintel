@@ -81,7 +81,7 @@ struct HiringIntelWidgetView: View {
         VStack(alignment: .leading, spacing: 4) {
             Text("Hiring Intel")
                 .font(.headline)
-            Text("No openings")
+            Text("No openings yet")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
             Spacer(minLength: 0)
