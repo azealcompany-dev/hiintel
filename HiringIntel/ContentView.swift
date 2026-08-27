@@ -8,11 +8,14 @@ struct ContentView: View {
         NavigationStack {
             Group {
                 if feed.openings.isEmpty {
-                    ContentUnavailableView(
-                        "No openings yet",
-                        systemImage: "briefcase",
-                        description: Text("When feed.json has openings, they appear here and in the widget.")
-                    )
+                    ScrollView {
+                        ContentUnavailableView(
+                            "No openings yet",
+                            systemImage: "briefcase",
+                            description: Text("Pull to refresh. HiIntel checks the live feed daily and whenever you open the app.")
+                        )
+                        .padding(.top, 80)
+                    }
                 } else {
                     List(feed.openings) { opening in
                         row(for: opening)
@@ -23,12 +26,19 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("HiIntel")
+            #if os(iOS)
+            .navigationBarTitleDisplayMode(.large)
+            #endif
+            .refreshable { await refreshFromRemote() }
         }
         .onAppear(perform: refresh)
         .onChange(of: scenePhase) { _, phase in
             if phase == .active {
                 refresh()
             }
+        }
+        .onReceive(NotificationCenter.default.publisher(for: .hiintelFeedDidUpdate)) { _ in
+            feed = FeedStore.load()
         }
     }
 
@@ -49,16 +59,17 @@ struct ContentView: View {
     private func refresh() {
         _ = FeedStore.seedAppGroupIfNeeded()
         feed = FeedStore.load()
-        Task {
-            _ = await FeedStore.fetchRemote(
-                timeout: FeedStore.hostFetchTimeout,
-                reloadOnSuccess: true
-            )
-            let loaded = FeedStore.load()
-            await MainActor.run {
-                feed = loaded
-            }
-        }
+        Task { await refreshFromRemote() }
+    }
+
+    @MainActor
+    private func refreshFromRemote() async {
+        _ = await FeedStore.fetchRemote(
+            timeout: FeedStore.hostFetchTimeout,
+            reloadOnSuccess: true
+        )
+        feed = FeedStore.load()
+        FeedStore.scheduleBackgroundRefresh()
     }
 }
 

@@ -318,7 +318,7 @@
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HiringIntelWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "HiIntel";
+				INFOPLIST_KEY_CFBundleDisplayName = HiIntel;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.azealcompany.hiringintel.widget;
 				PRODUCT_MODULE_NAME = HiringIntelWidget;
@@ -342,7 +342,7 @@
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HiringIntelWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "HiIntel";
+				INFOPLIST_KEY_CFBundleDisplayName = HiIntel;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.azealcompany.hiringintel.widget;
 				PRODUCT_MODULE_NAME = HiringIntelWidget;
@@ -369,8 +369,8 @@
 				"COMBINE_HIDPI_IMAGES[sdk=macosx*]" = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = HiringIntel/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "HiIntel";
-				INFOPLIST_KEY_CFBundleName = "HiIntel";
+				INFOPLIST_KEY_CFBundleDisplayName = HiIntel;
+				INFOPLIST_KEY_CFBundleName = HiIntel;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -473,8 +473,8 @@
 				"COMBINE_HIDPI_IMAGES[sdk=macosx*]" = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = HiringIntel/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "HiIntel";
-				INFOPLIST_KEY_CFBundleName = "HiIntel";
+				INFOPLIST_KEY_CFBundleDisplayName = HiIntel;
+				INFOPLIST_KEY_CFBundleName = HiIntel;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -86,7 +86,7 @@ struct HiringIntelWidgetView: View {
         Group {
             if let opening = entry.opening {
                 filled(opening)
-                    .widgetURL(URL(string: "hiringintel://open/\(opening.id)"))
+                    .widgetURL(opening.jobURL ?? URL(string: "hiringintel://open/\(opening.id)"))
             } else {
                 empty
             }

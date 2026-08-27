@@ -11,11 +11,13 @@ struct HiringIntelApp: App {
 
     init() {
         _ = FeedStore.seedAppGroupIfNeeded()
+        FeedStore.scheduleBackgroundRefresh()
         Task {
             _ = await FeedStore.fetchRemote(
                 timeout: FeedStore.hostFetchTimeout,
                 reloadOnSuccess: true
             )
+            FeedStore.scheduleBackgroundRefresh()
         }
     }
 
@@ -34,9 +36,19 @@ struct HiringIntelApp: App {
                         timeout: FeedStore.hostFetchTimeout,
                         reloadOnSuccess: true
                     )
+                    FeedStore.scheduleBackgroundRefresh()
                 }
             }
         }
+        #if os(iOS)
+        .backgroundTask(.appRefresh(FeedStore.backgroundRefreshID)) {
+            _ = await FeedStore.fetchRemote(
+                timeout: FeedStore.hostFetchTimeout,
+                reloadOnSuccess: true
+            )
+            FeedStore.scheduleBackgroundRefresh()
+        }
+        #endif
     }
 }
 

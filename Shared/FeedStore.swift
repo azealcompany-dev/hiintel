@@ -1,15 +1,25 @@
 import Foundation
 import WidgetKit
+#if os(iOS)
+import BackgroundTasks
+#endif
+
+extension Notification.Name {
+    static let hiintelFeedDidUpdate = Notification.Name("hiintelFeedDidUpdate")
+}
 
 enum FeedStore {
     static let appGroupID = "group.com.azealcompany.hiringintel"
     static let feedFileName = "OpeningsFeed.json"
     static let widgetKind = "com.azealcompany.hiringintel.jobs"
+    static let backgroundRefreshID = "com.azealcompany.hiringintel.refresh"
     static let diskFeedPath = "/Users/phlegonjoseph/HiringIntel/feed.json"
     static let remoteFeedURL = URL(string: "https://raw.githubusercontent.com/azealcompany-dev/hiintel-feed/main/feed.json")!
     static let widgetFetchTimeout: TimeInterval = 6
     static let hostFetchTimeout: TimeInterval = 10
     static let timelineRefreshInterval: TimeInterval = 30 * 60
+    static let dailyRefreshInterval: TimeInterval = 24 * 60 * 60
+    private static let lastFetchKey = "hiintel.lastRemoteFetch"
 
     static var appGroupFeedURL: URL? {
         FileManager.default
@@ -37,6 +47,19 @@ enum FeedStore {
             .appendingPathComponent("feed.json")
     }
 
+    static var lastRemoteFetchDate: Date? {
+        groupDefaults?.object(forKey: lastFetchKey) as? Date
+    }
+
+    static var isRemoteCacheStale: Bool {
+        guard let last = lastRemoteFetchDate else { return true }
+        return Date().timeIntervalSince(last) >= dailyRefreshInterval
+    }
+
+    private static var groupDefaults: UserDefaults? {
+        UserDefaults(suiteName: appGroupID)
+    }
+
     static func load() -> OpeningsFeed {
         let decoder = JSONDecoder()
         let fm = FileManager.default
@@ -47,15 +70,16 @@ enum FeedStore {
         urls.append(homeFeedURL)
         urls.append(URL(fileURLWithPath: diskFeedPath))
 
+        let preferEmptyGroup = lastRemoteFetchDate != nil
         var seen = Set<String>()
         for url in urls {
             let path = url.path
             if seen.contains(path) { continue }
             seen.insert(path)
             guard fm.fileExists(atPath: path), let data = try? Data(contentsOf: url) else { continue }
-            if let feed = try? decoder.decode(OpeningsFeed.self, from: data), !feed.openings.isEmpty {
-                return feed
-            }
+            guard let feed = try? decoder.decode(OpeningsFeed.self, from: data) else { continue }
+            if !feed.openings.isEmpty { return feed }
+            if preferEmptyGroup, url == appGroupFeedURL { return feed }
         }
         return .empty
     }
@@ -82,6 +106,7 @@ enum FeedStore {
         guard let dest = appGroupFeedURL else { return false }
         let fm = FileManager.default
         try? fm.createDirectory(at: dest.deletingLastPathComponent(), withIntermediateDirectories: true)
+        if lastRemoteFetchDate != nil { return true }
         if let existing = try? Data(contentsOf: dest),
            (try? JSONDecoder().decode(OpeningsFeed.self, from: existing))?.openings.isEmpty == false {
             return true
@@ -123,8 +148,9 @@ enum FeedStore {
                 return nil
             }
             let feed = try JSONDecoder().decode(OpeningsFeed.self, from: data)
-            guard !feed.openings.isEmpty else { return nil }
             _ = cacheData(data)
+            groupDefaults?.set(Date(), forKey: lastFetchKey)
+            NotificationCenter.default.post(name: .hiintelFeedDidUpdate, object: nil)
             if reloadOnSuccess {
                 reloadTimelines()
             }
@@ -137,5 +163,14 @@ enum FeedStore {
     static func reloadTimelines() {
         WidgetCenter.shared.reloadTimelines(ofKind: widgetKind)
         WidgetCenter.shared.reloadAllTimelines()
+    }
+
+    /// Ask iOS to wake the app about once a day to pull a fresh feed.
+    static func scheduleBackgroundRefresh() {
+        #if os(iOS)
+        let request = BGAppRefreshTaskRequest(identifier: backgroundRefreshID)
+        request.earliestBeginDate = Date(timeIntervalSinceNow: dailyRefreshInterval)
+        try? BGTaskScheduler.shared.submit(request)
+        #endif
     }
 }

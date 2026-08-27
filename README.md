@@ -2,17 +2,19 @@
 
 Thin host app + WidgetKit extension (iOS 17+ and macOS 14+). Display name is HiIntel.
 
-Live openings are fetched from GitHub raw:
+Live openings are fetched from GitHub raw (this repo must stay **public**):
 
     https://raw.githubusercontent.com/azealcompany-dev/hiintel-feed/main/feed.json
 
 Widget and host cache a successful fetch as `OpeningsFeed.json` in App Group `group.com.azealcompany.hiringintel`, then reload widget timelines. Bundled `feed.json` is the offline fallback. Fetch failures fall back silently (App Group cache, then bundle). Mac disk `~/HiringIntel/feed.json` is a local-dev extra only.
 
-The repo that serves that URL must be **public**. A private repo makes GitHub raw return 404 and the app stays on cache/bundle until it is public.
+A private feed repo makes GitHub raw return 404 and the app stays on cache/bundle.
+
+The host list fetches whenever you open the app, on pull-to-refresh, and about once a day via Background App Refresh. Widget timelines still rotate openings and refetch on each timeline.
 
 ## Builder refresh
 
-The live source of truth is `main/feed.json` in `azealcompany-dev/hiring-intel` (do not rename). Empty `openings: []` is valid — widgets show "No openings yet".
+The live source of truth is `main/feed.json` in **`azealcompany-dev/hiintel-feed`**. Empty `openings: []` is valid — the list and widgets show "No openings yet".
 
 Local overwrite for Mac-only debugging (do not rename):
 

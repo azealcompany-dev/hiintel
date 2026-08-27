@@ -67,6 +67,8 @@ targets:
         UILaunchScreen: {}
         UIBackgroundModes:
           - fetch
+        BGTaskSchedulerPermittedIdentifiers:
+          - com.azealcompany.hiringintel.refresh
     dependencies:
       - target: HiringIntelWidget
     scheme:
