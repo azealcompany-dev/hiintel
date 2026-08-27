@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06AC07E56800D32BE54B4986 /* FeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0052F66EAC752CEEE3BE13A /* FeedModels.swift */; };
+		083A2D3DF7662CEA375E5787 /* HiringIntelWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 36EC87DADD1D26A5DB47478A /* HiringIntelWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1119ED58FE5F9D6D72937EF5 /* HiringIntelWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4EF00EBBFD455B6A45638 /* HiringIntelWidget.swift */; };
+		2F44A71CF704E9F1DECC9527 /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = ECD45C2F8779E524DDB5A78D /* feed.json */; };
+		4063D7DB8422B6FCA10E157D /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = ECD45C2F8779E524DDB5A78D /* feed.json */; };
+		4234CF2780CBE3B7B9436B42 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453AE6B30DFD82D4D39B4FC /* FeedStore.swift */; };
+		4B4F74075DC13A1716EAF099 /* FeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0052F66EAC752CEEE3BE13A /* FeedModels.swift */; };
+		4F5C09D79187F21EF160B730 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453AE6B30DFD82D4D39B4FC /* FeedStore.swift */; };
+		6805A19C66742CFDF0626E0B /* HiringIntelWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE62C412D0B0434D2EDC3349 /* HiringIntelWidgetBundle.swift */; };
+		A037F1FDE67A900A2C5D8185 /* HiringIntelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F447E75FF09317EE21DA7FE2 /* HiringIntelApp.swift */; };
+		B40021727FFFD2FD60A819AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4E16D63FC2947967C5A6C /* ContentView.swift */; };
+		C98FA2BCD23909151546EE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59614F23BDBBD292DCDBCC74 /* Assets.xcassets */; };
+		CE413735152C22663CD020CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C86B57E90BF4BF8540213 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2D47ED73B71E1A3739D67CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EB6BD4681CB595FC950630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F99CAD56CC84D712D20AC4A8;
+			remoteInfo = HiringIntelWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B1AFB789A73286859146C96 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				083A2D3DF7662CEA375E5787 /* HiringIntelWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2453AE6B30DFD82D4D39B4FC /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
+		36EC87DADD1D26A5DB47478A /* HiringIntelWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = HiringIntelWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		59614F23BDBBD292DCDBCC74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F6C86B57E90BF4BF8540213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96026BB3872AD4321261FEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B442A5D1FFB81F79163345AE /* HiringIntel.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HiringIntel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE62C412D0B0434D2EDC3349 /* HiringIntelWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiringIntelWidgetBundle.swift; sourceTree = "<group>"; };
+		D3A4EF00EBBFD455B6A45638 /* HiringIntelWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiringIntelWidget.swift; sourceTree = "<group>"; };
+		ECD45C2F8779E524DDB5A78D /* feed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = feed.json; sourceTree = "<group>"; };
+		F0052F66EAC752CEEE3BE13A /* FeedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModels.swift; sourceTree = "<group>"; };
+		F447E75FF09317EE21DA7FE2 /* HiringIntelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiringIntelApp.swift; sourceTree = "<group>"; };
+		F6B4E16D63FC2947967C5A6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		43BC7F5728030AD85C849DD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B442A5D1FFB81F79163345AE /* HiringIntel.app */,
+				36EC87DADD1D26A5DB47478A /* HiringIntelWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8690D5FC2451899A3E45F483 /* HiringIntel */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C86B57E90BF4BF8540213 /* Assets.xcassets */,
+				F6B4E16D63FC2947967C5A6C /* ContentView.swift */,
+				F447E75FF09317EE21DA7FE2 /* HiringIntelApp.swift */,
+				96026BB3872AD4321261FEE7 /* Info.plist */,
+			);
+			path = HiringIntel;
+			sourceTree = "<group>";
+		};
+		A0C61917B3768A1EB4627F0D /* HiringIntelWidget */ = {
+			isa = PBXGroup;
+			children = (
+				59614F23BDBBD292DCDBCC74 /* Assets.xcassets */,
+				D3A4EF00EBBFD455B6A45638 /* HiringIntelWidget.swift */,
+				BE62C412D0B0434D2EDC3349 /* HiringIntelWidgetBundle.swift */,
+			);
+			path = HiringIntelWidget;
+			sourceTree = "<group>";
+		};
+		D90BCBE51208492282B8031E = {
+			isa = PBXGroup;
+			children = (
+				8690D5FC2451899A3E45F483 /* HiringIntel */,
+				A0C61917B3768A1EB4627F0D /* HiringIntelWidget */,
+				FE3A12B280619A30ACF1A7D6 /* Shared */,
+				ECD45C2F8779E524DDB5A78D /* feed.json */,
+				43BC7F5728030AD85C849DD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3A12B280619A30ACF1A7D6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F0052F66EAC752CEEE3BE13A /* FeedModels.swift */,
+				2453AE6B30DFD82D4D39B4FC /* FeedStore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A29338C78BCF955CBE471503 /* HiringIntel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE704FE0D4EE7137506F6F54 /* Build configuration list for PBXNativeTarget "HiringIntel" */;
+			buildPhases = (
+				DCECC5C31C62DD37B21B6E89 /* Sources */,
+				25E5F8E8736FB0CBE2D86FC2 /* Resources */,
+				6B1AFB789A73286859146C96 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E03C70A7DE445EDE0B5B471B /* PBXTargetDependency */,
+			);
+			name = HiringIntel;
+			packageProductDependencies = (
+			);
+			productName = HiringIntel;
+			productReference = B442A5D1FFB81F79163345AE /* HiringIntel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F99CAD56CC84D712D20AC4A8 /* HiringIntelWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DCFB5D9E1CC433C221E9DB /* Build configuration list for PBXNativeTarget "HiringIntelWidget" */;
+			buildPhases = (
+				5F5556315C791C194442C612 /* Sources */,
+				AE2A0A2D047034A44B71CBEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiringIntelWidget;
+			packageProductDependencies = (
+			);
+			productName = HiringIntelWidget;
+			productReference = 36EC87DADD1D26A5DB47478A /* HiringIntelWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42EB6BD4681CB595FC950630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A29338C78BCF955CBE471503 = {
+						DevelopmentTeam = B8VKLXY4L2;
+						ProvisioningStyle = Automatic;
+					};
+					F99CAD56CC84D712D20AC4A8 = {
+						DevelopmentTeam = B8VKLXY4L2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 72B7FDA30EEA3AF474F46802 /* Build configuration list for PBXProject "HiringIntel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D90BCBE51208492282B8031E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 43BC7F5728030AD85C849DD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A29338C78BCF955CBE471503 /* HiringIntel */,
+				F99CAD56CC84D712D20AC4A8 /* HiringIntelWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E5F8E8736FB0CBE2D86FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE413735152C22663CD020CE /* Assets.xcassets in Resources */,
+				4063D7DB8422B6FCA10E157D /* feed.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2A0A2D047034A44B71CBEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98FA2BCD23909151546EE85 /* Assets.xcassets in Resources */,
+				2F44A71CF704E9F1DECC9527 /* feed.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F5556315C791C194442C612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AC07E56800D32BE54B4986 /* FeedModels.swift in Sources */,
+				4F5C09D79187F21EF160B730 /* FeedStore.swift in Sources */,
+				1119ED58FE5F9D6D72937EF5 /* HiringIntelWidget.swift in Sources */,
+				6805A19C66742CFDF0626E0B /* HiringIntelWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCECC5C31C62DD37B21B6E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40021727FFFD2FD60A819AF /* ContentView.swift in Sources */,
+				4B4F74075DC13A1716EAF099 /* FeedModels.swift in Sources */,
+				4234CF2780CBE3B7B9436B42 /* FeedStore.swift in Sources */,
+				A037F1FDE67A900A2C5D8185 /* HiringIntelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E03C70A7DE445EDE0B5B471B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F99CAD56CC84D712D20AC4A8 /* HiringIntelWidget */;
+			targetProxy = F2D47ED73B71E1A3739D67CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068644AA8A5E8AEFF3900AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B8VKLXY4L2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		464705A3B10C7B448693FE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HiringIntelWidget/HiringIntelWidget.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = HiringIntelWidget/HiringIntelWidgetMac.entitlements;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HiringIntelWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hiring Intel";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azealcompany.hiringintel.widget;
+				PRODUCT_MODULE_NAME = HiringIntelWidget;
+				PRODUCT_NAME = HiringIntelWidget;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6C87E1083E5F701A60883E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HiringIntelWidget/HiringIntelWidget.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = HiringIntelWidget/HiringIntelWidgetMac.entitlements;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HiringIntelWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hiring Intel";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azealcompany.hiringintel.widget;
+				PRODUCT_MODULE_NAME = HiringIntelWidget;
+				PRODUCT_NAME = HiringIntelWidget;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8BD116CD7E0B6327BC2D9499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HiringIntel/HiringIntel.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = HiringIntel/HiringIntelMac.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"COMBINE_HIDPI_IMAGES[sdk=macosx*]" = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				INFOPLIST_FILE = HiringIntel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hiring Intel";
+				INFOPLIST_KEY_CFBundleName = "Hiring Intel";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azealcompany.hiringintel;
+				PRODUCT_MODULE_NAME = HiringIntel;
+				PRODUCT_NAME = HiringIntel;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AE42ED69D5B67C6F5322E579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B8VKLXY4L2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		E38A8B92662B505ED6AF983E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HiringIntel/HiringIntel.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = HiringIntel/HiringIntelMac.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"COMBINE_HIDPI_IMAGES[sdk=macosx*]" = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				INFOPLIST_FILE = HiringIntel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hiring Intel";
+				INFOPLIST_KEY_CFBundleName = "Hiring Intel";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azealcompany.hiringintel;
+				PRODUCT_MODULE_NAME = HiringIntel;
+				PRODUCT_NAME = HiringIntel;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DCFB5D9E1CC433C221E9DB /* Build configuration list for PBXNativeTarget "HiringIntelWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464705A3B10C7B448693FE42 /* Debug */,
+				6C87E1083E5F701A60883E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72B7FDA30EEA3AF474F46802 /* Build configuration list for PBXProject "HiringIntel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE42ED69D5B67C6F5322E579 /* Debug */,
+				068644AA8A5E8AEFF3900AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE704FE0D4EE7137506F6F54 /* Build configuration list for PBXNativeTarget "HiringIntel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38A8B92662B505ED6AF983E /* Debug */,
+				8BD116CD7E0B6327BC2D9499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42EB6BD4681CB595FC950630 /* Project object */;
+}

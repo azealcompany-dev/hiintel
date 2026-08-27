@@ -1,0 +1,24 @@
+# Live openings — Builder refreshes this; do not commit
+feed.json
+
+# Xcode
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+
+# Misc
+.DS_Store
+.build/
+*.swp
+
+# Local build products
+DerivedDataMac/
+build/
