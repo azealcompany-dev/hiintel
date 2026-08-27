@@ -95,6 +95,74 @@ enum WhenKind: String, CaseIterable, Identifiable {
     }
 }
 
+enum SegmentKind: String, CaseIterable, Identifiable {
+    case smb = "SMB"
+    case mm = "MM"
+    case enterprise = "Enterprise"
+
+    var id: String { rawValue }
+    var title: String { rawValue }
+}
+
+enum WorkplaceKind: String, CaseIterable, Identifiable {
+    case onsite
+    case hybrid
+    case remoteUS
+    case remoteGlobal
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .onsite: return "Onsite"
+        case .hybrid: return "Hybrid"
+        case .remoteUS: return "Remote US"
+        case .remoteGlobal: return "Remote global"
+        }
+    }
+}
+
+enum MetroKind: String, CaseIterable, Identifiable {
+    case nyc
+    case chicago
+    case austin
+    case denver
+    case sfBay
+    case remoteUS
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .nyc: return "NYC"
+        case .chicago: return "Chicago"
+        case .austin: return "Austin"
+        case .denver: return "Denver"
+        case .sfBay: return "SF Bay"
+        case .remoteUS: return "Remote US"
+        }
+    }
+
+    static func classify(_ opening: Opening) -> MetroKind? {
+        if opening.workplace == "remoteUS" { return .remoteUS }
+        let loc = opening.location.lowercased()
+        if loc.contains("new york") || loc.contains("nyc") || loc.contains("brooklyn") || loc.contains("manhattan") {
+            return .nyc
+        }
+        if loc.contains("chicago") { return .chicago }
+        if loc.contains("austin") { return .austin }
+        if loc.contains("denver") { return .denver }
+        if loc.contains("san francisco") || loc.contains("bay area") || loc.contains("oakland")
+            || loc.contains("palo alto") || loc.contains("mountain view") || loc.contains("sf,") {
+            return .sfBay
+        }
+        if opening.workplace == "remoteUS" || (loc.contains("remote") && WhereKind.classify(opening.location) != nil) {
+            return .remoteUS
+        }
+        return nil
+    }
+}
+
 enum SortMode: String, CaseIterable, Identifiable {
     case newest
     case company
@@ -138,19 +206,16 @@ enum OpeningQuery {
         families: Set<String>,
         whereKind: WhereKind?,
         whenKind: WhenKind?,
+        segment: SegmentKind?,
+        workplace: WorkplaceKind?,
+        metro: MetroKind?,
         view: ReaderViewMode,
         updated: Date?,
-        savedIDs: Set<String>,
-        appliedIDs: Set<String>
+        mutedCompanies: Set<String>
     ) -> [Opening] {
         var items = openings
-        switch view {
-        case .openings:
-            break
-        case .saved:
-            items = items.filter { savedIDs.contains($0.id) }
-        case .applied:
-            items = items.filter { appliedIDs.contains($0.id) }
+        if view == .openings, !mutedCompanies.isEmpty {
+            items = items.filter { !mutedCompanies.contains($0.company) }
         }
 
         let query = search.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -171,16 +236,35 @@ enum OpeningQuery {
         if let whenKind {
             items = items.filter { whenKind.matches($0, updated: updated) }
         }
+        if let segment {
+            items = items.filter { $0.segment == segment.rawValue }
+        }
+        if let workplace {
+            items = items.filter { $0.workplace == workplace.rawValue }
+        }
+        if let metro {
+            items = items.filter { MetroKind.classify($0) == metro }
+        }
         return items
     }
 
-    static func grouped(_ openings: [Opening], sort: SortMode) -> [OpeningGroup] {
-        let sorted = openings.sorted(by: sortNewest)
+    static func grouped(_ openings: [Opening], sort: SortMode, pinned: Set<String>) -> [OpeningGroup] {
+        let sorted = openings.sorted { a, b in
+            let ap = pinned.contains(a.company)
+            let bp = pinned.contains(b.company)
+            if ap != bp { return ap && !bp }
+            return sortNewest(a, b)
+        }
         switch sort {
         case .company:
             let groups = Dictionary(grouping: sorted, by: \.company)
             return groups.keys
-                .sorted { $0.localizedCaseInsensitiveCompare($1) == .orderedAscending }
+                .sorted { a, b in
+                    let ap = pinned.contains(a)
+                    let bp = pinned.contains(b)
+                    if ap != bp { return ap && !bp }
+                    return a.localizedCaseInsensitiveCompare(b) == .orderedAscending
+                }
                 .compactMap { name in
                     guard let rows = groups[name], !rows.isEmpty else { return nil }
                     return OpeningGroup(id: "company.\(name)", title: name, openings: rows)
@@ -217,6 +301,41 @@ enum OpeningQuery {
                 earlier.isEmpty ? nil : OpeningGroup(id: "earlier", title: "Earlier", openings: earlier),
             ].compactMap { $0 }
         }
+    }
+
+    static func similar(to opening: Opening, in openings: [Opening], cap: Int = 5) -> [Opening] {
+        let tokens = titleTokens(opening.role)
+        guard !tokens.isEmpty else { return [] }
+        return openings
+            .filter { candidate in
+                candidate.id != opening.id
+                    && candidate.company != opening.company
+                    && candidate.roleFamily == opening.roleFamily
+                    && !titleTokens(candidate.role).isDisjoint(with: tokens)
+            }
+            .sorted { a, b in
+                overlap(titleTokens(a.role), tokens) > overlap(titleTokens(b.role), tokens)
+            }
+            .prefix(cap)
+            .map { $0 }
+    }
+
+    private static func titleTokens(_ title: String) -> Set<String> {
+        let stop: Set<String> = [
+            "the", "and", "for", "of", "to", "a", "an", "in", "at", "or", "on",
+            "sales", "development", "representative", "account", "executive",
+            "senior", "staff", "ii", "iii", "remote", "hybrid",
+        ]
+        return Set(
+            title.lowercased()
+                .split { !$0.isLetter && !$0.isNumber }
+                .map(String.init)
+                .filter { $0.count > 2 && !stop.contains($0) }
+        )
+    }
+
+    private static func overlap(_ a: Set<String>, _ b: Set<String>) -> Int {
+        a.intersection(b).count
     }
 
     /// postedAt desc, then company, then role. YYYY-MM-dd strings sort chronologically.

@@ -1,0 +1,552 @@
+{
+  "Stripe": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Datadog": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Cloudflare": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Twilio": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "GitLab": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "MongoDB": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "HashiCorp": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Discord": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Figma": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Notion": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Airtable": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "DoorDash": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Instacart": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Lyft": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Pinterest": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Reddit": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Robinhood": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Coinbase": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Brex": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Carta": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Elastic": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Databricks": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Fivetran": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Klaviyo": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "HubSpot": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Asana": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Box": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "CrowdStrike": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Snowflake": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Confluent": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Okta": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Zendesk": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Dropbox": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Airbnb": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Plaid": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Ramp": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Rippling": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Gusto": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Mercury": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "dbt Labs": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Block": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Scale AI": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Canva": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Netflix": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Atlassian": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Palantir": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Vercel": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Linear": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "OpenAI": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  },
+  "Anthropic": {
+    "SDR": {
+      "title": "Manager, SDR"
+    },
+    "BDR": {
+      "title": "Manager, BDR"
+    },
+    "AE": {
+      "title": "Director, AE"
+    }
+  }
+}

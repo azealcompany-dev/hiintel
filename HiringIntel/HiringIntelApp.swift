@@ -59,6 +59,7 @@ struct HiringIntelApp: App {
                     timeout: FeedStore.hostFetchTimeout,
                     reloadOnSuccess: true
                 )
+                AppBadge.refresh(from: feed ?? FeedStore.load())
                 FeedStore.scheduleBackgroundRefresh()
                 task.setTaskCompleted(success: feed != nil)
             }
@@ -69,13 +70,13 @@ struct HiringIntelApp: App {
 
 enum JobOpener {
     static func open(_ url: URL) {
-        let resolved: URL
         if url.scheme == "hiringintel" {
             let id = url.pathComponents.last(where: { $0 != "/" }) ?? ""
-            guard let match = FeedStore.load().openings.first(where: { $0.id == id }),
-                  let jobURL = match.jobURL else { return }
-            resolved = jobURL
-        } else if url.scheme == "http" || url.scheme == "https" {
+            NotificationCenter.default.post(name: .hiintelOpenJob, object: id)
+            return
+        }
+        let resolved: URL
+        if url.scheme == "http" || url.scheme == "https" {
             resolved = url
         } else {
             return

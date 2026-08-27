@@ -5,8 +5,12 @@ struct FeedEntry: TimelineEntry {
     let date: Date
     let feed: OpeningsFeed
     let opening: Opening?
+    var newToday: Int = 0
 
-    var primaryURL: URL? { opening?.jobURL }
+    var hostURL: URL? {
+        guard let id = opening?.id else { return URL(string: "hiringintel://") }
+        return URL(string: "hiringintel://job/\(id)")
+    }
 }
 
 struct Provider: TimelineProvider {
@@ -14,12 +18,26 @@ struct Provider: TimelineProvider {
 
     func placeholder(in context: Context) -> FeedEntry {
         let feed = FeedStore.load()
-        return FeedEntry(date: Date(), feed: feed, opening: feed.openings.first)
+        let ordered = OpeningMarks.orderedForWidget(feed.openings)
+        return FeedEntry(
+            date: Date(),
+            feed: feed,
+            opening: ordered.first,
+            newToday: OpeningMarks.newTodayCount(in: feed)
+        )
     }
 
     func getSnapshot(in context: Context, completion: @escaping (FeedEntry) -> Void) {
         let feed = FeedStore.load()
-        completion(FeedEntry(date: Date(), feed: feed, opening: feed.openings.first))
+        let ordered = OpeningMarks.orderedForWidget(feed.openings)
+        completion(
+            FeedEntry(
+                date: Date(),
+                feed: feed,
+                opening: ordered.first,
+                newToday: OpeningMarks.newTodayCount(in: feed)
+            )
+        )
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<FeedEntry>) -> Void) {
@@ -38,27 +56,21 @@ struct Provider: TimelineProvider {
         let now = Date()
         let refreshAfter = now.addingTimeInterval(FeedStore.timelineRefreshInterval)
 
+        let newToday = OpeningMarks.newTodayCount(in: feed)
         if feed.openings.isEmpty {
-            let entry = FeedEntry(date: now, feed: feed, opening: nil)
+            let entry = FeedEntry(date: now, feed: feed, opening: nil, newToday: newToday)
             return Timeline(entries: [entry], policy: .after(now.addingTimeInterval(15 * 60)))
         }
 
-        let saved = OpeningMarks.savedIDs()
-        let ordered: [Opening]
-        if saved.isEmpty {
-            ordered = feed.openings
-        } else {
-            ordered = feed.openings.filter { saved.contains($0.id) }
-                + feed.openings.filter { !saved.contains($0.id) }
-        }
-        let rotating = Array(ordered.prefix(24))
+        let rotating = Array(OpeningMarks.orderedForWidget(feed.openings).prefix(24))
         var entries: [FeedEntry] = []
         for (index, opening) in rotating.enumerated() {
             entries.append(
                 FeedEntry(
                     date: now.addingTimeInterval(rotation * Double(index)),
                     feed: feed,
-                    opening: opening
+                    opening: opening,
+                    newToday: newToday
                 )
             )
         }
@@ -73,7 +85,7 @@ struct HiringIntelWidget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             HiringIntelWidgetView(entry: entry)
         }
-        .configurationDisplayName("Hiintel")
+        .configurationDisplayName("HiIntel")
         .description("Live openings from your feed.")
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
         .contentMarginsDisabled()
@@ -95,9 +107,10 @@ struct HiringIntelWidgetView: View {
         Group {
             if let opening = entry.opening {
                 filled(opening)
-                    .widgetURL(opening.jobURL ?? URL(string: "hiringintel://open/\(opening.id)"))
+                    .widgetURL(entry.hostURL)
             } else {
                 empty
+                    .widgetURL(URL(string: "hiringintel://"))
             }
         }
         .padding(family == .systemSmall ? 14 : 16)
@@ -109,7 +122,7 @@ struct HiringIntelWidgetView: View {
 
     private var empty: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text("Hiintel")
+            Text("HiIntel")
                 .font(.system(size: 15, weight: .semibold))
                 .foregroundStyle(WidgetInk.primary)
             Text("No openings yet")
@@ -126,6 +139,9 @@ struct HiringIntelWidgetView: View {
         let roleSize: CGFloat = family == .systemSmall ? 12 : 13
 
         VStack(alignment: .leading, spacing: family == .systemSmall ? 5 : 7) {
+            Text(entry.newToday == 1 ? "1 new today" : "\(entry.newToday) new today")
+                .font(.system(size: family == .systemSmall ? 11 : 12, weight: .semibold))
+                .foregroundStyle(WidgetInk.secondary)
             Text(opening.company)
                 .font(.system(size: companySize, weight: .semibold, design: .default))
                 .foregroundStyle(WidgetInk.primary)

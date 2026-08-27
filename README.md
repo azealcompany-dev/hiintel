@@ -1,6 +1,6 @@
-# Hiintel
+# HiIntel
 
-iOS 17+ / macOS 14+ openings reader + WidgetKit. Display name is **Hiintel**.
+iOS 17+ / macOS 14+ openings reader + WidgetKit. Display name is **HiIntel**.
 
 One public repo holds the app and the live feed. The host and widget fetch:
 
@@ -24,7 +24,7 @@ Search, family / where / when chips, newest vs by-company, Openings / Saved / Ap
 
 ## Widget
 
-Long-press the Home Screen → Edit / + → Add Widget → Hiintel.
+Long-press the Home Screen → Edit / + → Add Widget → HiIntel.
 
 - Small: company + role
 - Medium: + location

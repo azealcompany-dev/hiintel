@@ -36,8 +36,8 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.azealcompany.hiringintel
         PRODUCT_NAME: HiringIntel
         PRODUCT_MODULE_NAME: HiringIntel
-        INFOPLIST_KEY_CFBundleDisplayName: Hiintel
-        INFOPLIST_KEY_CFBundleName: Hiintel
+        INFOPLIST_KEY_CFBundleDisplayName: HiIntel
+        INFOPLIST_KEY_CFBundleName: HiIntel
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.business
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
@@ -60,7 +60,7 @@ targets:
     info:
       path: HiringIntel/Info.plist
       properties:
-        CFBundleDisplayName: Hiintel
+        CFBundleDisplayName: HiIntel
         CFBundleURLTypes:
           - CFBundleURLName: com.azealcompany.hiringintel
             CFBundleURLSchemes:
@@ -94,7 +94,7 @@ targets:
         PRODUCT_MODULE_NAME: HiringIntelWidget
         INFOPLIST_FILE: HiringIntelWidget/Info.plist
         GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_CFBundleDisplayName: Hiintel
+        INFOPLIST_KEY_CFBundleDisplayName: HiIntel
         CODE_SIGN_ENTITLEMENTS: HiringIntelWidget/HiringIntelWidget.entitlements
         "CODE_SIGN_ENTITLEMENTS[sdk=macosx*]": HiringIntelWidget/HiringIntelWidgetMac.entitlements
         SKIP_INSTALL: YES
@@ -111,7 +111,7 @@ targets:
     info:
       path: HiringIntelWidget/Info.plist
       properties:
-        CFBundleDisplayName: Hiintel
+        CFBundleDisplayName: HiIntel
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
 schemes:

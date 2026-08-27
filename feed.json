@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T17:42:37+00:00",
+  "updatedAt": "2026-08-27T16:53:18-04:00",
   "openings": [
     {
       "id": "box-sales-development-representative-8129335",
@@ -8,9 +8,15 @@
       "roleFamily": "SDR",
       "location": "Austin, Texas",
       "url": "https://job-boards.greenhouse.io/boxinc/jobs/8129335",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\"><strong>WHAT IS BOX?</strong></p> <p data-pm-slice=\"1 1 []\">Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and trans…",
+      "lookingFor": "WHAT IS BOX? Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and transform business workflows with enterprise AI. We help companies thrive in t…",
       "companyBrief": "Box opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE if commissionable role) is dependent upon facto"
     },
     {
       "id": "brex-manager-sales-development-8477485002",
@@ -19,31 +25,16 @@
       "roleFamily": "SDR",
       "location": "Seattle, Washington, United States",
       "url": "https://www.brex.com/careers/8477485002?gh_jid=8477485002",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Why join us</strong></p> <p>Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay,…",
+      "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
       "companyBrief": "Brex opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-31"
-    },
-    {
-      "id": "brex-manager-sales-development-8477492002",
-      "company": "Brex",
-      "role": "Manager, Sales Development",
-      "roleFamily": "SDR",
-      "location": "Salt Lake City, Utah, United States",
-      "url": "https://www.brex.com/careers/8477492002?gh_jid=8477492002",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Why join us</strong></p> <p>Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay,…",
-      "companyBrief": "Brex opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-31"
-    },
-    {
-      "id": "brex-manager-sales-development-8477508002",
-      "company": "Brex",
-      "role": "Manager, Sales Development",
-      "roleFamily": "SDR",
-      "location": "New York, New York, United States",
-      "url": "https://www.brex.com/careers/8477508002?gh_jid=8477508002",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Why join us</strong></p> <p>Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay,…",
-      "companyBrief": "Brex opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-31"
+      "postedAt": "2026-07-31",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "quotaCarrying": true,
+      "oteText": "OTE range for this role is $135,000 - $169,500"
     },
     {
       "id": "brex-manager-sales-development-8475632002",
@@ -52,9 +43,52 @@
       "roleFamily": "SDR",
       "location": "San Francisco, California, United States",
       "url": "https://www.brex.com/careers/8475632002?gh_jid=8475632002",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Why join us</strong></p> <p>Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay,…",
+      "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
       "companyBrief": "Brex opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-31"
+      "postedAt": "2026-07-31",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "quotaCarrying": true,
+      "oteText": "OTE range for this role is $135,000 - $169,500"
+    },
+    {
+      "id": "brex-manager-sales-development-8477508002",
+      "company": "Brex",
+      "role": "Manager, Sales Development",
+      "roleFamily": "SDR",
+      "location": "New York, New York, United States",
+      "url": "https://www.brex.com/careers/8477508002?gh_jid=8477508002",
+      "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
+      "companyBrief": "Brex opening listed on their Greenhouse board.",
+      "postedAt": "2026-07-31",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "quotaCarrying": true,
+      "oteText": "OTE range for this role is $135,000 - $169,500"
+    },
+    {
+      "id": "brex-manager-sales-development-8477492002",
+      "company": "Brex",
+      "role": "Manager, Sales Development",
+      "roleFamily": "SDR",
+      "location": "Salt Lake City, Utah, United States",
+      "url": "https://www.brex.com/careers/8477492002?gh_jid=8477492002",
+      "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
+      "companyBrief": "Brex opening listed on their Greenhouse board.",
+      "postedAt": "2026-07-31",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "quotaCarrying": true,
+      "oteText": "OTE range for this role is $120,000 - $150,000"
     },
     {
       "id": "brex-outbound-sales-development-representative-8660043002",
@@ -63,9 +97,15 @@
       "roleFamily": "SDR",
       "location": "Salt Lake City, Utah, United States",
       "url": "https://www.brex.com/careers/8660043002?gh_jid=8660043002",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Why join us</strong></p> <p>Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay,…",
+      "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
       "companyBrief": "Brex opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-30"
+      "postedAt": "2026-07-30",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE range for this role is $73,040 - $82,852 USD"
     },
     {
       "id": "brex-outbound-sales-development-representative-8614548002",
@@ -74,31 +114,49 @@
       "roleFamily": "SDR",
       "location": "San Francisco, California, United States",
       "url": "https://www.brex.com/careers/8614548002?gh_jid=8614548002",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Why join us</strong></p> <p>Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay,…",
+      "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
       "companyBrief": "Brex opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-30"
+      "postedAt": "2026-07-30",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE range for this role is $82,535 - $92,852 USD"
     },
     {
-      "id": "brex-senior-manager-sales-development-8618619002",
+      "id": "brex-senior-manager-sales-development-8618615002",
       "company": "Brex",
       "role": "Senior Manager, Sales Development",
       "roleFamily": "SDR",
-      "location": "Salt Lake City, Utah, United States",
-      "url": "https://www.brex.com/careers/8618619002?gh_jid=8618619002",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Why join us</strong></p> <p>Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay,…",
+      "location": "San Francisco, California, United States",
+      "url": "https://www.brex.com/careers/8618615002?gh_jid=8618615002",
+      "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
       "companyBrief": "Brex opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE range for this role is $226,000 - $282,500"
     },
     {
-      "id": "brex-senior-manager-sales-development-8618610002",
+      "id": "brex-senior-manager-sales-development-8618616002",
       "company": "Brex",
       "role": "Senior Manager, Sales Development",
       "roleFamily": "SDR",
-      "location": "New York, New York, United States",
-      "url": "https://www.brex.com/careers/8618610002?gh_jid=8618610002",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Why join us</strong></p> <p>Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay,…",
+      "location": "Seattle, Washington, United States",
+      "url": "https://www.brex.com/careers/8618616002?gh_jid=8618616002",
+      "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
       "companyBrief": "Brex opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE range for this role is $226,000 - $282,500"
     },
     {
       "id": "carta-sales-development-representative-legal-services-7817066003",
@@ -107,9 +165,15 @@
       "roleFamily": "SDR",
       "location": "New York City, New York",
       "url": "https://job-boards.greenhouse.io/carta/jobs/7817066003",
-      "lookingFor": "<div class=\"content-intro\"><h2>The Company You’ll Join</h2> <p>Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure th…",
+      "lookingFor": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund…",
       "companyBrief": "Carta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-03"
+      "postedAt": "2026-08-03",
+      "workplace": "onsite",
+      "hiringManager": {
+        "title": "Sales Development Director",
+        "source": "jd"
+      },
+      "oteText": "OTE / ($33"
     },
     {
       "id": "databricks-manager-sales-development-8074772002",
@@ -118,9 +182,15 @@
       "roleFamily": "SDR",
       "location": "Chicago, Illinois",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8074772002",
-      "lookingFor": "<p>SLSQ426R414</p> <p>Databricks is looking for an experienced Outbound Sales Development Manager. You will be an important contributor to our sales leadership team, leading recruiting, pipeline generation strategy and constructive coaching for our Business Development Represent…",
+      "lookingFor": "SLSQ426R414 Databricks is looking for an experienced Outbound Sales Development Manager. You will be an important contributor to our sales leadership team, leading recruiting, pipeline generation strategy and constructive coaching for our Business Development Representatives (BD…",
       "companyBrief": "Databricks opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
+      "postedAt": "2026-08-18",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "on-target earnings for commissionable roles"
     },
     {
       "id": "datadog-sales-development-representative-latam-portuguese-speaking-6685931",
@@ -129,9 +199,14 @@
       "roleFamily": "SDR",
       "location": "Denver, Colorado, USA",
       "url": "https://careers.datadoghq.com/detail/6685931/?gh_jid=6685931",
-      "lookingFor": "<p>As a Sales Development Representative (SDR), you will prospect, qualify, and generate customer leads to assist in Datadog’s overall business growth segment. By partnering with internal stakeholders, you will help IT and Technology innovators across markets recognize Datadog’s…",
+      "lookingFor": "As a Sales Development Representative (SDR), you will prospect, qualify, and generate customer leads to assist in Datadog’s overall business growth segment. By partnering with internal stakeholders, you will help IT and Technology innovators across markets recognize Datadog’s im…",
       "companyBrief": "Datadog opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "datadog-sales-development-representative-latam-portuguese-speaking-8139396",
@@ -140,9 +215,14 @@
       "roleFamily": "SDR",
       "location": "Boston, Massachusetts, USA",
       "url": "https://careers.datadoghq.com/detail/8139396/?gh_jid=8139396",
-      "lookingFor": "<p>As a Sales Development Representative (SDR), you will prospect, qualify, and generate customer leads to assist in Datadog’s overall business growth segment. By partnering with internal stakeholders, you will help IT and Technology innovators across markets recognize Datadog’s…",
+      "lookingFor": "As a Sales Development Representative (SDR), you will prospect, qualify, and generate customer leads to assist in Datadog’s overall business growth segment. By partnering with internal stakeholders, you will help IT and Technology innovators across markets recognize Datadog’s im…",
       "companyBrief": "Datadog opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "datadog-sales-development-representative-latam-spanish-speaking-7003239",
@@ -151,9 +231,14 @@
       "roleFamily": "SDR",
       "location": "Boston, Massachusetts, USA",
       "url": "https://careers.datadoghq.com/detail/7003239/?gh_jid=7003239",
-      "lookingFor": "<p><strong>Sales Development Representative</strong></p> <p>As a Sales Development Representative (SDR), you will prospect, qualify, and generate customer leads to assist in Datadog’s overall business growth segment. By partnering with internal stakeholders, you will help IT and…",
+      "lookingFor": "Sales Development Representative As a Sales Development Representative (SDR), you will prospect, qualify, and generate customer leads to assist in Datadog’s overall business growth segment. By partnering with internal stakeholders, you will help IT and Technology innovators acro…",
       "companyBrief": "Datadog opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-25"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "datadog-sales-development-representative-boston-6741571",
@@ -162,9 +247,14 @@
       "roleFamily": "SDR",
       "location": "Boston, Massachusetts, USA",
       "url": "https://careers.datadoghq.com/detail/6741571/?gh_jid=6741571",
-      "lookingFor": "<p>As a Sales Development Representative (SDR), you will prospect, qualify, and generate customer leads to assist in Datadog’s overall business growth segment. By partnering with internal stakeholders, you will help IT and Technology innovators across markets recognize Datadog’s…",
+      "lookingFor": "As a Sales Development Representative (SDR), you will prospect, qualify, and generate customer leads to assist in Datadog’s overall business growth segment. By partnering with internal stakeholders, you will help IT and Technology innovators across markets recognize Datadog’s im…",
       "companyBrief": "Datadog opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "elastic-sales-development-representative-emerging-talent-austin-tx-on-site-6907907",
@@ -173,9 +263,15 @@
       "roleFamily": "SDR",
       "location": "Austin, TX",
       "url": "https://jobs.elastic.co/jobs?gh_jid=6907907&gh_jid=6907907",
-      "lookingFor": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500…",
+      "lookingFor": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precisio…",
       "companyBrief": "Elastic opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "On-Target Earnings (OTE)"
     },
     {
       "id": "instacart-activation-sales-development-representative-i-7144697",
@@ -184,20 +280,15 @@
       "roleFamily": "SDR",
       "location": "United States - Remote",
       "url": "https://instacart.careers/job/?gh_jid=7144697",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>We're transforming the grocery industry</strong></p> <p><span class=\"im\">At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Wh…",
+      "lookingFor": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting comp…",
       "companyBrief": "Instacart opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
-    },
-    {
-      "id": "instacart-retail-lead-sales-development-8122997",
-      "company": "Instacart",
-      "role": "Retail Lead, Sales Development",
-      "roleFamily": "SDR",
-      "location": "United States - Remote",
-      "url": "https://instacart.careers/job/?gh_jid=8122997",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>We're transforming the grocery industry</strong></p> <p><span class=\"im\">At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Wh…",
-      "companyBrief": "Instacart opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE range for this role is listed below and is base"
     },
     {
       "id": "instacart-retail-lead-sales-development-8123029",
@@ -206,9 +297,32 @@
       "roleFamily": "SDR",
       "location": "Canada - Remote (ON, AB, BC, or NS Only)",
       "url": "https://instacart.careers/job/?gh_jid=8123029",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>We're transforming the grocery industry</strong></p> <p><span class=\"im\">At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Wh…",
+      "lookingFor": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting comp…",
       "companyBrief": "Instacart opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "remoteGlobal",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE range for this role is listed below and is base"
+    },
+    {
+      "id": "instacart-retail-lead-sales-development-8122997",
+      "company": "Instacart",
+      "role": "Retail Lead, Sales Development",
+      "roleFamily": "SDR",
+      "location": "United States - Remote",
+      "url": "https://instacart.careers/job/?gh_jid=8122997",
+      "lookingFor": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting comp…",
+      "companyBrief": "Instacart opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-24",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE range for this role is listed below and is base"
     },
     {
       "id": "instacart-retention-sales-development-representative-ii-7712406",
@@ -217,9 +331,15 @@
       "roleFamily": "SDR",
       "location": "United States - Remote",
       "url": "https://instacart.careers/job/?gh_jid=7712406",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>We're transforming the grocery industry</strong></p> <p><span class=\"im\">At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Wh…",
+      "lookingFor": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting comp…",
       "companyBrief": "Instacart opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE range for this role is listed below and is base"
     },
     {
       "id": "instacart-sales-development-representative-ii-local-independent-grocery-boston-8069983",
@@ -228,9 +348,14 @@
       "roleFamily": "SDR",
       "location": "Boston, MA",
       "url": "https://instacart.careers/job/?gh_jid=8069983",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>We're transforming the grocery industry</strong></p> <p><span class=\"im\">At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Wh…",
+      "lookingFor": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting comp…",
       "companyBrief": "Instacart opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "instacart-sales-development-representative-ii-local-independent-grocery-chicago-8069980",
@@ -239,9 +364,14 @@
       "roleFamily": "SDR",
       "location": "Chicago, IL",
       "url": "https://instacart.careers/job/?gh_jid=8069980",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>We're transforming the grocery industry</strong></p> <p><span class=\"im\">At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Wh…",
+      "lookingFor": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting comp…",
       "companyBrief": "Instacart opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "instacart-sales-development-representative-ii-local-independent-grocery-new-york-8029661",
@@ -250,9 +380,14 @@
       "roleFamily": "SDR",
       "location": "United States - Remote",
       "url": "https://instacart.careers/job/?gh_jid=8029661",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>We're transforming the grocery industry</strong></p> <p><span class=\"im\">At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Wh…",
+      "lookingFor": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting comp…",
       "companyBrief": "Instacart opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "instacart-sales-development-representative-ii-local-independent-grocery-toronto-8029663",
@@ -261,9 +396,14 @@
       "roleFamily": "SDR",
       "location": "Canada - Remote (ON, AB, BC, or NS Only)",
       "url": "https://instacart.careers/job/?gh_jid=8029663",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>We're transforming the grocery industry</strong></p> <p><span class=\"im\">At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Wh…",
+      "lookingFor": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting comp…",
       "companyBrief": "Instacart opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "remoteGlobal",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "mercury-sales-development-representative-6131020004",
@@ -272,9 +412,14 @@
       "roleFamily": "SDR",
       "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
       "url": "https://job-boards.greenhouse.io/mercury/jobs/6131020004",
-      "lookingFor": "<p>Mercury is building a complete finance stack for startups. Since we launched Mercury in 2019, our customer base has grown to over 200,000 startups and small businesses from all around the world. At our core, we believe that everyone deserves access to the solutions they need…",
+      "lookingFor": "Mercury is building a complete finance stack for startups. Since we launched Mercury in 2019, our customer base has grown to over 200,000 startups and small businesses from all around the world. At our core, we believe that everyone deserves access to the solutions they need to…",
       "companyBrief": "Mercury opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
+      "postedAt": "2026-08-21",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "mongodb-enterprise-sales-development-representative-7311204",
@@ -283,9 +428,15 @@
       "roleFamily": "SDR",
       "location": "Austin",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7311204",
-      "lookingFor": "<p>At MongoDB, our Account Development team works closely with our partners in both Sales and Marketing to build fanatical customer enthusiasm around MongoDB. SDR reps are responsible for identifying and qualifying new opportunities for our sales organization.</p> <p>We view our…",
+      "lookingFor": "At MongoDB, our Account Development team works closely with our partners in both Sales and Marketing to build fanatical customer enthusiasm around MongoDB. SDR reps are responsible for identifying and qualifying new opportunities for our sales organization. We view our Account D…",
       "companyBrief": "MongoDB opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
+      "postedAt": "2026-08-21",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "mongodb-manager-sales-development-8014384",
@@ -294,9 +445,14 @@
       "roleFamily": "SDR",
       "location": "Boston",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8014384",
-      "lookingFor": "<p>We’re looking for a dynamic and empowering Sales Development Manager who will be responsible for building and leading a team of enterprise ADRs. The role focuses on leadership, development and a high performance culture to execute against our rapid sales goals.</p> <h3>The Op…",
+      "lookingFor": "We’re looking for a dynamic and empowering Sales Development Manager who will be responsible for building and leading a team of enterprise ADRs. The role focuses on leadership, development and a high performance culture to execute against our rapid sales goals. The Opportunity I…",
       "companyBrief": "MongoDB opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
+      "postedAt": "2026-08-21",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "okta-manager-sales-development-strategic-8077649",
@@ -305,9 +461,15 @@
       "roleFamily": "SDR",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/8077649?gh_jid=8077649",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This wor…",
+      "lookingFor": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challen…",
       "companyBrief": "Okta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE) range for candidates located in San Francisco"
     },
     {
       "id": "okta-sales-development-representative-east-7013646",
@@ -316,9 +478,15 @@
       "roleFamily": "SDR",
       "location": "Washington, DC",
       "url": "https://www.okta.com/company/careers/opportunity/7013646?gh_jid=7013646",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This wor…",
+      "lookingFor": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challen…",
       "companyBrief": "Okta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE) range for candidates located in California (ex"
     },
     {
       "id": "okta-sales-development-representative-west-7013572",
@@ -327,9 +495,15 @@
       "roleFamily": "SDR",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7013572?gh_jid=7013572",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This wor…",
+      "lookingFor": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challen…",
       "companyBrief": "Okta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE) range for candidates located in San Francisco"
     },
     {
       "id": "stripe-head-of-sales-development-amer-8072764",
@@ -338,9 +512,14 @@
       "roleFamily": "SDR",
       "location": "Chicago",
       "url": "https://stripe.com/jobs/search?gh_jid=8072764",
-      "lookingFor": "<h2><strong>Who we are </strong></h2> <h3><strong>About Stripe</strong></h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe…",
+      "lookingFor": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our m…",
       "companyBrief": "Stripe opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
+      "postedAt": "2026-08-18",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "stripe-manager-sales-development-7896538",
@@ -349,9 +528,14 @@
       "roleFamily": "SDR",
       "location": "Chicago, Illinois",
       "url": "https://stripe.com/jobs/search?gh_jid=7896538",
-      "lookingFor": "<h2>Who we are</h2> <h3>About Stripe</h3> <p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opp…",
+      "lookingFor": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our missi…",
       "companyBrief": "Stripe opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "stripe-sales-development-representative-6570253",
@@ -360,9 +544,14 @@
       "roleFamily": "SDR",
       "location": "Chicago, Illinois",
       "url": "https://stripe.com/jobs/search?gh_jid=6570253",
-      "lookingFor": "<h3><strong>About the team</strong></h3> <p><strong>Note: This role is an in-office position, based in our Chicago, IL office.</strong></p> <p>As a Sales Development Representative (SDR) at Stripe, you’ll work in a customer-facing role focused on connecting prospective customers…",
+      "lookingFor": "About the team Note: This role is an in-office position, based in our Chicago, IL office. As a Sales Development Representative (SDR) at Stripe, you’ll work in a customer-facing role focused on connecting prospective customers with Stripe. You will work in partnership with the M…",
       "companyBrief": "Stripe opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
+      "postedAt": "2026-08-18",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "box-business-development-representative-austin-texas-8129311",
@@ -371,9 +560,15 @@
       "roleFamily": "BDR",
       "location": "Austin, Texas",
       "url": "https://job-boards.greenhouse.io/boxinc/jobs/8129311",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\"><strong>WHAT IS BOX?</strong></p> <p data-pm-slice=\"1 1 []\">Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and trans…",
+      "lookingFor": "WHAT IS BOX? Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and transform business workflows with enterprise AI. We help companies thrive in t…",
       "companyBrief": "Box opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "OTE if commissionable role) is dependent upon facto"
     },
     {
       "id": "box-business-development-representative-chicago-il-8120514",
@@ -382,9 +577,15 @@
       "roleFamily": "BDR",
       "location": "Chicago, Illinois",
       "url": "https://job-boards.greenhouse.io/boxinc/jobs/8120514",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\"><strong>WHAT IS BOX?</strong></p> <p data-pm-slice=\"1 1 []\">Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and trans…",
+      "lookingFor": "WHAT IS BOX? Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and transform business workflows with enterprise AI. We help companies thrive in t…",
       "companyBrief": "Box opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-11"
+      "postedAt": "2026-08-11",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "OTE if commissionable role) is dependent upon facto"
     },
     {
       "id": "box-business-development-representative-new-york-ny-8129325",
@@ -393,9 +594,15 @@
       "roleFamily": "BDR",
       "location": "New York, NY",
       "url": "https://job-boards.greenhouse.io/boxinc/jobs/8129325",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\"><strong>WHAT IS BOX?</strong></p> <p data-pm-slice=\"1 1 []\">Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and trans…",
+      "lookingFor": "WHAT IS BOX? Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and transform business workflows with enterprise AI. We help companies thrive in t…",
       "companyBrief": "Box opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
+      "postedAt": "2026-08-21",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "OTE if commissionable role) is dependent upon facto"
     },
     {
       "id": "box-business-development-representative-public-sector-8031265",
@@ -404,9 +611,15 @@
       "roleFamily": "BDR",
       "location": "Austin, TX, United States",
       "url": "https://job-boards.greenhouse.io/boxinc/jobs/8031265",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\">&nbsp;</p> <p data-pm-slice=\"1 1 []\"><strong>WHAT IS BOX?</strong></p> <p>Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical cont…",
+      "lookingFor": "; WHAT IS BOX? Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and transform business workflows with enterprise AI. We help companies thrive in…",
       "companyBrief": "Box opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-20"
+      "postedAt": "2026-07-20",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "OTE if commissionable role) is dependent upon facto"
     },
     {
       "id": "databricks-business-development-representative-8423165002",
@@ -415,9 +628,15 @@
       "roleFamily": "BDR",
       "location": "Chicago, Illinois",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002",
-      "lookingFor": "<p>P-1526<br><br><em>We are building a pipeline of exceptional Business Development talent for anticipated future hiring across our AMER organization.&nbsp;</em><em>While this posting may not correspond to an immediate open vacancy, we expect continued growth in this area and we…",
+      "lookingFor": "P-1526 We are building a pipeline of exceptional Business Development talent for anticipated future hiring across our AMER organization. ; While this posting may not correspond to an immediate open vacancy, we expect continued growth in this area and welcome applications from ca…",
       "companyBrief": "Databricks opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
+      "postedAt": "2026-08-18",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "on-target earnings for commissionable roles"
     },
     {
       "id": "fivetran-business-development-representative-7792160003",
@@ -426,31 +645,15 @@
       "roleFamily": "BDR",
       "location": "USA - Austin (dbt)",
       "url": "https://www.fivetran.com/careers/job?gh_jid=7792160003",
-      "lookingFor": "<div class=\"content-intro\"><p>From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maint…",
+      "lookingFor": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud t…",
       "companyBrief": "Fivetran opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
-    },
-    {
-      "id": "fivetran-business-development-representative-enterprise-7872209003",
-      "company": "Fivetran",
-      "role": "Business Development Representative, Enterprise",
-      "roleFamily": "BDR",
-      "location": "Denver, Colorado, United States, AMER",
-      "url": "https://www.fivetran.com/careers/job?gh_jid=7872209003",
-      "lookingFor": "<div class=\"content-intro\"><p>From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maint…",
-      "companyBrief": "Fivetran opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
-    },
-    {
-      "id": "fivetran-business-development-representative-enterprise-7872211003",
-      "company": "Fivetran",
-      "role": "Business Development Representative, Enterprise",
-      "roleFamily": "BDR",
-      "location": "USA - Austin (dbt)",
-      "url": "https://www.fivetran.com/careers/job?gh_jid=7872211003",
-      "lookingFor": "<div class=\"content-intro\"><p>From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maint…",
-      "companyBrief": "Fivetran opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "OTE (On Target Earning)</div><div class=\"pay-range\""
     },
     {
       "id": "fivetran-business-development-representative-enterprise-7734857003",
@@ -459,9 +662,52 @@
       "roleFamily": "BDR",
       "location": "Oakland, California, United States, AMER",
       "url": "https://www.fivetran.com/careers/job?gh_jid=7734857003",
-      "lookingFor": "<div class=\"content-intro\"><p>From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maint…",
+      "lookingFor": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud t…",
       "companyBrief": "Fivetran opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
+      "postedAt": "2026-08-26",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "on-target earnings"
+    },
+    {
+      "id": "fivetran-business-development-representative-enterprise-7872211003",
+      "company": "Fivetran",
+      "role": "Business Development Representative, Enterprise",
+      "roleFamily": "BDR",
+      "location": "USA - Austin (dbt)",
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7872211003",
+      "lookingFor": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud t…",
+      "companyBrief": "Fivetran opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-26",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "on-target earnings"
+    },
+    {
+      "id": "fivetran-business-development-representative-enterprise-7872209003",
+      "company": "Fivetran",
+      "role": "Business Development Representative, Enterprise",
+      "roleFamily": "BDR",
+      "location": "Denver, Colorado, United States, AMER",
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7872209003",
+      "lookingFor": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud t…",
+      "companyBrief": "Fivetran opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-26",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "on-target earnings"
     },
     {
       "id": "klaviyo-outbound-business-development-representative-7641196003",
@@ -470,9 +716,16 @@
       "roleFamily": "BDR",
       "location": "Boston, MA",
       "url": "https://www.klaviyo.com/careers/jobs/7641196003?gh_jid=7641196003",
-      "lookingFor": "<div class=\"content-intro\"><p><em>At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences ea…",
+      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
       "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
+      "postedAt": "2026-08-26",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "OTE) for sales and customer success roles, equity",
+      "travelText": "up to 10% travel"
     },
     {
       "id": "okta-business-development-representative-east-7013535",
@@ -481,9 +734,15 @@
       "roleFamily": "BDR",
       "location": "Washington, DC",
       "url": "https://www.okta.com/company/careers/opportunity/7013535?gh_jid=7013535",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This wor…",
+      "lookingFor": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challen…",
       "companyBrief": "Okta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "OTE) range for candidates located in California (ex"
     },
     {
       "id": "okta-business-development-representative-west-7008470",
@@ -492,9 +751,15 @@
       "roleFamily": "BDR",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7008470?gh_jid=7008470",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This wor…",
+      "lookingFor": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challen…",
       "companyBrief": "Okta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "OTE) range for candidates located in San Francisco"
     },
     {
       "id": "scale-ai-business-development-representative-partnerships-physical-ai-4694836005",
@@ -503,9 +768,14 @@
       "roleFamily": "BDR",
       "location": "New York, NY",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694836005",
-      "lookingFor": "<p>The Business Development Representative, Partnerships, Physical AI will report to the Strategic Partnerships Manager and will be responsible for identifying, sourcing, and qualifying new partnership opportunities across partnership categories within the Physical AI ecosystem.…",
+      "lookingFor": "The Business Development Representative, Partnerships, Physical AI will report to the Strategic Partnerships Manager and will be responsible for identifying, sourcing, and qualifying new partnership opportunities across partnership categories within the Physical AI ecosystem. In…",
       "companyBrief": "Scale AI opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-04"
+      "postedAt": "2026-08-04",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      }
     },
     {
       "id": "airtable-account-executive-strategic-accounts-8403127002",
@@ -514,9 +784,17 @@
       "roleFamily": "AE",
       "location": "Remote - US",
       "url": "https://job-boards.greenhouse.io/airtable/jobs/8403127002",
-      "lookingFor": "<div class=\"content-intro\"><p>Airtable is the no-code app platform that empowers people closest to the work to accelerate their most critical business processes. More than 500,000 organizations, including 80% of the Fortune 100, rely on Airtable to transform how work gets done.<…",
+      "lookingFor": "Airtable is the no-code app platform that empowers people closest to the work to accelerate their most critical business processes. More than 500,000 organizations, including 80% of the Fortune 100, rely on Airtable to transform how work gets done. As a Strategic Account Executi…",
       "companyBrief": "Airtable opening listed on their Greenhouse board.",
-      "postedAt": "2026-03-27"
+      "postedAt": "2026-03-27",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true,
+      "oteText": "on-target earnings range for this role is:</div><div class=\"pay-ra"
     },
     {
       "id": "airtable-senior-mid-market-account-executive-ai-native-8209823002",
@@ -525,9 +803,16 @@
       "roleFamily": "AE",
       "location": "Austin, TX",
       "url": "https://job-boards.greenhouse.io/airtable/jobs/8209823002",
-      "lookingFor": "<div class=\"content-intro\"><p>Airtable is the no-code app platform that empowers people closest to the work to accelerate their most critical business processes. More than 500,000 organizations, including 80% of the Fortune 100, rely on Airtable to transform how work gets done.<…",
+      "lookingFor": "Airtable is the no-code app platform that empowers people closest to the work to accelerate their most critical business processes. More than 500,000 organizations, including 80% of the Fortune 100, rely on Airtable to transform how work gets done. What you'll do Own and execute…",
       "companyBrief": "Airtable opening listed on their Greenhouse board.",
-      "postedAt": "2026-06-29"
+      "postedAt": "2026-06-29",
+      "segment": "MM",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings range for this role is:</div><div class=\"pay-ra"
     },
     {
       "id": "asana-corporate-account-executive-6981655",
@@ -536,20 +821,15 @@
       "roleFamily": "AE",
       "location": "Chicago",
       "url": "https://www.asana.com/jobs/apply/6981655?gh_jid=6981655",
-      "lookingFor": "<p>We're seeking a Corporate Account Executive who will fuel Asana's expansion into established books of business, uncovering hidden potential and driving exponential growth.&nbsp; You’ll play a crucial role in acquiring new customers and cultivating passionate advocates. You'll…",
+      "lookingFor": "We're seeking a Corporate Account Executive who will fuel Asana's expansion into established books of business, uncovering hidden potential and driving exponential growth. ; You’ll play a crucial role in acquiring new customers and cultivating passionate advocates. You'll tackle…",
       "companyBrief": "Asana opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
-    },
-    {
-      "id": "asana-emerging-enterprise-account-executive-8105360",
-      "company": "Asana",
-      "role": "Emerging Enterprise Account Executive",
-      "roleFamily": "AE",
-      "location": "Chicago",
-      "url": "https://www.asana.com/jobs/apply/8105360?gh_jid=8105360",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\">Our sales team is committed to customer centricity by focusing on understanding and meeting the unique needs and aspirations of each customer. We prioritize delivering exceptional value through tailored solutions and strategic partnerships. By fostering…",
-      "companyBrief": "Asana opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "On-Target Earnings (OTE) range is $162,000- $185,000"
     },
     {
       "id": "asana-emerging-enterprise-account-executive-8078121",
@@ -558,9 +838,34 @@
       "roleFamily": "AE",
       "location": "San Francisco",
       "url": "https://www.asana.com/jobs/apply/8078121?gh_jid=8078121",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\">Our sales team is committed to customer centricity by focusing on understanding and meeting the unique needs and aspirations of each customer. We prioritize delivering exceptional value through tailored solutions and strategic partnerships. By fostering…",
+      "lookingFor": "Our sales team is committed to customer centricity by focusing on understanding and meeting the unique needs and aspirations of each customer. We prioritize delivering exceptional value through tailored solutions and strategic partnerships. By fostering a collaborative environme…",
       "companyBrief": "Asana opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "On-Target Earnings (OTE) range is $247,000 - $281,000"
+    },
+    {
+      "id": "asana-emerging-enterprise-account-executive-8105360",
+      "company": "Asana",
+      "role": "Emerging Enterprise Account Executive",
+      "roleFamily": "AE",
+      "location": "Chicago",
+      "url": "https://www.asana.com/jobs/apply/8105360?gh_jid=8105360",
+      "lookingFor": "Our sales team is committed to customer centricity by focusing on understanding and meeting the unique needs and aspirations of each customer. We prioritize delivering exceptional value through tailored solutions and strategic partnerships. By fostering a collaborative environme…",
+      "companyBrief": "Asana opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "On-Target Earnings (OTE) range is $247,000 - $281,000"
     },
     {
       "id": "asana-strategic-enterprise-account-executive-amazon-8054355",
@@ -569,9 +874,16 @@
       "roleFamily": "AE",
       "location": "US WA Seattle - Remote",
       "url": "https://www.asana.com/jobs/apply/8054355?gh_jid=8054355",
-      "lookingFor": "<p>We are looking for a world-class Strategic Enterprise Account Executive to fully own and elevate our relationship with Amazon, one of Asana's largest and most strategic customers globally. In this highly visible role, you will operate far beyond transactional sales to lead a…",
+      "lookingFor": "We are looking for a world-class Strategic Enterprise Account Executive to fully own and elevate our relationship with Amazon, one of Asana's largest and most strategic customers globally. In this highly visible role, you will operate far beyond transactional sales to lead a ful…",
       "companyBrief": "Asana opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "On-Target Earnings (OTE) range for this role will be </span>$355,0"
     },
     {
       "id": "block-commerce-account-executive-5121329008",
@@ -580,9 +892,15 @@
       "roleFamily": "AE",
       "location": "Bay Area, CA, United States of America",
       "url": "http://block.xyz/careers/jobs/5121329008?gh_jid=5121329008",
-      "lookingFor": "<p>It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a b…",
+      "lookingFor": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a bett…",
       "companyBrief": "Block opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
+      "postedAt": "2026-08-26",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "block-enterprise-account-executive-remote-us-5293278008",
@@ -591,9 +909,15 @@
       "roleFamily": "AE",
       "location": "Denver, CO, United States of America",
       "url": "http://block.xyz/careers/jobs/5293278008?gh_jid=5293278008",
-      "lookingFor": "<p>Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together.<br><br>So we expanded…",
+      "lookingFor": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into soft…",
       "companyBrief": "Block opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-17"
+      "postedAt": "2026-08-17",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "block-mid-market-account-executive-5373712008",
@@ -602,20 +926,15 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA, United States of America",
       "url": "http://block.xyz/careers/jobs/5373712008?gh_jid=5373712008",
-      "lookingFor": "<p>Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together.<br><br>So we expanded…",
+      "lookingFor": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into soft…",
       "companyBrief": "Block opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
-    },
-    {
-      "id": "block-mid-market-account-executive-5370001008",
-      "company": "Block",
-      "role": "Mid-Market Account Executive",
-      "roleFamily": "AE",
-      "location": "Chicago, IL, United States of America",
-      "url": "http://block.xyz/careers/jobs/5370001008?gh_jid=5370001008",
-      "lookingFor": "<p>Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together.<br><br>So we expanded…",
-      "companyBrief": "Block opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-26",
+      "segment": "MM",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "block-mid-market-account-executive-5404930008",
@@ -624,9 +943,32 @@
       "roleFamily": "AE",
       "location": "Pittsburgh, PA, United States of America",
       "url": "http://block.xyz/careers/jobs/5404930008?gh_jid=5404930008",
-      "lookingFor": "<p>Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together.<br><br>So we expanded…",
+      "lookingFor": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into soft…",
       "companyBrief": "Block opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
+      "postedAt": "2026-08-26",
+      "segment": "MM",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
+    },
+    {
+      "id": "block-mid-market-account-executive-5370001008",
+      "company": "Block",
+      "role": "Mid-Market Account Executive",
+      "roleFamily": "AE",
+      "location": "Chicago, IL, United States of America",
+      "url": "http://block.xyz/careers/jobs/5370001008?gh_jid=5370001008",
+      "lookingFor": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into soft…",
+      "companyBrief": "Block opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-24",
+      "segment": "MM",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "block-mid-market-account-executive-5406427008",
@@ -635,20 +977,32 @@
       "roleFamily": "AE",
       "location": "Denver, CO, United States of America",
       "url": "http://block.xyz/careers/jobs/5406427008?gh_jid=5406427008",
-      "lookingFor": "<p>Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together.<br><br>So we expanded…",
+      "lookingFor": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into soft…",
       "companyBrief": "Block opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
+      "postedAt": "2026-08-26",
+      "segment": "MM",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
-      "id": "block-mid-market-account-executive-5368067008",
+      "id": "block-mid-market-account-executive-5387487008",
       "company": "Block",
       "role": "Mid-Market Account Executive",
       "roleFamily": "AE",
-      "location": "Seattle, WA, United States of America",
-      "url": "http://block.xyz/careers/jobs/5368067008?gh_jid=5368067008",
-      "lookingFor": "<p>Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together.<br><br>So we expanded…",
+      "location": "Los Angeles, CA, United States of America",
+      "url": "http://block.xyz/careers/jobs/5387487008?gh_jid=5387487008",
+      "lookingFor": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into soft…",
       "companyBrief": "Block opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-10"
+      "postedAt": "2026-08-12",
+      "segment": "MM",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "block-mid-market-account-executive-5282545008",
@@ -657,9 +1011,15 @@
       "roleFamily": "AE",
       "location": "Boston, MA, United States of America",
       "url": "http://block.xyz/careers/jobs/5282545008?gh_jid=5282545008",
-      "lookingFor": "<p>Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together.<br><br>So we expanded…",
+      "lookingFor": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into soft…",
       "companyBrief": "Block opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
+      "postedAt": "2026-08-26",
+      "segment": "MM",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "box-commercial-account-executive-8073100",
@@ -668,9 +1028,16 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA, United States",
       "url": "https://job-boards.greenhouse.io/boxinc/jobs/8073100",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\">&nbsp;</p> <p data-pm-slice=\"1 1 []\"><strong>WHAT IS BOX?</strong></p> <p>Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical cont…",
+      "lookingFor": "; WHAT IS BOX? Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and transform business workflows with enterprise AI. We help companies thrive in…",
       "companyBrief": "Box opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-04"
+      "postedAt": "2026-08-04",
+      "segment": "SMB",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE if commissionable role) is dependent upon facto"
     },
     {
       "id": "box-enterprise-account-executive-8029180",
@@ -679,9 +1046,16 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA, United States, ",
       "url": "https://job-boards.greenhouse.io/boxinc/jobs/8029180",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\">&nbsp;</p> <p data-pm-slice=\"1 1 []\"><strong>WHAT IS BOX?</strong></p> <p>Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical cont…",
+      "lookingFor": "; WHAT IS BOX? Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and transform business workflows with enterprise AI. We help companies thrive in…",
       "companyBrief": "Box opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-20"
+      "postedAt": "2026-07-20",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE if commissionable role) is dependent upon facto"
     },
     {
       "id": "box-enterprise-account-executive-8094703",
@@ -690,9 +1064,16 @@
       "roleFamily": "AE",
       "location": "New York, NY, United States",
       "url": "https://job-boards.greenhouse.io/boxinc/jobs/8094703",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\">&nbsp;</p> <p data-pm-slice=\"1 1 []\">&nbsp;</p> <p data-pm-slice=\"1 1 []\">&nbsp;<strong>WHAT IS BOX?</strong></p> <p>Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the ent…",
+      "lookingFor": "; ; ; WHAT IS BOX? Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and transform business workflows with enterprise AI. We help companies thriv…",
       "companyBrief": "Box opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-04"
+      "postedAt": "2026-08-04",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE if commissionable role) is dependent upon facto"
     },
     {
       "id": "carta-account-executive-legal-services-7817118003",
@@ -701,9 +1082,15 @@
       "roleFamily": "AE",
       "location": "New York City, New York",
       "url": "https://job-boards.greenhouse.io/carta/jobs/7817118003",
-      "lookingFor": "<div class=\"content-intro\"><h2>The Company You’ll Join</h2> <p>Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure th…",
+      "lookingFor": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund…",
       "companyBrief": "Carta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-04"
+      "postedAt": "2026-08-04",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE ($60"
     },
     {
       "id": "carta-account-executive-pe-standard-7824339003",
@@ -712,9 +1099,16 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA, New York City, New York",
       "url": "https://job-boards.greenhouse.io/carta/jobs/7824339003",
-      "lookingFor": "<div class=\"content-intro\"><h2>The Company You’ll Join</h2> <p>Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure th…",
+      "lookingFor": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund…",
       "companyBrief": "Carta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
+      "postedAt": "2026-08-21",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true,
+      "oteText": "OTE ($49"
     },
     {
       "id": "carta-account-executive-smb-7782040003",
@@ -723,9 +1117,16 @@
       "roleFamily": "AE",
       "location": "New York City, New York",
       "url": "https://job-boards.greenhouse.io/carta/jobs/7782040003",
-      "lookingFor": "<div class=\"content-intro\"><h2>The Company You’ll Join</h2> <p>Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure th…",
+      "lookingFor": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund…",
       "companyBrief": "Carta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
+      "postedAt": "2026-08-21",
+      "segment": "SMB",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE</strong> in New York City, NY (equivalent to an"
     },
     {
       "id": "carta-senior-account-executive-private-equity-fund-administration-6359140003",
@@ -734,9 +1135,15 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/carta/jobs/6359140003",
-      "lookingFor": "<div class=\"content-intro\"><h2>The Company You’ll Join</h2> <p>Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure th…",
+      "lookingFor": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund…",
       "companyBrief": "Carta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-03"
+      "postedAt": "2026-08-03",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE range for this role is: ;</p> <ul> <li>$332,000"
     },
     {
       "id": "carta-senior-account-executive-private-equity-fund-administration-6359143003",
@@ -745,9 +1152,32 @@
       "roleFamily": "AE",
       "location": "New York, NY",
       "url": "https://job-boards.greenhouse.io/carta/jobs/6359143003",
-      "lookingFor": "<div class=\"content-intro\"><h2>The Company You’ll Join</h2> <p>Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure th…",
+      "lookingFor": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund…",
       "companyBrief": "Carta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-03"
+      "postedAt": "2026-08-03",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE range for this role is: ;</p> <ul> <li>$325,000"
+    },
+    {
+      "id": "databricks-emerging-enterprise-account-executive-7716357002",
+      "company": "Databricks",
+      "role": "Emerging Enterprise Account Executive",
+      "roleFamily": "AE",
+      "location": "United States",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7716357002",
+      "lookingFor": "P-1357 As an Emerging Enterprise Account Executive at Databricks, you have strong command of the SaaS sales process. You know how to sell innovation and change through customer vision expansion and can guide deals forward to compress decision cycles. You love understanding a pro…",
+      "companyBrief": "Databricks opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "title": "regional sales manager",
+        "source": "jd"
+      }
     },
     {
       "id": "databricks-enterprise-account-executive-cmeg-8695183002",
@@ -756,9 +1186,16 @@
       "roleFamily": "AE",
       "location": "Boston, Massachusetts",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8695183002",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\">SLSQ427R381</p> <p data-renderer-start-pos=\"1648\">While candidates in the listed location(s) are encouraged for this role, candidates in other locations will be considered.</p> <p>Candidates in the listed location(s) are encouraged for this role</p> <ul…",
+      "lookingFor": "SLSQ427R381 While candidates in the listed location(s) are encouraged for this role, candidates in other locations will be considered. Candidates in the listed location(s) are encouraged for this role Remote - Boston ; As a Enterprise Account Executive at Databricks, you are a s…",
       "companyBrief": "Databricks opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
+      "postedAt": "2026-08-18",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "title": "Director of Enterprise Sales",
+        "source": "jd"
+      },
+      "oteText": "on-target earnings for commissionable roles"
     },
     {
       "id": "databricks-enterprise-account-executive-financial-services-8610933002",
@@ -767,9 +1204,16 @@
       "roleFamily": "AE",
       "location": "Boston, Massachusetts; New Jersey; New York City, New York",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8610933002",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\">SLSQ327R603</p> <p>As an Enterprise Account Executive at Databricks, you are a strategic sales professional with experience selling to Financial Services accounts. You know how to sell innovation and change through customer vision expansion and can guid…",
+      "lookingFor": "SLSQ327R603 As an Enterprise Account Executive at Databricks, you are a strategic sales professional with experience selling to Financial Services accounts. You know how to sell innovation and change through customer vision expansion and can guide deals forward to compress decis…",
       "companyBrief": "Databricks opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
+      "postedAt": "2026-08-18",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings for commissionable roles"
     },
     {
       "id": "databricks-enterprise-account-executive-healthcare-8686323002",
@@ -778,9 +1222,16 @@
       "roleFamily": "AE",
       "location": "Remote - Massachusetts; Remote - New York",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8686323002",
-      "lookingFor": "<p>SLSQ427R374</p> <p>As an Enterprise Account Executive at Databricks, you are a strategic sales professional experienced in selling to large healthcare accounts. You know how to sell innovation and change through customer vision expansion and can guide deals forward to compres…",
+      "lookingFor": "SLSQ427R374 As an Enterprise Account Executive at Databricks, you are a strategic sales professional experienced in selling to large healthcare accounts. You know how to sell innovation and change through customer vision expansion and can guide deals forward to compress decision…",
       "companyBrief": "Databricks opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
+      "postedAt": "2026-08-18",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "title": "Director of Enterprise Healthcare Sales",
+        "source": "jd"
+      },
+      "oteText": "on-target earnings for commissionable roles"
     },
     {
       "id": "databricks-enterprise-account-executive-state-and-local-8604250002",
@@ -789,9 +1240,16 @@
       "roleFamily": "AE",
       "location": "Southeast - United States",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8604250002",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\">SLSQ327R510</p> <p>While candidates in the listed location(s) are encouraged for this role, candidates in other locations will be considered.</p> <p>As a State &amp; Local Government (SLG) Account Executive, you own a dedicated geographic territory and…",
+      "lookingFor": "SLSQ327R510 While candidates in the listed location(s) are encouraged for this role, candidates in other locations will be considered. As a State &; Local Government (SLG) Account Executive, you own a dedicated geographic territory and are responsible for originating, advancing,…",
       "companyBrief": "Databricks opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
+      "postedAt": "2026-08-18",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings for commissionable roles"
     },
     {
       "id": "databricks-frontier-ai-lab-account-executive-8519282002",
@@ -800,20 +1258,15 @@
       "roleFamily": "AE",
       "location": "San Francisco, California; Seattle, Washington",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8519282002",
-      "lookingFor": "<p data-pm-slice=\"1 1 []\">SLSQ427R115</p> <p>Candidates in the listed location(s) are encouraged to apply for this role</p> <ul> <li>Remote - San Francisco</li> <li>Remote-Seattle&nbsp;</li> </ul> <p>As a Strategic Account Executive at Databricks, you are a sales professional ex…",
+      "lookingFor": "SLSQ427R115 Candidates in the listed location(s) are encouraged to apply for this role Remote - San Francisco Remote-Seattle ; As a Strategic Account Executive at Databricks, you are a sales professional experienced in leading go-to-market campaigns in Fortune 500 accounts, spec…",
       "companyBrief": "Databricks opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
-    },
-    {
-      "id": "databricks-geo-core-account-executive-8636159002",
-      "company": "Databricks",
-      "role": "Geo Core Account Executive",
-      "roleFamily": "AE",
-      "location": "Northeast - United States",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8636159002",
-      "lookingFor": "<p>SLSQ327R749</p> <p>Candidates based in these locations preferred:</p> <ul> <li>New York</li> <li>New Jersey</li> <li>Connecticut</li> <li>Massachussetts</li> <li>Pennsylvania</li> </ul> <p>As a Geo Core Account Executive supporting Digital Native customers at Databricks, you…",
-      "companyBrief": "Databricks opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-25"
+      "postedAt": "2026-08-18",
+      "segment": "MM",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "datadog-commercial-account-executive-1694375",
@@ -822,9 +1275,14 @@
       "roleFamily": "AE",
       "location": "Denver, Colorado, USA",
       "url": "https://careers.datadoghq.com/detail/1694375/?gh_jid=1694375",
-      "lookingFor": "<p>As an Account Executive (AE) on our Commercial Sales team, you will assist in Datadog’s overall business growth by strategically engaging and closing net-new customers across small to midsize markets. Sellers follow a well-defined methodology, collaborate with internal stakeh…",
+      "lookingFor": "As an Account Executive (AE) on our Commercial Sales team, you will assist in Datadog’s overall business growth by strategically engaging and closing net-new customers across small to midsize markets. Sellers follow a well-defined methodology, collaborate with internal stakehold…",
       "companyBrief": "Datadog opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "datadog-commercial-account-executive-boston-1497543",
@@ -833,9 +1291,14 @@
       "roleFamily": "AE",
       "location": "Boston, Massachusetts, USA",
       "url": "https://careers.datadoghq.com/detail/1497543/?gh_jid=1497543",
-      "lookingFor": "<p>As an Account Executive (AE) on our Commercial Sales team, you will assist in Datadog’s overall business growth by strategically engaging and closing net-new customers across small to midsize markets. Sellers follow a well-defined methodology, collaborate with internal stakeh…",
+      "lookingFor": "As an Account Executive (AE) on our Commercial Sales team, you will assist in Datadog’s overall business growth by strategically engaging and closing net-new customers across small to midsize markets. Sellers follow a well-defined methodology, collaborate with internal stakehold…",
       "companyBrief": "Datadog opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "datadog-commercial-account-executive-latam-portuguese-speaking-denver-7858788",
@@ -844,9 +1307,14 @@
       "roleFamily": "AE",
       "location": "Denver, Colorado, USA",
       "url": "https://careers.datadoghq.com/detail/7858788/?gh_jid=7858788",
-      "lookingFor": "<p>As an Account Executive (AE) on our Commercial Sales team, you will assist in Datadog’s overall business growth by strategically engaging and closing net-new customers across small to midsize markets. Sellers follow a well-defined methodology, collaborate with internal stakeh…",
+      "lookingFor": "As an Account Executive (AE) on our Commercial Sales team, you will assist in Datadog’s overall business growth by strategically engaging and closing net-new customers across small to midsize markets. Sellers follow a well-defined methodology, collaborate with internal stakehold…",
       "companyBrief": "Datadog opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "datadog-commercial-account-executive-latam-spanish-speaking-boston-7329207",
@@ -855,9 +1323,14 @@
       "roleFamily": "AE",
       "location": "Boston, Massachusetts, USA",
       "url": "https://careers.datadoghq.com/detail/7329207/?gh_jid=7329207",
-      "lookingFor": "<p>As an Account Executive (AE) on our Commercial Sales team, you will assist in Datadog’s overall business growth by strategically engaging and closing net-new customers across small to midsize markets. Sellers follow a well-defined methodology, collaborate with internal stakeh…",
+      "lookingFor": "As an Account Executive (AE) on our Commercial Sales team, you will assist in Datadog’s overall business growth by strategically engaging and closing net-new customers across small to midsize markets. Sellers follow a well-defined methodology, collaborate with internal stakehold…",
       "companyBrief": "Datadog opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "dropbox-account-executive-8107794",
@@ -866,9 +1339,14 @@
       "roleFamily": "AE",
       "location": "Remote - US: Select locations",
       "url": "https://jobs.dropbox.com/listing/8107794?gh_jid=8107794",
-      "lookingFor": "<h2 class=\"p1\"><span class=\"s1\">Role Description</span></h2> <p><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z95gas6hz75zjz77zz90zpz71zz80zeoz80zz68zlz66zb9z86z2fscz86zz79zxv\">As an Account Executive on the Growth team, you will help Dropbox expand how…",
+      "lookingFor": "Role Description As an Account Executive on the Growth team, you will help Dropbox expand how we bring our Product Suite and emerging AI products to new customers. In this role, you’ll focus on identifying, engaging, and developing opportunities with net new customers. You’ll wo…",
       "companyBrief": "Dropbox opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-07"
+      "postedAt": "2026-08-07",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "elastic-account-executive-federal-civilian-financial-regulatory-ssa-8089209",
@@ -877,9 +1355,15 @@
       "roleFamily": "AE",
       "location": "United States",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8089209&gh_jid=8089209",
-      "lookingFor": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500…",
+      "lookingFor": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precisio…",
       "companyBrief": "Elastic opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "On-Target Earnings (OTE)"
     },
     {
       "id": "elastic-enterprise-account-executive-expand-northeast-8114127",
@@ -888,9 +1372,16 @@
       "roleFamily": "AE",
       "location": "New Jersey, United States",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8114127&gh_jid=8114127",
-      "lookingFor": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500…",
+      "lookingFor": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precisio…",
       "companyBrief": "Elastic opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "On-Target Earnings (OTE)"
     },
     {
       "id": "elastic-enterprise-account-executive-midwest-8065886",
@@ -899,20 +1390,16 @@
       "roleFamily": "AE",
       "location": "Chicago, IL",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8065886&gh_jid=8065886",
-      "lookingFor": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500…",
+      "lookingFor": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precisio…",
       "companyBrief": "Elastic opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
-    },
-    {
-      "id": "elastic-enterprise-account-executive-west-7712221",
-      "company": "Elastic",
-      "role": "Enterprise Account Executive - West",
-      "roleFamily": "AE",
-      "location": "California, United States",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=7712221&gh_jid=7712221",
-      "lookingFor": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500…",
-      "companyBrief": "Elastic opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "On-Target Earnings (OTE)"
     },
     {
       "id": "elastic-enterprise-account-executive-west-7712224",
@@ -921,9 +1408,34 @@
       "roleFamily": "AE",
       "location": "Colorado, United States",
       "url": "https://jobs.elastic.co/jobs?gh_jid=7712224&gh_jid=7712224",
-      "lookingFor": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500…",
+      "lookingFor": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precisio…",
       "companyBrief": "Elastic opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "On-Target Earnings (OTE)"
+    },
+    {
+      "id": "elastic-enterprise-account-executive-west-7712221",
+      "company": "Elastic",
+      "role": "Enterprise Account Executive - West",
+      "roleFamily": "AE",
+      "location": "California, United States",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7712221&gh_jid=7712221",
+      "lookingFor": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precisio…",
+      "companyBrief": "Elastic opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "On-Target Earnings (OTE)"
     },
     {
       "id": "elastic-enterprise-account-executive-expand-southeast-8104337",
@@ -932,9 +1444,16 @@
       "roleFamily": "AE",
       "location": "Florida, United States",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8104337&gh_jid=8104337",
-      "lookingFor": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500…",
+      "lookingFor": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precisio…",
       "companyBrief": "Elastic opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "On-Target Earnings (OTE)"
     },
     {
       "id": "elastic-enterprise-account-executive-west-8140318",
@@ -943,9 +1462,16 @@
       "roleFamily": "AE",
       "location": "Washington, United States",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8140318&gh_jid=8140318",
-      "lookingFor": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500…",
+      "lookingFor": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precisio…",
       "companyBrief": "Elastic opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "On-Target Earnings (OTE)"
     },
     {
       "id": "figma-account-executive-enterprise-5426468004",
@@ -954,9 +1480,15 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA • New York, NY • United States",
       "url": "https://boards.greenhouse.io/figma/jobs/5426468004?gh_jid=5426468004",
-      "lookingFor": "<div class=\"content-intro\"><p>Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iter…",
+      "lookingFor": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to pr…",
       "companyBrief": "Figma opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-22"
+      "postedAt": "2026-07-22",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "figma-account-executive-federal-civilian-6143113004",
@@ -965,9 +1497,14 @@
       "roleFamily": "AE",
       "location": "Washington, DC",
       "url": "https://boards.greenhouse.io/figma/jobs/6143113004?gh_jid=6143113004",
-      "lookingFor": "<div class=\"content-intro\"><p>Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iter…",
+      "lookingFor": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to pr…",
       "companyBrief": "Figma opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-14"
+      "postedAt": "2026-08-14",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "figma-account-executive-mid-market-5422236004",
@@ -976,9 +1513,15 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA • New York, NY • United States",
       "url": "https://boards.greenhouse.io/figma/jobs/5422236004?gh_jid=5422236004",
-      "lookingFor": "<div class=\"content-intro\"><p>Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iter…",
+      "lookingFor": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to pr…",
       "companyBrief": "Figma opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-20"
+      "postedAt": "2026-08-20",
+      "segment": "MM",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "figma-account-executive-smb-5694259004",
@@ -987,9 +1530,15 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA • New York, NY",
       "url": "https://boards.greenhouse.io/figma/jobs/5694259004?gh_jid=5694259004",
-      "lookingFor": "<div class=\"content-intro\"><p>Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iter…",
+      "lookingFor": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to pr…",
       "companyBrief": "Figma opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-22"
+      "postedAt": "2026-07-22",
+      "segment": "SMB",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "figma-account-executive-strategic-5558737004",
@@ -998,9 +1547,14 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA • New York, NY • United States",
       "url": "https://boards.greenhouse.io/figma/jobs/5558737004?gh_jid=5558737004",
-      "lookingFor": "<div class=\"content-intro\"><p>Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iter…",
+      "lookingFor": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to pr…",
       "companyBrief": "Figma opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-22"
+      "postedAt": "2026-07-22",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "figma-senior-account-executive-smb-5565447004",
@@ -1009,42 +1563,33 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA • New York, NY • United States",
       "url": "https://boards.greenhouse.io/figma/jobs/5565447004?gh_jid=5565447004",
-      "lookingFor": "<div class=\"content-intro\"><p>Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iter…",
+      "lookingFor": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to pr…",
       "companyBrief": "Figma opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-22"
+      "postedAt": "2026-07-22",
+      "segment": "SMB",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
-      "id": "fivetran-account-executive-enterprise-7818051003",
+      "id": "fivetran-account-executive-enterprise-7818058003",
       "company": "Fivetran",
       "role": "Account Executive, Enterprise",
       "roleFamily": "AE",
-      "location": "Remote, Illinois, United States, AMER",
-      "url": "https://www.fivetran.com/careers/job?gh_jid=7818051003",
-      "lookingFor": "<div class=\"content-intro\"><p>From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maint…",
+      "location": "Remote, Ohio, United States, AMER",
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7818058003",
+      "lookingFor": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud t…",
       "companyBrief": "Fivetran opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
-    },
-    {
-      "id": "fivetran-account-executive-enterprise-7812261003",
-      "company": "Fivetran",
-      "role": "Account Executive, Enterprise",
-      "roleFamily": "AE",
-      "location": "Remote, Massachusetts, United States, AMER",
-      "url": "https://www.fivetran.com/careers/job?gh_jid=7812261003",
-      "lookingFor": "<div class=\"content-intro\"><p>From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maint…",
-      "companyBrief": "Fivetran opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
-    },
-    {
-      "id": "fivetran-account-executive-enterprise-7790795003",
-      "company": "Fivetran",
-      "role": "Account Executive, Enterprise",
-      "roleFamily": "AE",
-      "location": "Remote, California, United States, AMER",
-      "url": "https://www.fivetran.com/careers/job?gh_jid=7790795003",
-      "lookingFor": "<div class=\"content-intro\"><p>From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maint…",
-      "companyBrief": "Fivetran opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings"
     },
     {
       "id": "fivetran-account-executive-enterprise-7818053003",
@@ -1053,9 +1598,52 @@
       "roleFamily": "AE",
       "location": "Remote, Wisconsin, United States, AMER",
       "url": "https://www.fivetran.com/careers/job?gh_jid=7818053003",
-      "lookingFor": "<div class=\"content-intro\"><p>From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maint…",
+      "lookingFor": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud t…",
       "companyBrief": "Fivetran opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings"
+    },
+    {
+      "id": "fivetran-account-executive-enterprise-7818063003",
+      "company": "Fivetran",
+      "role": "Account Executive, Enterprise",
+      "roleFamily": "AE",
+      "location": "Remote, Michigan, United States, AMER",
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7818063003",
+      "lookingFor": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud t…",
+      "companyBrief": "Fivetran opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-24",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings"
+    },
+    {
+      "id": "fivetran-account-executive-enterprise-7812261003",
+      "company": "Fivetran",
+      "role": "Account Executive, Enterprise",
+      "roleFamily": "AE",
+      "location": "Remote, Massachusetts, United States, AMER",
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7812261003",
+      "lookingFor": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud t…",
+      "companyBrief": "Fivetran opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-24",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings"
     },
     {
       "id": "gitlab-commercial-account-executive-named-west-8592555002",
@@ -1064,9 +1652,14 @@
       "roleFamily": "AE",
       "location": "Remote, United States",
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592555002",
-      "lookingFor": "<div class=\"content-intro\"><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50…",
+      "lookingFor": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and…",
       "companyBrief": "GitLab opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "gitlab-commercial-account-executive-northern-cone-8684071002",
@@ -1075,9 +1668,14 @@
       "roleFamily": "AE",
       "location": "Remote, Mexico; Remote, United States",
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8684071002",
-      "lookingFor": "<div class=\"content-intro\"><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50…",
+      "lookingFor": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and…",
       "companyBrief": "GitLab opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-11"
+      "postedAt": "2026-08-11",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "gitlab-public-sector-strategic-account-executive-sled-great-lakes-8652942002",
@@ -1086,9 +1684,15 @@
       "roleFamily": "AE",
       "location": "Remote, United States",
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8652942002",
-      "lookingFor": "<div class=\"content-intro\"><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50…",
+      "lookingFor": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and…",
       "companyBrief": "GitLab opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "title": "Regional Director",
+        "source": "jd"
+      }
     },
     {
       "id": "gitlab-public-sector-strategic-account-executive-sled-mountain-plains-8649994002",
@@ -1097,9 +1701,15 @@
       "roleFamily": "AE",
       "location": "Remote, United States",
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8649994002",
-      "lookingFor": "<div class=\"content-intro\"><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50…",
+      "lookingFor": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and…",
       "companyBrief": "GitLab opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "title": "Regional Director",
+        "source": "jd"
+      }
     },
     {
       "id": "gitlab-senior-strategic-account-executive-california-8742248002",
@@ -1108,9 +1718,15 @@
       "roleFamily": "AE",
       "location": "Remote, United States",
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8742248002",
-      "lookingFor": "<div class=\"content-intro\"><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50…",
+      "lookingFor": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and…",
       "companyBrief": "GitLab opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
+      "postedAt": "2026-08-26",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "gitlab-strategic-account-executive-seattle-8706202002",
@@ -1119,9 +1735,15 @@
       "roleFamily": "AE",
       "location": "Remote, United States",
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8706202002",
-      "lookingFor": "<div class=\"content-intro\"><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50…",
+      "lookingFor": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and…",
       "companyBrief": "GitLab opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-17"
+      "postedAt": "2026-08-17",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "gitlab-strategic-account-executive-poland-8675560002",
@@ -1130,9 +1752,15 @@
       "roleFamily": "AE",
       "location": "Remote",
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8675560002",
-      "lookingFor": "<div class=\"content-intro\"><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50…",
+      "lookingFor": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and…",
       "companyBrief": "GitLab opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-10"
+      "postedAt": "2026-08-10",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "gitlab-strategic-account-executive-southeast-8656848002",
@@ -1141,9 +1769,15 @@
       "roleFamily": "AE",
       "location": "Remote, United States",
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8656848002",
-      "lookingFor": "<div class=\"content-intro\"><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50…",
+      "lookingFor": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and…",
       "companyBrief": "GitLab opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-10"
+      "postedAt": "2026-08-10",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "gusto-expansion-account-executive-8092462",
@@ -1152,9 +1786,15 @@
       "roleFamily": "AE",
       "location": "Denver, CO;Atlanta, GA;Phoenix, AZ",
       "url": "https://job-boards.greenhouse.io/gusto/jobs/8092462",
-      "lookingFor": "<div class=\"content-intro\"><p style=\"line-height: 1.2;\">&nbsp;</p> <hr> <p><strong>About Gusto</strong></p> <p>At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their cr…",
+      "lookingFor": "; About Gusto At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than…",
       "companyBrief": "Gusto opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-14"
+      "postedAt": "2026-08-14",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "$120,000 OTE"
     },
     {
       "id": "gusto-retirement-sales-account-executive-8075935",
@@ -1163,9 +1803,14 @@
       "roleFamily": "AE",
       "location": "Atlanta, GA - Remote; Denver, CO - Hybrid; Phoenix, AZ - Remote",
       "url": "https://job-boards.greenhouse.io/gusto/jobs/8075935",
-      "lookingFor": "<div class=\"content-intro\"><p style=\"line-height: 1.2;\">&nbsp;</p> <hr> <p><strong>About Gusto</strong></p> <p>At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their cr…",
+      "lookingFor": "; About Gusto At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than…",
       "companyBrief": "Gusto opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-14"
+      "postedAt": "2026-08-14",
+      "workplace": "hybrid",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "gusto-summer-opportunities-retirement-sales-ae-7833882",
@@ -1174,20 +1819,15 @@
       "roleFamily": "AE",
       "location": "Denver, CO",
       "url": "https://job-boards.greenhouse.io/gusto/jobs/7833882",
-      "lookingFor": "<div class=\"content-intro\"><p style=\"line-height: 1.2;\">&nbsp;</p> <hr> <p><strong>About Gusto</strong></p> <p>At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their cr…",
+      "lookingFor": "; About Gusto At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than…",
       "companyBrief": "Gusto opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-14"
-    },
-    {
-      "id": "klaviyo-account-executive-large-enterprise-7979424003",
-      "company": "Klaviyo",
-      "role": "Account Executive, Large Enterprise",
-      "roleFamily": "AE",
-      "location": "Boston, MA",
-      "url": "https://www.klaviyo.com/careers/jobs/7979424003?gh_jid=7979424003",
-      "lookingFor": "<div class=\"content-intro\"><p><em>At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences ea…",
-      "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-14",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true
     },
     {
       "id": "klaviyo-account-executive-large-enterprise-7979427003",
@@ -1196,9 +1836,17 @@
       "roleFamily": "AE",
       "location": "Austin, TX",
       "url": "https://www.klaviyo.com/careers/jobs/7979427003?gh_jid=7979427003",
-      "lookingFor": "<div class=\"content-intro\"><p><em>At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences ea…",
+      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
       "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE) for sales and customer success roles, equity",
+      "travelText": "up to 10% travel"
     },
     {
       "id": "klaviyo-account-executive-large-enterprise-7963078003",
@@ -1207,20 +1855,17 @@
       "roleFamily": "AE",
       "location": "New York, NY",
       "url": "https://www.klaviyo.com/careers/jobs/7963078003?gh_jid=7963078003",
-      "lookingFor": "<div class=\"content-intro\"><p><em>At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences ea…",
+      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
       "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
-    },
-    {
-      "id": "klaviyo-account-executive-large-enterprise-7979420003",
-      "company": "Klaviyo",
-      "role": "Account Executive, Large Enterprise",
-      "roleFamily": "AE",
-      "location": "San Francisco, CA",
-      "url": "https://www.klaviyo.com/careers/jobs/7979420003?gh_jid=7979420003",
-      "lookingFor": "<div class=\"content-intro\"><p><em>At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences ea…",
-      "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE) for sales and customer success roles, equity",
+      "travelText": "up to 10% travel"
     },
     {
       "id": "klaviyo-account-executive-large-enterprise-7979426003",
@@ -1229,9 +1874,17 @@
       "roleFamily": "AE",
       "location": "Los Angeles, CA",
       "url": "https://www.klaviyo.com/careers/jobs/7979426003?gh_jid=7979426003",
-      "lookingFor": "<div class=\"content-intro\"><p><em>At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences ea…",
+      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
       "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE) for sales and customer success roles, equity",
+      "travelText": "up to 10% travel"
     },
     {
       "id": "klaviyo-account-executive-large-enterprise-7979422003",
@@ -1240,9 +1893,55 @@
       "roleFamily": "AE",
       "location": "Denver, CO",
       "url": "https://www.klaviyo.com/careers/jobs/7979422003?gh_jid=7979422003",
-      "lookingFor": "<div class=\"content-intro\"><p><em>At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences ea…",
+      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
       "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE) for sales and customer success roles, equity",
+      "travelText": "up to 10% travel"
+    },
+    {
+      "id": "klaviyo-account-executive-large-enterprise-7979424003",
+      "company": "Klaviyo",
+      "role": "Account Executive, Large Enterprise",
+      "roleFamily": "AE",
+      "location": "Boston, MA",
+      "url": "https://www.klaviyo.com/careers/jobs/7979424003?gh_jid=7979424003",
+      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
+      "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE) for sales and customer success roles, equity",
+      "travelText": "up to 10% travel"
+    },
+    {
+      "id": "klaviyo-account-executive-large-enterprise-7979420003",
+      "company": "Klaviyo",
+      "role": "Account Executive, Large Enterprise",
+      "roleFamily": "AE",
+      "location": "San Francisco, CA",
+      "url": "https://www.klaviyo.com/careers/jobs/7979420003?gh_jid=7979420003",
+      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
+      "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE) for sales and customer success roles, equity",
+      "travelText": "up to 10% travel"
     },
     {
       "id": "klaviyo-account-executive-large-enterprise-7979425003",
@@ -1251,9 +1950,17 @@
       "roleFamily": "AE",
       "location": "San Diego, CA",
       "url": "https://www.klaviyo.com/careers/jobs/7979425003?gh_jid=7979425003",
-      "lookingFor": "<div class=\"content-intro\"><p><em>At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences ea…",
+      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
       "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE) for sales and customer success roles, equity",
+      "travelText": "up to 10% travel"
     },
     {
       "id": "lyft-programmatic-account-executive-8626211002",
@@ -1262,9 +1969,30 @@
       "roleFamily": "AE",
       "location": "New York, NY",
       "url": "https://app.careerpuck.com/job-board/lyft/job/8626211002?gh_jid=8626211002",
-      "lookingFor": "<p>At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive.</p> <p>Lyft Media is extending the value of Lyft's first-party rider data beyond our owned-and-operated sur…",
+      "lookingFor": "At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive. Lyft Media is extending the value of Lyft's first-party rider data beyond our owned-and-operated surfaces. Thr…",
       "companyBrief": "Lyft opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
+      "postedAt": "2026-08-26",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
+    },
+    {
+      "id": "mercury-account-executive-6167549004",
+      "company": "Mercury",
+      "role": "Account Executive",
+      "roleFamily": "AE",
+      "location": "New York, NY or San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/6167549004",
+      "lookingFor": "At Mercury, building our customer base has been a wild and exciting adventure—and we’re just getting started. As we continue to grow, we’re looking for a thoughtful, driven Account Executive to help more founders and business owners discover and thrive with Mercury. Over the pas…",
+      "companyBrief": "Mercury opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "mercury-senior-account-executive-credit-lending-products-6141465004",
@@ -1273,9 +2001,15 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
       "url": "https://job-boards.greenhouse.io/mercury/jobs/6141465004",
-      "lookingFor": "<p>Building Mercury's customer base has turned out to be a wild endeavor! With our continued growth in lending, we're looking for a seasoned credit and capital sales professional to continue to grow our capital products. This role focuses on selling to established, high-value mi…",
+      "lookingFor": "Building Mercury's customer base has turned out to be a wild endeavor! With our continued growth in lending, we're looking for a seasoned credit and capital sales professional to continue to grow our capital products. This role focuses on selling to established, high-value mid-m…",
       "companyBrief": "Mercury opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
+      "postedAt": "2026-08-21",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true
     },
     {
       "id": "mongodb-associate-commercial-growth-account-executive-7615794",
@@ -1284,9 +2018,15 @@
       "roleFamily": "AE",
       "location": "Austin",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7615794",
-      "lookingFor": "<p>Join us as a Commercial Growth Associate Account Executive! In this entry-level role, you'll manage the complete sales process and drive revenue growth in your assigned region. We're looking for a dedicated and motivated individual with a sales strategy and a go-getter attitu…",
+      "lookingFor": "Join us as a Commercial Growth Associate Account Executive! In this entry-level role, you'll manage the complete sales process and drive revenue growth in your assigned region. We're looking for a dedicated and motivated individual with a sales strategy and a go-getter attitude.…",
       "companyBrief": "MongoDB opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
+      "postedAt": "2026-08-21",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true
     },
     {
       "id": "mongodb-enterprise-account-executive-6587328",
@@ -1295,31 +2035,16 @@
       "roleFamily": "AE",
       "location": "Los Angeles",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=6587328",
-      "lookingFor": "<h3>Get to Know the Sales Team</h3> <p>Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadersh…",
+      "lookingFor": "Get to Know the Sales Team Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadership is commit…",
       "companyBrief": "MongoDB opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
-    },
-    {
-      "id": "mongodb-enterprise-account-executive-growth-7032023",
-      "company": "MongoDB",
-      "role": "Enterprise Account Executive, Growth",
-      "roleFamily": "AE",
-      "location": "New York City",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7032023",
-      "lookingFor": "<h3>Get to Know the Sales Team</h3> <p>Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadersh…",
-      "companyBrief": "MongoDB opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
-    },
-    {
-      "id": "mongodb-enterprise-account-executive-growth-7191603",
-      "company": "MongoDB",
-      "role": "Enterprise Account Executive, Growth",
-      "roleFamily": "AE",
-      "location": "Chicago",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7191603",
-      "lookingFor": "<h3>About the role</h3> <p>We’re looking for a hardworking, driven individual with superb energy, passion and initiative for new business acquisition. The Enterprise Account Executive role focuses exclusively on formulating and executing a sales strategy within an assigned terri…",
-      "companyBrief": "MongoDB opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
+      "postedAt": "2026-08-21",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true
     },
     {
       "id": "mongodb-enterprise-account-executive-growth-7362626",
@@ -1328,9 +2053,34 @@
       "roleFamily": "AE",
       "location": "Boston; New York City; Pennsylvania",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7362626",
-      "lookingFor": "<h3>Get to Know the Sales Team</h3> <p>Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadersh…",
+      "lookingFor": "Get to Know the Sales Team Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadership is commit…",
       "companyBrief": "MongoDB opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-21"
+      "postedAt": "2026-08-21",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true
+    },
+    {
+      "id": "mongodb-enterprise-account-executive-growth-7027846",
+      "company": "MongoDB",
+      "role": "Enterprise Account Executive, Growth",
+      "roleFamily": "AE",
+      "location": "Austin",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7027846",
+      "lookingFor": "Get to Know the Sales Team Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadership is commit…",
+      "companyBrief": "MongoDB opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-21",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true
     },
     {
       "id": "mongodb-enterprise-account-executive-growth-7031396",
@@ -1339,9 +2089,34 @@
       "roleFamily": "AE",
       "location": "Atlanta; Florida; North Carolina; South Carolina; Tennessee",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7031396",
-      "lookingFor": "<h3>Get to Know the Sales Team</h3> <p>Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadersh…",
+      "lookingFor": "Get to Know the Sales Team Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadership is commit…",
       "companyBrief": "MongoDB opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-26"
+      "postedAt": "2026-08-26",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true
+    },
+    {
+      "id": "mongodb-enterprise-account-executive-growth-7032023",
+      "company": "MongoDB",
+      "role": "Enterprise Account Executive, Growth",
+      "roleFamily": "AE",
+      "location": "New York City",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7032023",
+      "lookingFor": "Get to Know the Sales Team Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadership is commit…",
+      "companyBrief": "MongoDB opening listed on their Greenhouse board.",
+      "postedAt": "2026-08-21",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true
     },
     {
       "id": "okta-enterprise-account-executive-auth0-8007650",
@@ -1350,9 +2125,16 @@
       "roleFamily": "AE",
       "location": "New York, New York",
       "url": "https://www.okta.com/company/careers/opportunity/8007650?gh_jid=8007650",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This wor…",
+      "lookingFor": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challen…",
       "companyBrief": "Okta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE range for this position for candidates located"
     },
     {
       "id": "okta-strategic-account-executive-auth0-7463779",
@@ -1361,9 +2143,16 @@
       "roleFamily": "AE",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7463779?gh_jid=7463779",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This wor…",
+      "lookingFor": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challen…",
       "companyBrief": "Okta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE) range for candidates located in California (ex"
     },
     {
       "id": "reddit-senior-client-account-executive-mid-market-sales-b2b-services-8067911",
@@ -1372,20 +2161,15 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8067911",
-      "lookingFor": "<div class=\"content-intro\"><div class=\"c-message_kit__blocks c-message_kit__blocks--rich_text\"> <div class=\"c-message__message_blocks c-message__message_blocks--rich_text\" data-qa=\"message-text\"> <div class=\"p-block_kit_renderer\" data-qa=\"block-kit-renderer\"> <div class=\"p-block…",
+      "lookingFor": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communit…",
       "companyBrief": "Reddit opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
-    },
-    {
-      "id": "scale-ai-enterprise-account-executive-4646946005",
-      "company": "Scale AI",
-      "role": "Enterprise Account Executive",
-      "roleFamily": "AE",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4646946005",
-      "lookingFor": "<p>The Enterprise Account Executive will report to the Director of Enterprise GTM and will own revenue growth across a portfolio of Scale AI’s largest and most strategic enterprise customers. This role is focused on selling complex, highly technical AI solutions into F500 organi…",
-      "companyBrief": "Scale AI opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-04"
+      "postedAt": "2026-08-27",
+      "segment": "MM",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "carta-sales-development-representative-legal-services-7817050003",
@@ -1394,9 +2178,14 @@
       "roleFamily": "SDR",
       "location": "London",
       "url": "https://job-boards.greenhouse.io/carta/jobs/7817050003",
-      "lookingFor": "<div class=\"content-intro\"><h2>The Company You’ll Join</h2> <p>Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure th…",
+      "lookingFor": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund…",
       "companyBrief": "Carta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-05"
+      "postedAt": "2026-08-05",
+      "workplace": "onsite",
+      "hiringManager": {
+        "title": "Sales Development Director",
+        "source": "jd"
+      }
     },
     {
       "id": "cloudflare-sales-development-representative-8143309",
@@ -1405,9 +2194,14 @@
       "roleFamily": "SDR",
       "location": "Hybrid",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8143309?gh_jid=8143309",
-      "lookingFor": "<div class=\"content-intro\"><h3>About Us</h3> <p>At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual blo…",
+      "lookingFor": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies.…",
       "companyBrief": "Cloudflare opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-25"
+      "postedAt": "2026-08-25",
+      "workplace": "hybrid",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "okta-director-sales-development-japan-8080906",
@@ -1416,9 +2210,14 @@
       "roleFamily": "SDR",
       "location": "Tokyo, Japan",
       "url": "https://www.okta.com/company/careers/opportunity/8080906?gh_jid=8080906",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This wor…",
+      "lookingFor": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challen…",
       "companyBrief": "Okta opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "title": "Senior Director, Sales",
+        "source": "jd"
+      }
     },
     {
       "id": "openai-apac-sales-development-leader-371afd71-386b-40",
@@ -1429,7 +2228,12 @@
       "url": "https://jobs.ashbyhq.com/openai/371afd71-386b-40a0-be0a-e90f010b7bd0",
       "lookingFor": "About the team OpenAI’s Enterprise Go-To-Market organization helps the world’s largest companies adopt and scale our AI platform across their business—from ChatGPT Enterprise to our developer platform and APIs. We partner with organizations across Financial Services, Life Scienc…",
       "companyBrief": "OpenAI opening listed on their Ashby board.",
-      "postedAt": "2026-05-08"
+      "postedAt": "2026-05-08",
+      "workplace": "hybrid",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "stripe-manager-sales-development-7337544",
@@ -1438,9 +2242,14 @@
       "roleFamily": "SDR",
       "location": "Dublin ",
       "url": "https://stripe.com/jobs/search?gh_jid=7337544",
-      "lookingFor": "<h2>Who we are</h2> <h3>About Stripe</h3> <p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opp…",
+      "lookingFor": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our missi…",
       "companyBrief": "Stripe opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
+      "postedAt": "2026-08-18",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "stripe-sales-development-change-management-specialist-7953987",
@@ -1449,9 +2258,14 @@
       "roleFamily": "SDR",
       "location": "CHI and DUB",
       "url": "https://stripe.com/jobs/search?gh_jid=7953987",
-      "lookingFor": "<h2><strong>Who we are </strong></h2> <h3><strong>About Stripe</strong></h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe…",
+      "lookingFor": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our m…",
       "companyBrief": "Stripe opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
+      "postedAt": "2026-08-18",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "stripe-sales-development-representative-6470774",
@@ -1460,9 +2274,14 @@
       "roleFamily": "SDR",
       "location": "Tokyo",
       "url": "https://stripe.com/jobs/search?gh_jid=6470774",
-      "lookingFor": "<h2>Who we are</h2> <h3>About Stripe</h3> <p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opp…",
+      "lookingFor": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our missi…",
       "companyBrief": "Stripe opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-18"
+      "postedAt": "2026-08-18",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "stripe-sales-development-representative-french-fluency-8139535",
@@ -1471,9 +2290,14 @@
       "roleFamily": "SDR",
       "location": "Dublin",
       "url": "https://stripe.com/jobs/search?gh_jid=8139535",
-      "lookingFor": "<h2>Who we are</h2> <h3>About Stripe</h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue,…",
+      "lookingFor": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our missi…",
       "companyBrief": "Stripe opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "stripe-sales-development-representative-german-fluency-6570259",
@@ -1482,9 +2306,14 @@
       "roleFamily": "SDR",
       "location": "Dublin",
       "url": "https://stripe.com/jobs/search?gh_jid=6570259",
-      "lookingFor": "<h2>Who we are</h2> <h3>About Stripe</h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue,…",
+      "lookingFor": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our missi…",
       "companyBrief": "Stripe opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-24"
+      "postedAt": "2026-08-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "twilio-sales-development-representative-2-8112239",
@@ -1493,9 +2322,14 @@
       "roleFamily": "SDR",
       "location": "Remote - United Kingdom",
       "url": "https://job-boards.greenhouse.io/twilio/jobs/8112239",
-      "lookingFor": "<div class=\"content-intro\"><p><strong>Who we are&nbsp;</strong></p> <p>At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to<a class=\"c-link\" href=\"https://customers.twilio.com/\" target=\"_blank\" data-stringif…",
+      "lookingFor": "Who we are ; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to ;hundreds of thousands of businesses ; and empower millions of developers worldwide to craft personalized customer experiences. Our dedicatio…",
       "companyBrief": "Twilio opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "workplace": "remoteGlobal",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "asana-business-development-representative-german-speaking-7477015",
@@ -1504,9 +2338,15 @@
       "roleFamily": "BDR",
       "location": "Dublin",
       "url": "https://www.asana.com/jobs/apply/7477015?gh_jid=7477015",
-      "lookingFor": "<p>At Asana, we’re building work management software to help every organization in the world become more effective in working together and realizing their goals. Our Business Development team plays a critical role in helping the world’s teams thrive by introducing them to Asana…",
+      "lookingFor": "At Asana, we’re building work management software to help every organization in the world become more effective in working together and realizing their goals. Our Business Development team plays a critical role in helping the world’s teams thrive by introducing them to Asana - a…",
       "companyBrief": "Asana opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-27"
+      "postedAt": "2026-08-27",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "On-Target Earnings range is €61,500 - €65,000"
     },
     {
       "id": "cloudflare-business-development-representative-bdr-6557318",
@@ -1515,9 +2355,15 @@
       "roleFamily": "BDR",
       "location": "Hybrid",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/6557318?gh_jid=6557318",
-      "lookingFor": "<div class=\"content-intro\"><h3>About Us</h3> <p>At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual blo…",
+      "lookingFor": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies.…",
       "companyBrief": "Cloudflare opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-25"
+      "postedAt": "2026-08-25",
+      "workplace": "hybrid",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      },
+      "oteText": "On Target Earnings of $73,000 - $80,000</li></ul><div class=\"conte"
     },
     {
       "id": "cloudflare-business-development-representative-bdr-latam-spanish-speaking-7991345",
@@ -1526,9 +2372,14 @@
       "roleFamily": "BDR",
       "location": "Hybrid",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7991345?gh_jid=7991345",
-      "lookingFor": "<div class=\"content-intro\"><h3>About Us</h3> <p>At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual blo…",
+      "lookingFor": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies.…",
       "companyBrief": "Cloudflare opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-25"
+      "postedAt": "2026-08-25",
+      "workplace": "hybrid",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      }
     },
     {
       "id": "cloudflare-business-development-representative-cantonese-speaking-8143252",
@@ -1537,9 +2388,14 @@
       "roleFamily": "BDR",
       "location": "Hybrid",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8143252?gh_jid=8143252",
-      "lookingFor": "<div class=\"content-intro\"><h3>About Us</h3> <p>At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual blo…",
+      "lookingFor": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies.…",
       "companyBrief": "Cloudflare opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-25"
+      "postedAt": "2026-08-25",
+      "workplace": "hybrid",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      }
     },
     {
       "id": "cloudflare-business-development-representative-arabic-speaking-6696709",
@@ -1548,9 +2404,14 @@
       "roleFamily": "BDR",
       "location": "Hybrid",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/6696709?gh_jid=6696709",
-      "lookingFor": "<div class=\"content-intro\"><h3>About Us</h3> <p>At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual blo…",
+      "lookingFor": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies.…",
       "companyBrief": "Cloudflare opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-25"
+      "postedAt": "2026-08-25",
+      "workplace": "hybrid",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      }
     },
     {
       "id": "cloudflare-business-development-representative-bahasa-indonesia-speaking-7167659",
@@ -1559,9 +2420,14 @@
       "roleFamily": "BDR",
       "location": "Hybrid",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7167659?gh_jid=7167659",
-      "lookingFor": "<div class=\"content-intro\"><h3>About Us</h3> <p>At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual blo…",
+      "lookingFor": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies.…",
       "companyBrief": "Cloudflare opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-25"
+      "postedAt": "2026-08-25",
+      "workplace": "hybrid",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      }
     },
     {
       "id": "cloudflare-business-development-representative-danish-norwegian-or-swedish-speaking-7657028",
@@ -1570,9 +2436,14 @@
       "roleFamily": "BDR",
       "location": "Hybrid",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7657028?gh_jid=7657028",
-      "lookingFor": "<div class=\"content-intro\"><h3>About Us</h3> <p>At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual blo…",
+      "lookingFor": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies.…",
       "companyBrief": "Cloudflare opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-25"
+      "postedAt": "2026-08-25",
+      "workplace": "hybrid",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      }
     },
     {
       "id": "cloudflare-business-development-representative-dutch-speaking-7883803",
@@ -1581,9 +2452,113 @@
       "roleFamily": "BDR",
       "location": "Hybrid",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7883803?gh_jid=7883803",
-      "lookingFor": "<div class=\"content-intro\"><h3>About Us</h3> <p>At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual blo…",
+      "lookingFor": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies.…",
       "companyBrief": "Cloudflare opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-25"
+      "postedAt": "2026-08-25",
+      "workplace": "hybrid",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      }
     }
+  ],
+  "companyCounts": {
+    "Box": {
+      "SDR": 1,
+      "BDR": 4,
+      "AE": 3
+    },
+    "Brex": {
+      "SDR": 8
+    },
+    "Carta": {
+      "SDR": 2,
+      "AE": 5
+    },
+    "Databricks": {
+      "SDR": 1,
+      "BDR": 1,
+      "AE": 6
+    },
+    "Datadog": {
+      "SDR": 4,
+      "AE": 4
+    },
+    "Elastic": {
+      "SDR": 1,
+      "AE": 7
+    },
+    "Instacart": {
+      "SDR": 8
+    },
+    "Mercury": {
+      "SDR": 1,
+      "AE": 2
+    },
+    "MongoDB": {
+      "SDR": 2,
+      "AE": 6
+    },
+    "Okta": {
+      "SDR": 4,
+      "BDR": 2,
+      "AE": 2
+    },
+    "Stripe": {
+      "SDR": 8
+    },
+    "Fivetran": {
+      "BDR": 4,
+      "AE": 4
+    },
+    "Klaviyo": {
+      "BDR": 1,
+      "AE": 7
+    },
+    "Scale AI": {
+      "BDR": 1
+    },
+    "Airtable": {
+      "AE": 2
+    },
+    "Asana": {
+      "AE": 4,
+      "BDR": 1
+    },
+    "Block": {
+      "AE": 8
+    },
+    "Dropbox": {
+      "AE": 1
+    },
+    "Figma": {
+      "AE": 6
+    },
+    "GitLab": {
+      "AE": 8
+    },
+    "Gusto": {
+      "AE": 3
+    },
+    "Lyft": {
+      "AE": 1
+    },
+    "Reddit": {
+      "AE": 1
+    },
+    "Cloudflare": {
+      "SDR": 1,
+      "BDR": 7
+    },
+    "OpenAI": {
+      "SDR": 1
+    },
+    "Twilio": {
+      "SDR": 1
+    }
+  },
+  "absent": [
+    "databricks|geo core account executive",
+    "scale ai|enterprise account executive"
   ]
 }

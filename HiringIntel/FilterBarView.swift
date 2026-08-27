@@ -37,16 +37,33 @@ struct FilterChip: View {
 struct FilterBarView: View {
     let feed: OpeningsFeed
     let familyCounts: [String: Int]
+    let sourceLabel: String
+    let isStale: Bool
     @Binding var familiesRaw: String
     @Binding var whereRaw: String
     @Binding var whenRaw: String
     @Binding var sortRaw: String
     @Binding var viewRaw: String
+    @Binding var segmentRaw: String
+    @Binding var workplaceRaw: String
+    @Binding var metroRaw: String
     var hasActiveFilters: Bool
     var onClear: () -> Void
 
     private var selectedFamilies: Set<String> {
         Set(familiesRaw.split(separator: ",").map(String.init).filter { !$0.isEmpty })
+    }
+
+    private var segmentPresent: Set<String> {
+        Set(feed.openings.compactMap(\.segment))
+    }
+
+    private var workplacePresent: Set<String> {
+        Set(feed.openings.compactMap(\.workplace))
+    }
+
+    private var metroPresent: Set<MetroKind> {
+        Set(feed.openings.compactMap(MetroKind.classify))
     }
 
     var body: some View {
@@ -76,6 +93,36 @@ struct FilterBarView: View {
                 }
             }
 
+            if !segmentPresent.isEmpty {
+                chipRow {
+                    ForEach(SegmentKind.allCases.filter { segmentPresent.contains($0.rawValue) }) { kind in
+                        FilterChip(title: kind.title, selected: segmentRaw == kind.rawValue) {
+                            segmentRaw = segmentRaw == kind.rawValue ? "" : kind.rawValue
+                        }
+                    }
+                }
+            }
+
+            if !workplacePresent.isEmpty {
+                chipRow {
+                    ForEach(WorkplaceKind.allCases.filter { workplacePresent.contains($0.rawValue) }) { kind in
+                        FilterChip(title: kind.title, selected: workplaceRaw == kind.rawValue) {
+                            workplaceRaw = workplaceRaw == kind.rawValue ? "" : kind.rawValue
+                        }
+                    }
+                }
+            }
+
+            if !metroPresent.isEmpty {
+                chipRow {
+                    ForEach(MetroKind.allCases.filter { metroPresent.contains($0) }) { kind in
+                        FilterChip(title: kind.title, selected: metroRaw == kind.rawValue) {
+                            metroRaw = metroRaw == kind.rawValue ? "" : kind.rawValue
+                        }
+                    }
+                }
+            }
+
             chipRow {
                 ForEach(SortMode.allCases) { mode in
                     FilterChip(title: mode.title, selected: sortRaw == mode.rawValue) {
@@ -101,6 +148,12 @@ struct FilterBarView: View {
                 .foregroundStyle(.secondary)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.top, 2)
+
+            if isStale {
+                Text("Feed looks stale — last update is older than 36 hours.")
+                    .font(.footnote.weight(.medium))
+                    .foregroundStyle(.orange)
+            }
         }
         .padding(.horizontal, 16)
         .padding(.top, 8)
@@ -114,7 +167,7 @@ struct FilterBarView: View {
         let sdr = openings.filter { $0.roleFamily == "SDR" }.count
         let bdr = openings.filter { $0.roleFamily == "BDR" }.count
         let ae = openings.filter { $0.roleFamily == "AE" }.count
-        return "\(openings.count) live · \(sdr) SDR · \(bdr) BDR · \(ae) AE · \(FeedDates.updatedLabel(feed.updatedAt))"
+        return "\(openings.count) \(sourceLabel) · \(sdr) SDR · \(bdr) BDR · \(ae) AE · \(FeedDates.updatedLabel(feed.updatedAt))"
     }
 
     @ViewBuilder
