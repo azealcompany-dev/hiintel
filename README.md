@@ -4,7 +4,7 @@ Thin host app + WidgetKit extension (iOS 17+ and macOS 14+). Display name is HiI
 
 Live openings are fetched from GitHub raw:
 
-    https://raw.githubusercontent.com/azealcompany-dev/hiring-intel/main/feed.json
+    https://raw.githubusercontent.com/azealcompany-dev/hiintel-feed/main/feed.json
 
 Widget and host cache a successful fetch as `OpeningsFeed.json` in App Group `group.com.azealcompany.hiringintel`, then reload widget timelines. Bundled `feed.json` is the offline fallback. Fetch failures fall back silently (App Group cache, then bundle). Mac disk `~/HiringIntel/feed.json` is a local-dev extra only.
 

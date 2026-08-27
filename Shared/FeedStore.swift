@@ -6,7 +6,7 @@ enum FeedStore {
     static let feedFileName = "OpeningsFeed.json"
     static let widgetKind = "com.azealcompany.hiringintel.jobs"
     static let diskFeedPath = "/Users/phlegonjoseph/HiringIntel/feed.json"
-    static let remoteFeedURL = URL(string: "https://raw.githubusercontent.com/azealcompany-dev/hiring-intel/main/feed.json")!
+    static let remoteFeedURL = URL(string: "https://raw.githubusercontent.com/azealcompany-dev/hiintel-feed/main/feed.json")!
     static let widgetFetchTimeout: TimeInterval = 6
     static let hostFetchTimeout: TimeInterval = 10
     static let timelineRefreshInterval: TimeInterval = 30 * 60
