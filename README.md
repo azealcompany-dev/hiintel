@@ -38,9 +38,34 @@ Long-press the Home Screen → Edit / + → Add Widget → HiIntel.
 - Widget: `com.azealcompany.hiringintel.widget`
 - Team: `B8VKLXY4L2`
 
+## TestFlight
+
+People test on their own iPhones with TestFlight — not a USB cable.
+
+1. In Xcode: **Product → Archive** (Any iOS Device), then **Distribute App → App Store Connect → Upload**.
+2. [App Store Connect](https://appstoreconnect.apple.com) → HiIntel → TestFlight.
+3. **Internal testers** (people on the Azeal team): add them to a group. They install TestFlight from the App Store and get HiIntel immediately.
+4. **External testers** (anyone): create a group, submit the build for Beta App Review, then share the public TestFlight link.
+
+Privacy policy URL for external testing: this README. The app only fetches the public `feed.json`; saved/applied stay on-device in the App Group.
+
 ## Generate & build
 
     xcodegen generate
     xcodebuild -project HiringIntel.xcodeproj -scheme HiringIntel \
       -destination 'id=00008140-00194D9E3C0B001C' \
       -allowProvisioningUpdates DEVELOPMENT_TEAM=B8VKLXY4L2
+
+## Archive (TestFlight)
+
+    xcodegen generate
+    xcodebuild -project HiringIntel.xcodeproj -scheme HiringIntel \
+      -destination 'generic/platform=iOS' -configuration Release \
+      -archivePath build/HiIntel.xcarchive \
+      -allowProvisioningUpdates DEVELOPMENT_TEAM=B8VKLXY4L2 \
+      archive
+    xcodebuild -exportArchive -archivePath build/HiIntel.xcarchive \
+      -exportOptionsPlist ExportOptions.plist \
+      -exportPath build/export \
+      -allowProvisioningUpdates
+
