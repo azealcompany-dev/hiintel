@@ -70,16 +70,15 @@ enum FeedStore {
         urls.append(homeFeedURL)
         urls.append(URL(fileURLWithPath: diskFeedPath))
 
-        let preferEmptyGroup = lastRemoteFetchDate != nil
         var seen = Set<String>()
         for url in urls {
             let path = url.path
             if seen.contains(path) { continue }
             seen.insert(path)
             guard fm.fileExists(atPath: path), let data = try? Data(contentsOf: url) else { continue }
-            guard let feed = try? decoder.decode(OpeningsFeed.self, from: data) else { continue }
-            if !feed.openings.isEmpty { return feed }
-            if preferEmptyGroup, url == appGroupFeedURL { return feed }
+            guard let feed = try? decoder.decode(OpeningsFeed.self, from: data),
+                  !feed.openings.isEmpty else { continue }
+            return feed
         }
         return .empty
     }

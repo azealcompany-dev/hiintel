@@ -1,5 +1,6 @@
 import SwiftUI
 #if os(iOS)
+import BackgroundTasks
 import UIKit
 #elseif os(macOS)
 import AppKit
@@ -10,8 +11,8 @@ struct HiringIntelApp: App {
     @Environment(\.scenePhase) private var scenePhase
 
     init() {
+        Self.registerBackgroundRefresh()
         _ = FeedStore.seedAppGroupIfNeeded()
-        FeedStore.scheduleBackgroundRefresh()
         Task {
             _ = await FeedStore.fetchRemote(
                 timeout: FeedStore.hostFetchTimeout,
@@ -40,13 +41,24 @@ struct HiringIntelApp: App {
                 }
             }
         }
+    }
+
+    private static func registerBackgroundRefresh() {
         #if os(iOS)
-        .backgroundTask(.appRefresh(FeedStore.backgroundRefreshID)) {
-            _ = await FeedStore.fetchRemote(
-                timeout: FeedStore.hostFetchTimeout,
-                reloadOnSuccess: true
-            )
-            FeedStore.scheduleBackgroundRefresh()
+        // Must register before UIApplication finishes launching, or iOS kills
+        // the process when a previously scheduled BGAppRefresh task is delivered.
+        BGTaskScheduler.shared.register(
+            forTaskWithIdentifier: FeedStore.backgroundRefreshID,
+            using: nil
+        ) { task in
+            Task {
+                let feed = await FeedStore.fetchRemote(
+                    timeout: FeedStore.hostFetchTimeout,
+                    reloadOnSuccess: true
+                )
+                FeedStore.scheduleBackgroundRefresh()
+                task.setTaskCompleted(success: feed != nil)
+            }
         }
         #endif
     }
