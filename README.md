@@ -16,7 +16,7 @@ The app does not scrape ATS or HTML career pages.
 
     python3 scripts/build_feed.py --out feed.json
 
-A GitHub Action runs that script daily (`0 13 * * *` UTC) and commits `feed.json` here. Empty `openings: []` is valid and does not wipe a good on-device cache.
+A GitHub Action runs that script three times a day (`0 12,16,21 * * *` UTC) and commits `feed.json` here. Empty `openings: []` is valid and does not wipe a good on-device cache.
 
 ## Host
 

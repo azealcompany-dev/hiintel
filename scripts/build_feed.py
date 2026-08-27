@@ -179,11 +179,18 @@ def extract_from_jd(plain: str) -> dict | None:
     return None
 
 
+DEFAULT_TITLES = {
+    "SDR": "Manager, SDR",
+    "BDR": "Manager, BDR",
+    "AE": "Director, AE",
+}
+
+
 def roster_lookup(roster: dict, company: str, family: str) -> dict | None:
     entry = ((roster.get(company) or {}).get(family) or {})
     if not isinstance(entry, dict):
-        return None
-    title = scrub_contact(str(entry.get("title") or ""))
+        entry = {}
+    title = scrub_contact(str(entry.get("title") or DEFAULT_TITLES.get(family) or ""))
     name = scrub_contact(str(entry.get("name") or ""))
     if name and (EMAIL_RE.search(name) or PHONE_RE.search(name) or not is_person_name(name)):
         name = ""
@@ -254,19 +261,14 @@ def is_priority_location(location: str) -> bool:
 
 
 def cap_openings(openings: list[dict]) -> list[dict]:
-    """Keep the list useful: 8 roles per company, 80 per family."""
+    """Keep a per-company cap so one board cannot dominate. No family cap."""
     per_company: dict[str, int] = {}
-    per_family: dict[str, int] = {}
     kept: list[dict] = []
     for job in openings:
         company = job["company"]
-        family = job["roleFamily"]
         if per_company.get(company, 0) >= 8:
             continue
-        if per_family.get(family, 0) >= 80:
-            continue
         per_company[company] = per_company.get(company, 0) + 1
-        per_family[family] = per_family.get(family, 0) + 1
         kept.append(job)
     return kept
 
@@ -642,6 +644,7 @@ def load_roster(path: Path) -> dict:
 def build(companies: list[dict], roster: dict, previous: dict) -> dict:
     openings: list[dict] = []
     seen: set[str] = set()
+    n404 = nzero = nok = nfail = 0
     for company in companies:
         ats = company.get("ats")
         fetcher = FETCHERS.get(ats)
@@ -655,12 +658,16 @@ def build(companies: list[dict], roster: dict, previous: dict) -> dict:
             jobs, health = [], "error"
         name = company["name"]
         if health == "404":
+            n404 += 1
             print(f"board health {name}: token 404", file=sys.stderr)
         elif health == "zero":
+            nzero += 1
             print(f"board health {name}: zero jobs", file=sys.stderr)
         elif health != "ok":
+            nfail += 1
             print(f"board health {name}: {health}", file=sys.stderr)
         else:
+            nok += 1
             print(f"{name} ({ats}): {len(jobs)} sales roles", file=sys.stderr)
         for job in jobs:
             key = job["id"]
@@ -692,6 +699,11 @@ def build(companies: list[dict], roster: dict, previous: dict) -> dict:
     }
     if absent:
         feed["absent"] = absent
+    print(
+        f"404={n404}  zero-sales={nzero}  live={nok}  fail={nfail}  "
+        f"companies={len(companies)}  openings={len(openings)}",
+        file=sys.stderr,
+    )
     return feed
 
 
