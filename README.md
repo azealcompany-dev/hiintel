@@ -16,6 +16,12 @@ The host list fetches whenever you open the app, on pull-to-refresh, and about o
 
 The live source of truth is `main/feed.json` in **`azealcompany-dev/hiintel-feed`**. Empty `openings: []` is valid — the list and widgets show "No openings yet".
 
+`scripts/build_feed.py` pulls **SDR, BDR, and Account Executive** roles from public Greenhouse, Lever, and Ashby boards listed in `scripts/companies.json`. It does not scrape HTML career pages. Run locally:
+
+    python3 scripts/build_feed.py --out feed.json
+
+A GitHub Action runs that script daily (`0 13 * * *` UTC) and commits `feed.json` here. To also update the public raw URL the app reads, add repo secret `HIINTEL_FEED_TOKEN` with write access to `azealcompany-dev/hiintel-feed`.
+
 Local overwrite for Mac-only debugging (do not rename):
 
     /Users/phlegonjoseph/HiringIntel/feed.json

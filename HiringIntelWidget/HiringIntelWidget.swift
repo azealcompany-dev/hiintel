@@ -43,8 +43,9 @@ struct Provider: TimelineProvider {
             return Timeline(entries: [entry], policy: .after(now.addingTimeInterval(15 * 60)))
         }
 
+        let rotating = Array(feed.openings.prefix(24))
         var entries: [FeedEntry] = []
-        for (index, opening) in feed.openings.enumerated() {
+        for (index, opening) in rotating.enumerated() {
             entries.append(
                 FeedEntry(
                     date: now.addingTimeInterval(rotation * Double(index)),
