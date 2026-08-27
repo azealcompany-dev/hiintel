@@ -23,14 +23,24 @@ struct Provider: TimelineProvider {
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<FeedEntry>) -> Void) {
-        _ = FeedStore.syncBundleIntoAppGroup()
+        Task {
+            _ = FeedStore.seedAppGroupIfNeeded()
+            _ = await FeedStore.fetchRemote(
+                timeout: FeedStore.widgetFetchTimeout,
+                reloadOnSuccess: false
+            )
+            completion(makeTimeline())
+        }
+    }
+
+    private func makeTimeline() -> Timeline<FeedEntry> {
         let feed = FeedStore.load()
         let now = Date()
+        let refreshAfter = now.addingTimeInterval(FeedStore.timelineRefreshInterval)
 
         if feed.openings.isEmpty {
             let entry = FeedEntry(date: now, feed: feed, opening: nil)
-            completion(Timeline(entries: [entry], policy: .after(now.addingTimeInterval(15 * 60))))
-            return
+            return Timeline(entries: [entry], policy: .after(now.addingTimeInterval(15 * 60)))
         }
 
         var entries: [FeedEntry] = []
@@ -43,8 +53,7 @@ struct Provider: TimelineProvider {
                 )
             )
         }
-        let refresh = now.addingTimeInterval(rotation * Double(feed.openings.count))
-        completion(Timeline(entries: entries, policy: .after(refresh)))
+        return Timeline(entries: entries, policy: .after(refreshAfter))
     }
 }
 
@@ -55,10 +64,18 @@ struct HiringIntelWidget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             HiringIntelWidgetView(entry: entry)
         }
-        .configurationDisplayName("Hiring Intel")
+        .configurationDisplayName("HiIntel")
         .description("Live openings from your feed.")
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
+        .contentMarginsDisabled()
     }
+}
+
+private enum WidgetInk {
+    static let bg = Color(red: 0.07, green: 0.07, blue: 0.08)
+    static let primary = Color.white
+    static let secondary = Color.white.opacity(0.72)
+    static let tertiary = Color.white.opacity(0.5)
 }
 
 struct HiringIntelWidgetView: View {
@@ -74,16 +91,21 @@ struct HiringIntelWidgetView: View {
                 empty
             }
         }
-        .containerBackground(.background, for: .widget)
+        .padding(family == .systemSmall ? 14 : 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .containerBackground(for: .widget) {
+            WidgetInk.bg
+        }
     }
 
     private var empty: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            Text("Hiring Intel")
-                .font(.headline)
+        VStack(alignment: .leading, spacing: 6) {
+            Text("HiIntel")
+                .font(.system(size: 15, weight: .semibold))
+                .foregroundStyle(WidgetInk.primary)
             Text("No openings yet")
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
+                .font(.system(size: 13, weight: .regular))
+                .foregroundStyle(WidgetInk.secondary)
             Spacer(minLength: 0)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
@@ -91,39 +113,43 @@ struct HiringIntelWidgetView: View {
 
     @ViewBuilder
     private func filled(_ opening: Opening) -> some View {
-        VStack(alignment: .leading, spacing: family == .systemSmall ? 4 : 6) {
+        let companySize: CGFloat = family == .systemLarge ? 20 : (family == .systemMedium ? 17 : 16)
+        let roleSize: CGFloat = family == .systemSmall ? 12 : 13
+
+        VStack(alignment: .leading, spacing: family == .systemSmall ? 5 : 7) {
             Text(opening.company)
-                .font(family == .systemLarge ? .title3.weight(.semibold) : .headline)
-                .foregroundStyle(.primary)
-                .lineLimit(2)
-                .minimumScaleFactor(0.85)
+                .font(.system(size: companySize, weight: .semibold, design: .default))
+                .foregroundStyle(WidgetInk.primary)
+                .lineLimit(family == .systemSmall ? 1 : 2)
+                .truncationMode(.tail)
             Text(opening.role)
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
-                .lineLimit(3)
+                .font(.system(size: roleSize, weight: .regular))
+                .foregroundStyle(WidgetInk.secondary)
+                .lineLimit(family == .systemSmall ? 2 : 3)
+                .truncationMode(.tail)
             if family != .systemSmall, !opening.location.isEmpty {
                 Text(opening.location)
-                    .font(.caption)
-                    .foregroundStyle(.tertiary)
+                    .font(.system(size: 12, weight: .regular))
+                    .foregroundStyle(WidgetInk.tertiary)
                     .lineLimit(2)
             }
             if family == .systemLarge {
                 if !opening.lookingFor.isEmpty {
-                    Spacer(minLength: 6)
+                    Spacer(minLength: 8)
                     Text(opening.lookingFor)
-                        .font(.footnote)
-                        .foregroundStyle(.secondary)
+                        .font(.system(size: 13, weight: .regular))
+                        .foregroundStyle(WidgetInk.secondary)
                         .lineLimit(4)
                 }
                 if !opening.companyBrief.isEmpty {
                     Text(opening.companyBrief)
-                        .font(.caption)
-                        .foregroundStyle(.tertiary)
+                        .font(.system(size: 12, weight: .regular))
+                        .foregroundStyle(WidgetInk.tertiary)
                         .lineLimit(3)
                 }
             }
             Spacer(minLength: 0)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
     }
 }

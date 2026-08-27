@@ -1,5 +1,4 @@
 import SwiftUI
-import WidgetKit
 
 struct ContentView: View {
     @Environment(\.scenePhase) private var scenePhase
@@ -23,15 +22,12 @@ struct ContentView: View {
                     #endif
                 }
             }
-            .navigationTitle("Hiring Intel")
+            .navigationTitle("HiIntel")
         }
         .onAppear(perform: refresh)
         .onChange(of: scenePhase) { _, phase in
             if phase == .active {
                 refresh()
-            } else if phase == .background {
-                _ = FeedStore.syncBundleIntoAppGroup()
-                FeedStore.reloadTimelines()
             }
         }
     }
@@ -51,9 +47,18 @@ struct ContentView: View {
     }
 
     private func refresh() {
-        _ = FeedStore.syncBundleIntoAppGroup()
+        _ = FeedStore.seedAppGroupIfNeeded()
         feed = FeedStore.load()
-        FeedStore.reloadTimelines()
+        Task {
+            _ = await FeedStore.fetchRemote(
+                timeout: FeedStore.hostFetchTimeout,
+                reloadOnSuccess: true
+            )
+            let loaded = FeedStore.load()
+            await MainActor.run {
+                feed = loaded
+            }
+        }
     }
 }
 

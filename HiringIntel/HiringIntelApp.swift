@@ -10,8 +10,13 @@ struct HiringIntelApp: App {
     @Environment(\.scenePhase) private var scenePhase
 
     init() {
-        _ = FeedStore.syncBundleIntoAppGroup()
-        FeedStore.reloadTimelines()
+        _ = FeedStore.seedAppGroupIfNeeded()
+        Task {
+            _ = await FeedStore.fetchRemote(
+                timeout: FeedStore.hostFetchTimeout,
+                reloadOnSuccess: true
+            )
+        }
     }
 
     var body: some Scene {
@@ -22,9 +27,14 @@ struct HiringIntelApp: App {
                 }
         }
         .onChange(of: scenePhase) { _, phase in
-            if phase == .active || phase == .background {
-                _ = FeedStore.syncBundleIntoAppGroup()
-                FeedStore.reloadTimelines()
+            if phase == .active {
+                _ = FeedStore.seedAppGroupIfNeeded()
+                Task {
+                    _ = await FeedStore.fetchRemote(
+                        timeout: FeedStore.hostFetchTimeout,
+                        reloadOnSuccess: true
+                    )
+                }
             }
         }
     }

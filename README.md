@@ -1,20 +1,30 @@
-# Hiring Intel
+# HiIntel
 
-Thin host app + WidgetKit extension (iOS 17+ and macOS 14+). Openings come from `~/HiringIntel/feed.json` (owned by Builder, gitignored). The host copies that file into App Group `group.com.azealcompany.hiringintel` and reloads widget timelines.
+Thin host app + WidgetKit extension (iOS 17+ and macOS 14+). Display name is HiIntel.
+
+Live openings are fetched from GitHub raw:
+
+    https://raw.githubusercontent.com/azealcompany-dev/hiring-intel/main/feed.json
+
+Widget and host cache a successful fetch as `OpeningsFeed.json` in App Group `group.com.azealcompany.hiringintel`, then reload widget timelines. Bundled `feed.json` is the offline fallback. Fetch failures fall back silently (App Group cache, then bundle). Mac disk `~/HiringIntel/feed.json` is a local-dev extra only.
+
+The repo that serves that URL must be **public**. A private repo makes GitHub raw return 404 and the app stays on cache/bundle until it is public.
 
 ## Builder refresh
 
-Overwrite this file in place (do not rename):
+The live source of truth is `main/feed.json` in `azealcompany-dev/hiring-intel` (do not rename). Empty `openings: []` is valid — widgets show "No openings yet".
+
+Local overwrite for Mac-only debugging (do not rename):
 
     /Users/phlegonjoseph/HiringIntel/feed.json
 
-Then open Hiring Intel (it copies on appear / becoming active) or wait for the next widget timeline reload (every 30 minutes). Empty `openings: []` is valid — widgets show "No openings yet".
+Host fetches on launch / appear. Widget `getTimeline` waits briefly for fetch-or-timeout, then rotates openings and asks WidgetKit to refresh in 15–30 minutes.
 
 SAMPLE openings exist only in Xcode widget previews, not in feed.json.
 
 ## Add the widget (iOS)
 
-Long-press the Home Screen → Edit / + → Add Widget → Hiring Intel.
+Long-press the Home Screen → Edit / + → Add Widget → HiIntel.
 
 - Small: company + roleFamily / role
 - Medium: + location + role
