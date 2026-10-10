@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T00:27:57+00:00",
+  "updatedAt": "2026-10-10T16:50:18+00:00",
   "openings": [
     {
       "id": "abnormal-security-sales-development-representative-7730831003",
@@ -439,6 +439,23 @@
       "oteText": "OTE for this position is $90,000 USD"
     },
     {
+      "id": "gong-sales-development-representative-4719097006",
+      "company": "Gong",
+      "role": "Sales Development Representative",
+      "roleFamily": "SDR",
+      "location": "Austin",
+      "url": "https://job-boards.greenhouse.io/gongio/jobs/4719097006",
+      "lookingFor": "Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and workflows into a single, trusted system that observes, guides, and acts alongside the world’s most successful revenue teams. Powered by the Gong Re…",
+      "companyBrief": "Gong opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-09",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE for this position is $90,000 USD"
+    },
+    {
       "id": "gong-sales-development-representative-4581524006",
       "company": "Gong",
       "role": "Sales Development Representative",
@@ -465,23 +482,6 @@
       "lookingFor": "Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and workflows into a single, trusted system that observes, guides, and acts alongside the world’s most successful revenue teams. Powered by the Gong Re…",
       "companyBrief": "Gong opening listed on their Greenhouse board.",
       "postedAt": "2026-10-08",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Manager, SDR"
-      },
-      "oteText": "OTE for this position is $90,000 USD"
-    },
-    {
-      "id": "gong-sales-development-representative-4719097006",
-      "company": "Gong",
-      "role": "Sales Development Representative",
-      "roleFamily": "SDR",
-      "location": "Austin",
-      "url": "https://job-boards.greenhouse.io/gongio/jobs/4719097006",
-      "lookingFor": "Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and workflows into a single, trusted system that observes, guides, and acts alongside the world’s most successful revenue teams. Powered by the Gong Re…",
-      "companyBrief": "Gong opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-09",
       "workplace": "onsite",
       "hiringManager": {
         "source": "roster",
@@ -810,23 +810,6 @@
       "oteText": "OTE), the pay range includes both base salary and t"
     },
     {
-      "id": "navan-sales-development-representative-6790470",
-      "company": "Navan",
-      "role": "Sales Development Representative",
-      "roleFamily": "SDR",
-      "location": "New York, NY",
-      "url": "https://navan.com/careers/openings?gh_jid=6790470",
-      "lookingFor": "Are you ready to kickstart your career in the fast-paced world of tech sales? Join Navan's Sales Development team and become a crucial player in our explosive growth story! As a Sales Development Representative (SDR) at Navan, you'll be at the forefront of innovation, connecting…",
-      "companyBrief": "Navan opening listed on their Greenhouse board.",
-      "postedAt": "2026-09-14",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Manager, SDR"
-      },
-      "oteText": "OTE), the pay range includes both base salary and t"
-    },
-    {
       "id": "navan-sales-development-representative-6782238",
       "company": "Navan",
       "role": "Sales Development Representative",
@@ -849,6 +832,23 @@
       "roleFamily": "SDR",
       "location": "San Francisco, CA",
       "url": "https://navan.com/careers/openings?gh_jid=6790419",
+      "lookingFor": "Are you ready to kickstart your career in the fast-paced world of tech sales? Join Navan's Sales Development team and become a crucial player in our explosive growth story! As a Sales Development Representative (SDR) at Navan, you'll be at the forefront of innovation, connecting…",
+      "companyBrief": "Navan opening listed on their Greenhouse board.",
+      "postedAt": "2026-09-14",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE), the pay range includes both base salary and t"
+    },
+    {
+      "id": "navan-sales-development-representative-6790470",
+      "company": "Navan",
+      "role": "Sales Development Representative",
+      "roleFamily": "SDR",
+      "location": "New York, NY",
+      "url": "https://navan.com/careers/openings?gh_jid=6790470",
       "lookingFor": "Are you ready to kickstart your career in the fast-paced world of tech sales? Join Navan's Sales Development team and become a crucial player in our explosive growth story! As a Sales Development Representative (SDR) at Navan, you'll be at the forefront of innovation, connecting…",
       "companyBrief": "Navan opening listed on their Greenhouse board.",
       "postedAt": "2026-09-14",
@@ -1342,8 +1342,7 @@
       "hiringManager": {
         "title": "Director of Sales Development in the SDR department",
         "source": "jd"
-      },
-      "reposted": true
+      }
     },
     {
       "id": "zscaler-sales-development-representative-federal-5256295007",
@@ -1410,23 +1409,6 @@
       }
     },
     {
-      "id": "adyen-enterprise-business-development-representative-7540718",
-      "company": "Adyen",
-      "role": "Enterprise Business Development Representative",
-      "roleFamily": "BDR",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/adyen/jobs/7540718",
-      "lookingFor": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&;M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an…",
-      "companyBrief": "Adyen opening listed on their Greenhouse board.",
-      "postedAt": "2026-07-10",
-      "segment": "Enterprise",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Manager, BDR"
-      }
-    },
-    {
       "id": "adyen-enterprise-business-development-representative-7540715",
       "company": "Adyen",
       "role": "Enterprise Business Development Representative",
@@ -1436,6 +1418,23 @@
       "lookingFor": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&;M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an…",
       "companyBrief": "Adyen opening listed on their Greenhouse board.",
       "postedAt": "2026-07-08",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      }
+    },
+    {
+      "id": "adyen-enterprise-business-development-representative-7540718",
+      "company": "Adyen",
+      "role": "Enterprise Business Development Representative",
+      "roleFamily": "BDR",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/adyen/jobs/7540718",
+      "lookingFor": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&;M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an…",
+      "companyBrief": "Adyen opening listed on their Greenhouse board.",
+      "postedAt": "2026-07-10",
       "segment": "Enterprise",
       "workplace": "onsite",
       "hiringManager": {
@@ -2224,7 +2223,7 @@
       "url": "https://boards.greenhouse.io/6sense/jobs/8153832?gh_jid=8153832",
       "lookingFor": "Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency. ; We envision a future where companies, teams and people reach their full potential. Our People: People are the heart and soul of 6sense. We serve with passion and purpose. We live by o…",
       "companyBrief": "6sense opening listed on their Greenhouse board.",
-      "postedAt": "2026-09-24",
+      "postedAt": "2026-10-09",
       "workplace": "remoteUS",
       "hiringManager": {
         "source": "roster",
@@ -2241,7 +2240,7 @@
       "url": "https://boards.greenhouse.io/6sense/jobs/8153824?gh_jid=8153824",
       "lookingFor": "Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency. ; We envision a future where companies, teams and people reach their full potential. Our People: People are the heart and soul of 6sense. We serve with passion and purpose. We live by o…",
       "companyBrief": "6sense opening listed on their Greenhouse board.",
-      "postedAt": "2026-09-24",
+      "postedAt": "2026-10-09",
       "workplace": "remoteUS",
       "hiringManager": {
         "source": "roster",
@@ -2258,7 +2257,7 @@
       "url": "https://boards.greenhouse.io/6sense/jobs/8153838?gh_jid=8153838",
       "lookingFor": "Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency. ; We envision a future where companies, teams and people reach their full potential. Our People: People are the heart and soul of 6sense. We serve with passion and purpose. We live by o…",
       "companyBrief": "6sense opening listed on their Greenhouse board.",
-      "postedAt": "2026-09-17",
+      "postedAt": "2026-10-09",
       "workplace": "remoteUS",
       "hiringManager": {
         "source": "roster",
@@ -2275,7 +2274,7 @@
       "url": "https://boards.greenhouse.io/6sense/jobs/8153840?gh_jid=8153840",
       "lookingFor": "Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency. ; We envision a future where companies, teams and people reach their full potential. Our People: People are the heart and soul of 6sense. We serve with passion and purpose. We live by o…",
       "companyBrief": "6sense opening listed on their Greenhouse board.",
-      "postedAt": "2026-09-17",
+      "postedAt": "2026-10-09",
       "workplace": "remoteUS",
       "hiringManager": {
         "source": "roster",
@@ -4536,12 +4535,12 @@
       "oteText": "OTE for this position is $130,000 - $145,000 USD"
     },
     {
-      "id": "gong-mid-market-account-executive-4627234006",
+      "id": "gong-mid-market-account-executive-4627236006",
       "company": "Gong",
       "role": "Mid-Market Account Executive",
       "roleFamily": "AE",
-      "location": "New York City",
-      "url": "https://job-boards.greenhouse.io/gongio/jobs/4627234006",
+      "location": "Chicago",
+      "url": "https://job-boards.greenhouse.io/gongio/jobs/4627236006",
       "lookingFor": "Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and workflows into a single, trusted system that observes, guides, and acts alongside the world’s most successful revenue teams. Powered by the Gong Re…",
       "companyBrief": "Gong opening listed on their Greenhouse board.",
       "postedAt": "2026-10-08",
@@ -5344,22 +5343,6 @@
       }
     },
     {
-      "id": "lyft-senior-account-executive-8771516002",
-      "company": "Lyft",
-      "role": "Senior Account Executive",
-      "roleFamily": "AE",
-      "location": "Los Angeles, CA",
-      "url": "https://app.careerpuck.com/job-board/lyft/job/8771516002?gh_jid=8771516002",
-      "lookingFor": "At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive. Lyft Ads’ vision is to build the largest transportation media network. We leverage media to elevate the transp…",
-      "companyBrief": "Lyft opening listed on their Greenhouse board.",
-      "postedAt": "2026-09-04",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      }
-    },
-    {
       "id": "lyft-senior-account-executive-8843527002",
       "company": "Lyft",
       "role": "Senior Account Executive",
@@ -5369,6 +5352,22 @@
       "lookingFor": "At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive. Lyft Ads’ vision is to build the largest transportation media network. We leverage media to elevate the transp…",
       "companyBrief": "Lyft opening listed on their Greenhouse board.",
       "postedAt": "2026-09-24",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
+    },
+    {
+      "id": "lyft-senior-account-executive-8771516002",
+      "company": "Lyft",
+      "role": "Senior Account Executive",
+      "roleFamily": "AE",
+      "location": "Los Angeles, CA",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8771516002?gh_jid=8771516002",
+      "lookingFor": "At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive. Lyft Ads’ vision is to build the largest transportation media network. We leverage media to elevate the transp…",
+      "companyBrief": "Lyft opening listed on their Greenhouse board.",
+      "postedAt": "2026-09-04",
       "workplace": "onsite",
       "hiringManager": {
         "source": "roster",
@@ -7621,7 +7620,7 @@
       "url": "https://job-boards.greenhouse.io/twilio/jobs/8241250",
       "lookingFor": "Who we are ; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to ;hundreds of thousands of businesses ; and empower millions of developers worldwide to craft personalized customer experiences. Our dedicatio…",
       "companyBrief": "Twilio opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-09",
+      "postedAt": "2026-10-10",
       "segment": "Enterprise",
       "workplace": "remoteUS",
       "hiringManager": {
@@ -10095,7 +10094,7 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8153017",
       "lookingFor": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communit…",
       "companyBrief": "Reddit opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-09",
+      "postedAt": "2026-10-10",
       "segment": "MM",
       "workplace": "onsite",
       "hiringManager": {
@@ -10208,12 +10207,12 @@
       }
     },
     {
-      "id": "tailscale-customer-account-executive-4740468005",
+      "id": "tailscale-customer-account-executive-4724118005",
       "company": "Tailscale",
       "role": "Customer Account Executive",
       "roleFamily": "AE",
-      "location": "Hybrid (Vancouver, British Columbia)",
-      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4740468005",
+      "location": "Hybrid (Toronto, Ontario)",
+      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4724118005",
       "lookingFor": "Thank you for considering Tailscale. If this job description resonates with you, please apply. ; Frequently cited statistics show that people who identify with historically marginalized groups are likely to apply to jobs only if they meet 100% of the qualifications. We encourage…",
       "companyBrief": "Tailscale opening listed on their Greenhouse board.",
       "postedAt": "2026-10-05",
@@ -10226,12 +10225,12 @@
       "oteText": "OTE (on target earnings), inclusive of base salary"
     },
     {
-      "id": "tailscale-customer-account-executive-4724118005",
+      "id": "tailscale-customer-account-executive-4740468005",
       "company": "Tailscale",
       "role": "Customer Account Executive",
       "roleFamily": "AE",
-      "location": "Hybrid (Toronto, Ontario)",
-      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4724118005",
+      "location": "Hybrid (Vancouver, British Columbia)",
+      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4740468005",
       "lookingFor": "Thank you for considering Tailscale. If this job description resonates with you, please apply. ; Frequently cited statistics show that people who identify with historically marginalized groups are likely to apply to jobs only if they meet 100% of the qualifications. We encourage…",
       "companyBrief": "Tailscale opening listed on their Greenhouse board.",
       "postedAt": "2026-10-05",
