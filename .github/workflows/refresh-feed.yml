@@ -14,6 +14,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Pull company boards
         run: python3 scripts/build_feed.py --out feed.json
+      - name: Check feed health
+        run: python3 scripts/check_feed.py feed.json
       - name: Commit feed if changed
         run: |
           git config user.name "hiintel-bot"
