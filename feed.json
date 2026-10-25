@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T22:50:08+00:00",
+  "updatedAt": "2026-10-25T15:26:51+00:00",
   "openings": [
     {
       "id": "anthropic-manager-sales-development-enterprise-5454142008",
@@ -87,24 +87,6 @@
       "oteText": "OTE if commissionable role) is dependent upon facto"
     },
     {
-      "id": "brex-manager-sales-development-8477485002",
-      "company": "Brex",
-      "role": "Manager, Sales Development",
-      "roleFamily": "SDR",
-      "location": "Seattle, Washington, United States",
-      "url": "https://www.brex.com/careers/8477485002?gh_jid=8477485002",
-      "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
-      "companyBrief": "Brex opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-12",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Manager, SDR"
-      },
-      "quotaCarrying": true,
-      "oteText": "OTE range for this role is $135,000 - $169,500"
-    },
-    {
       "id": "brex-manager-sales-development-8475632002",
       "company": "Brex",
       "role": "Manager, Sales Development",
@@ -123,12 +105,12 @@
       "oteText": "OTE range for this role is $135,000 - $169,500"
     },
     {
-      "id": "brex-manager-sales-development-8477508002",
+      "id": "brex-manager-sales-development-8477485002",
       "company": "Brex",
       "role": "Manager, Sales Development",
       "roleFamily": "SDR",
-      "location": "New York, New York, United States",
-      "url": "https://www.brex.com/careers/8477508002?gh_jid=8477508002",
+      "location": "Seattle, Washington, United States",
+      "url": "https://www.brex.com/careers/8477485002?gh_jid=8477485002",
       "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
       "companyBrief": "Brex opening listed on their Greenhouse board.",
       "postedAt": "2026-10-12",
@@ -157,6 +139,24 @@
       },
       "quotaCarrying": true,
       "oteText": "OTE range for this role is $120,000 - $150,000"
+    },
+    {
+      "id": "brex-manager-sales-development-8477508002",
+      "company": "Brex",
+      "role": "Manager, Sales Development",
+      "roleFamily": "SDR",
+      "location": "New York, New York, United States",
+      "url": "https://www.brex.com/careers/8477508002?gh_jid=8477508002",
+      "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
+      "companyBrief": "Brex opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-12",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "quotaCarrying": true,
+      "oteText": "OTE range for this role is $135,000 - $169,500"
     },
     {
       "id": "brex-outbound-sales-development-representative-8814628002",
@@ -210,12 +210,12 @@
       "oteText": "OTE range for this role is $82,535 - $92,852 USD"
     },
     {
-      "id": "brex-people-business-partner-gtm-post-sales-sales-development-8803642002",
+      "id": "brex-people-business-partner-gtm-post-sales-sales-development-8803650002",
       "company": "Brex",
       "role": "People Business Partner, GTM (Post Sales & Sales Development)",
       "roleFamily": "SDR",
-      "location": "San Francisco, California, United States",
-      "url": "https://www.brex.com/careers/8803642002?gh_jid=8803642002",
+      "location": "Seattle, Washington, United States",
+      "url": "https://www.brex.com/careers/8803650002?gh_jid=8803650002",
       "lookingFor": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and financ…",
       "companyBrief": "Brex opening listed on their Greenhouse board.",
       "postedAt": "2026-10-15",
@@ -1151,6 +1151,22 @@
       "companyBrief": "Starburst opening listed on their Greenhouse board.",
       "postedAt": "2026-10-22",
       "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
+    },
+    {
+      "id": "stripe-forward-deployed-ai-accelerator-sales-development-8055930",
+      "company": "Stripe",
+      "role": "Forward Deployed AI Accelerator, Sales Development",
+      "roleFamily": "SDR",
+      "location": "Seattle, San Francisco, New York, Chicago, Atlanta, Remote in the US, Canada",
+      "url": "https://stripe.com/jobs/search?gh_jid=8055930",
+      "lookingFor": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies — from the world's largest enterprises to the most ambitious startups — use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our m…",
+      "companyBrief": "Stripe opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-25",
+      "workplace": "remoteUS",
       "hiringManager": {
         "source": "roster",
         "title": "Manager, SDR"
@@ -4004,7 +4020,7 @@
       "url": "https://job-boards.greenhouse.io/forter/jobs/8606269002",
       "lookingFor": "About the role: The Enterprise Account Executive will be responsible for driving new customer acquisition and establishing and nurturing a strong pipeline of some of the largest accounts in the market. As an Enterprise Account Executive, you must be highly driven, while also sho…",
       "companyBrief": "Forter opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-29",
+      "postedAt": "2026-10-25",
       "segment": "Enterprise",
       "workplace": "onsite",
       "hiringManager": {
@@ -4022,7 +4038,7 @@
       "url": "https://job-boards.greenhouse.io/forter/jobs/8602496002",
       "lookingFor": "About the role: The Enterprise Account Executive will be responsible for driving new customer acquisition and establishing and nurturing a strong pipeline of some of the largest accounts in the market. As an Enterprise Account Executive, you must be highly driven, while also sho…",
       "companyBrief": "Forter opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-29",
+      "postedAt": "2026-10-25",
       "segment": "Enterprise",
       "workplace": "onsite",
       "hiringManager": {
@@ -4040,7 +4056,7 @@
       "url": "https://job-boards.greenhouse.io/forter/jobs/8503139002",
       "lookingFor": "Please Note: ; We are always searching for top talent to join our Sales organization. ; Currently, we do not have an immediate active opening for our Strategic Sales team in the US, but we are looking to build a network of strong candidates for our future positions. About the ro…",
       "companyBrief": "Forter opening listed on their Greenhouse board.",
-      "postedAt": "2026-08-29",
+      "postedAt": "2026-10-25",
       "segment": "Enterprise",
       "workplace": "onsite",
       "hiringManager": {
@@ -5287,42 +5303,6 @@
       "quotaCarrying": true
     },
     {
-      "id": "mongodb-enterprise-account-executive-growth-7362626",
-      "company": "MongoDB",
-      "role": "Enterprise Account Executive, Growth",
-      "roleFamily": "AE",
-      "location": "Boston; New York City; Pennsylvania",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7362626",
-      "lookingFor": "Get to Know the Sales Team Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadership is commit…",
-      "companyBrief": "MongoDB opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-23",
-      "segment": "Enterprise",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "quotaCarrying": true
-    },
-    {
-      "id": "mongodb-enterprise-account-executive-growth-7191603",
-      "company": "MongoDB",
-      "role": "Enterprise Account Executive, Growth",
-      "roleFamily": "AE",
-      "location": "Chicago",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7191603",
-      "lookingFor": "About the role We’re looking for a hardworking, driven individual with superb energy, passion and initiative for new business acquisition. The Enterprise Account Executive role focuses exclusively on formulating and executing a sales strategy within an assigned territory, result…",
-      "companyBrief": "MongoDB opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-23",
-      "segment": "Enterprise",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "quotaCarrying": true
-    },
-    {
       "id": "mongodb-enterprise-account-executive-growth-7027834",
       "company": "MongoDB",
       "role": "Enterprise Account Executive, Growth",
@@ -5348,6 +5328,42 @@
       "location": "New York City",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7032023",
       "lookingFor": "Get to Know the Sales Team Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadership is commit…",
+      "companyBrief": "MongoDB opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-23",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true
+    },
+    {
+      "id": "mongodb-enterprise-account-executive-growth-7362626",
+      "company": "MongoDB",
+      "role": "Enterprise Account Executive, Growth",
+      "roleFamily": "AE",
+      "location": "Boston; New York City; Pennsylvania",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7362626",
+      "lookingFor": "Get to Know the Sales Team Our sales team’s success is MongoDB’s success. We help customers solve challenges and build their next big thing. And our mission is to bring our developer data platform to new markets and new businesses around the globe. Our sales leadership is commit…",
+      "companyBrief": "MongoDB opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-23",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "quotaCarrying": true
+    },
+    {
+      "id": "mongodb-enterprise-account-executive-growth-7191603",
+      "company": "MongoDB",
+      "role": "Enterprise Account Executive, Growth",
+      "roleFamily": "AE",
+      "location": "Chicago",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7191603",
+      "lookingFor": "About the role We’re looking for a hardworking, driven individual with superb energy, passion and initiative for new business acquisition. The Enterprise Account Executive role focuses exclusively on formulating and executing a sales strategy within an assigned territory, result…",
       "companyBrief": "MongoDB opening listed on their Greenhouse board.",
       "postedAt": "2026-10-23",
       "segment": "Enterprise",
@@ -5412,24 +5428,6 @@
       "oteText": "on-target earnings (base pay + commissions) are:</div><div class=\""
     },
     {
-      "id": "motive-mid-market-account-executive-8608835002",
-      "company": "Motive",
-      "role": "Mid-Market Account Executive",
-      "roleFamily": "AE",
-      "location": "United States - Remote",
-      "url": "https://job-boards.greenhouse.io/gomotive/jobs/8608835002",
-      "lookingFor": "Who we are: Motive empowers the people who run physical operations with tools to make their work safer, more productive, and more profitable. For the first time ever, safety, operations and finance teams can manage their drivers, vehicles, equipment, and fleet related spend in a…",
-      "companyBrief": "Motive opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-13",
-      "segment": "MM",
-      "workplace": "remoteUS",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "oteText": "$142,000 - $197,000 OTE"
-    },
-    {
       "id": "motive-mid-market-account-executive-8606982002",
       "company": "Motive",
       "role": "Mid-Market Account Executive",
@@ -5446,6 +5444,24 @@
         "title": "Director, AE"
       },
       "oteText": "on-target earnings (base pay + commissions) are:</p></div><div cla"
+    },
+    {
+      "id": "motive-mid-market-account-executive-8608835002",
+      "company": "Motive",
+      "role": "Mid-Market Account Executive",
+      "roleFamily": "AE",
+      "location": "United States - Remote",
+      "url": "https://job-boards.greenhouse.io/gomotive/jobs/8608835002",
+      "lookingFor": "Who we are: Motive empowers the people who run physical operations with tools to make their work safer, more productive, and more profitable. For the first time ever, safety, operations and finance teams can manage their drivers, vehicles, equipment, and fleet related spend in a…",
+      "companyBrief": "Motive opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-13",
+      "segment": "MM",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "$142,000 - $197,000 OTE"
     },
     {
       "id": "motive-mid-market-account-executive-networks-8912734002",
@@ -6202,12 +6218,12 @@
       "oteText": "on-target earnings (OTE) range for full-time employees for this po"
     },
     {
-      "id": "samsara-account-executive-commercial-west-8162025",
+      "id": "samsara-account-executive-commercial-west-8162024",
       "company": "Samsara",
       "role": "Account Executive, Commercial ( West)",
       "roleFamily": "AE",
       "location": "Remote - US",
-      "url": "https://www.samsara.com/company/careers/roles/8162025?gh_jid=8162025",
+      "url": "https://www.samsara.com/company/careers/roles/8162024?gh_jid=8162024",
       "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
       "companyBrief": "Samsara opening listed on their Greenhouse board.",
       "postedAt": "2026-10-09",
@@ -6219,12 +6235,12 @@
       "oteText": "on-target earnings (OTE) range for full-time employees for this po"
     },
     {
-      "id": "samsara-account-executive-commercial-west-8162024",
+      "id": "samsara-account-executive-commercial-west-8162025",
       "company": "Samsara",
       "role": "Account Executive, Commercial ( West)",
       "roleFamily": "AE",
       "location": "Remote - US",
-      "url": "https://www.samsara.com/company/careers/roles/8162024?gh_jid=8162024",
+      "url": "https://www.samsara.com/company/careers/roles/8162025?gh_jid=8162025",
       "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
       "companyBrief": "Samsara opening listed on their Greenhouse board.",
       "postedAt": "2026-10-09",
@@ -6272,12 +6288,12 @@
       "oteText": "on-target earnings (OTE) range for full-time employees for this po"
     },
     {
-      "id": "samsara-account-executive-mid-market-southeast-7609156",
+      "id": "samsara-account-executive-mid-market-southeast-8304486",
       "company": "Samsara",
       "role": "Account Executive, Mid Market (Southeast)",
       "roleFamily": "AE",
-      "location": "Remote - US",
-      "url": "https://www.samsara.com/company/careers/roles/7609156?gh_jid=7609156",
+      "location": "Atlanta, Georgia, United States; Remote - SC",
+      "url": "https://www.samsara.com/company/careers/roles/8304486?gh_jid=8304486",
       "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
       "companyBrief": "Samsara opening listed on their Greenhouse board.",
       "postedAt": "2026-10-22",
@@ -6290,12 +6306,12 @@
       "oteText": "on-target earnings (OTE) range for full-time employees for this po"
     },
     {
-      "id": "samsara-account-executive-mid-market-southeast-8304486",
+      "id": "samsara-account-executive-mid-market-southeast-7609156",
       "company": "Samsara",
       "role": "Account Executive, Mid Market (Southeast)",
       "roleFamily": "AE",
-      "location": "Atlanta, Georgia, United States; Remote - SC",
-      "url": "https://www.samsara.com/company/careers/roles/8304486?gh_jid=8304486",
+      "location": "Remote - US",
+      "url": "https://www.samsara.com/company/careers/roles/7609156?gh_jid=7609156",
       "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
       "companyBrief": "Samsara opening listed on their Greenhouse board.",
       "postedAt": "2026-10-22",
@@ -6996,23 +7012,6 @@
       "lookingFor": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our missi…",
       "companyBrief": "Stripe opening listed on their Greenhouse board.",
       "postedAt": "2026-10-22",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      }
-    },
-    {
-      "id": "stripe-account-executive-commercial-grower-8123027",
-      "company": "Stripe",
-      "role": "Account Executive, Commercial (Grower)",
-      "roleFamily": "AE",
-      "location": "Chicago",
-      "url": "https://stripe.com/jobs/search?gh_jid=8123027",
-      "lookingFor": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our missi…",
-      "companyBrief": "Stripe opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-22",
-      "segment": "SMB",
       "workplace": "onsite",
       "hiringManager": {
         "source": "roster",
@@ -9855,7 +9854,7 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8153017",
       "lookingFor": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communit…",
       "companyBrief": "Reddit opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-24",
+      "postedAt": "2026-10-25",
       "segment": "MM",
       "workplace": "onsite",
       "hiringManager": {
@@ -9872,7 +9871,7 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8276095",
       "lookingFor": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communit…",
       "companyBrief": "Reddit opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-24",
+      "postedAt": "2026-10-25",
       "segment": "MM",
       "workplace": "onsite",
       "hiringManager": {
@@ -10023,12 +10022,12 @@
       }
     },
     {
-      "id": "tailscale-customer-account-executive-4740468005",
+      "id": "tailscale-customer-account-executive-4724118005",
       "company": "Tailscale",
       "role": "Customer Account Executive",
       "roleFamily": "AE",
-      "location": "Hybrid (Vancouver, British Columbia)",
-      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4740468005",
+      "location": "Hybrid (Toronto, Ontario)",
+      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4724118005",
       "lookingFor": "Thank you for considering Tailscale. If this job description resonates with you, please apply. ; Frequently cited statistics show that people who identify with historically marginalized groups are likely to apply to jobs only if they meet 100% of the qualifications. We encourage…",
       "companyBrief": "Tailscale opening listed on their Greenhouse board.",
       "postedAt": "2026-10-05",
@@ -10041,12 +10040,12 @@
       "oteText": "OTE (on target earnings), inclusive of base salary"
     },
     {
-      "id": "tailscale-customer-account-executive-4724118005",
+      "id": "tailscale-customer-account-executive-4740468005",
       "company": "Tailscale",
       "role": "Customer Account Executive",
       "roleFamily": "AE",
-      "location": "Hybrid (Toronto, Ontario)",
-      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4724118005",
+      "location": "Hybrid (Vancouver, British Columbia)",
+      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4740468005",
       "lookingFor": "Thank you for considering Tailscale. If this job description resonates with you, please apply. ; Frequently cited statistics show that people who identify with historically marginalized groups are likely to apply to jobs only if they meet 100% of the qualifications. We encourage…",
       "companyBrief": "Tailscale opening listed on their Greenhouse board.",
       "postedAt": "2026-10-05",
@@ -10278,8 +10277,8 @@
       "AE": 4
     },
     "Stripe": {
-      "SDR": 3,
-      "AE": 5
+      "SDR": 4,
+      "AE": 4
     },
     "Twilio": {
       "SDR": 2,
@@ -11029,6 +11028,7 @@
     "sprout social|account executive corporate sales public sector",
     "sprout social|sales development representative",
     "stripe|account executive ai startups hunter",
+    "stripe|account executive commercial grower",
     "stripe|account executive enterprise canada",
     "stripe|account executive enterprise grower",
     "stripe|account executive product radar",
