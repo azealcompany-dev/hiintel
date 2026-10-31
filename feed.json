@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T00:19:27+00:00",
+  "updatedAt": "2026-10-31T16:42:34+00:00",
   "openings": [
     {
       "id": "anthropic-manager-sales-development-enterprise-5454142008",
@@ -2006,8 +2006,7 @@
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
-      },
-      "reposted": true
+      }
     },
     {
       "id": "abnormal-security-major-account-executive-nyc-new-jersey-7801760003",
@@ -2023,8 +2022,7 @@
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
-      },
-      "reposted": true
+      }
     },
     {
       "id": "affirm-small-business-account-executive-ii-8005402003",
@@ -3298,17 +3296,17 @@
       }
     },
     {
-      "id": "databricks-named-core-account-executive-8906055002",
+      "id": "databricks-named-core-account-executive-8893599002",
       "company": "Databricks",
       "role": "Named Core Account Executive",
       "roleFamily": "AE",
-      "location": "United States",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8906055002",
-      "lookingFor": "SLSQ128R141 Remote-California ; As an Enterprise Account Executive in Databricks', you are an enterprise sales professional experienced in selling to Enterprise accounts. You know how to sell innovation and change through customer vision expansion and can guide deals forward to…",
+      "location": "Remote - Massachusetts; Remote - New York; Remote - Virginia; Remote - Washington D.C.",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8893599002",
+      "lookingFor": "SLSQ128R81 As an Enterprise Account Executive in Databricks', you are an enterprise sales professional experienced in selling to Enterprise accounts. You know how to sell innovation and change through customer vision expansion and can guide deals forward to compress decision cyc…",
       "companyBrief": "Databricks opening listed on their Greenhouse board.",
       "postedAt": "2026-10-28",
       "segment": "Enterprise",
-      "workplace": "onsite",
+      "workplace": "remoteUS",
       "hiringManager": {
         "title": "Director of Enterprise Sales",
         "source": "jd"
@@ -4069,23 +4067,6 @@
       }
     },
     {
-      "id": "gong-commercial-account-executive-4713055006",
-      "company": "Gong",
-      "role": "Commercial Account Executive",
-      "roleFamily": "AE",
-      "location": "Chicago | Salt Lake City | Remote (US)",
-      "url": "https://job-boards.greenhouse.io/gongio/jobs/4713055006",
-      "lookingFor": "Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and workflows into a single, trusted system that observes, guides, and acts alongside the world’s most successful revenue teams. Powered by the Gong Re…",
-      "companyBrief": "Gong opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-26",
-      "workplace": "remoteUS",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "oteText": "OTE for this position is $130,000 ;</strong></span>"
-    },
-    {
       "id": "gong-commercial-account-executive-4627242006",
       "company": "Gong",
       "role": "Commercial Account Executive",
@@ -4118,6 +4099,23 @@
         "title": "Director, AE"
       },
       "oteText": "OTE for this position is $130,000 - $145,000 USD"
+    },
+    {
+      "id": "gong-commercial-account-executive-4713055006",
+      "company": "Gong",
+      "role": "Commercial Account Executive",
+      "roleFamily": "AE",
+      "location": "Chicago | Salt Lake City | Remote (US)",
+      "url": "https://job-boards.greenhouse.io/gongio/jobs/4713055006",
+      "lookingFor": "Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and workflows into a single, trusted system that observes, guides, and acts alongside the world’s most successful revenue teams. Powered by the Gong Re…",
+      "companyBrief": "Gong opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-26",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE for this position is $130,000 ;</strong></span>"
     },
     {
       "id": "gong-enterprise-account-executive-financial-services-4661626006",
@@ -4156,30 +4154,30 @@
       "oteText": "OTE for this position is $240,000 - $330,000 USD"
     },
     {
-      "id": "gong-mid-market-account-executive-4714119006",
+      "id": "gong-mid-market-account-executive-4627241006",
       "company": "Gong",
       "role": "Mid-Market Account Executive",
       "roleFamily": "AE",
-      "location": "Chicago | Salt Lake City | Remote (US)",
-      "url": "https://job-boards.greenhouse.io/gongio/jobs/4714119006",
+      "location": "Austin",
+      "url": "https://job-boards.greenhouse.io/gongio/jobs/4627241006",
       "lookingFor": "Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and workflows into a single, trusted system that observes, guides, and acts alongside the world’s most successful revenue teams. Powered by the Gong Re…",
       "companyBrief": "Gong opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-26",
+      "postedAt": "2026-10-20",
       "segment": "MM",
-      "workplace": "remoteUS",
+      "workplace": "onsite",
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
       },
-      "oteText": "OTE for this position is $160,000 ;</strong></p> <p"
+      "oteText": "OTE for this position is $160,000 - $210,000 USD"
     },
     {
-      "id": "gong-mid-market-account-executive-4627234006",
+      "id": "gong-mid-market-account-executive-4627237006",
       "company": "Gong",
       "role": "Mid-Market Account Executive",
       "roleFamily": "AE",
-      "location": "New York City",
-      "url": "https://job-boards.greenhouse.io/gongio/jobs/4627234006",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/gongio/jobs/4627237006",
       "lookingFor": "Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and workflows into a single, trusted system that observes, guides, and acts alongside the world’s most successful revenue teams. Powered by the Gong Re…",
       "companyBrief": "Gong opening listed on their Greenhouse board.",
       "postedAt": "2026-10-20",
@@ -4526,24 +4524,6 @@
       "oteText": "OTE range for candidates within the Greater Chicago"
     },
     {
-      "id": "intercom-account-executive-midmarket-7335309",
-      "company": "Intercom",
-      "role": "Account Executive, MidMarket",
-      "roleFamily": "AE",
-      "location": "Chicago, Illinois",
-      "url": "https://job-boards.greenhouse.io/intercom/jobs/7335309",
-      "lookingFor": "Fin , now part of Salesforce, is on a mission to help businesses provide perfect customer experiences. Our AI Agent Fin is the highest-performing AI Customer Agent on the market today, enabling businesses to deliver impeccable, always-on customer support across the customer jour…",
-      "companyBrief": "Intercom opening listed on their Greenhouse board.",
-      "postedAt": "2026-09-16",
-      "segment": "MM",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "oteText": "OTE range for candidates within the Greater Chicago"
-    },
-    {
       "id": "intercom-account-executive-midmarket-7286050",
       "company": "Intercom",
       "role": "Account Executive, MidMarket",
@@ -4560,6 +4540,24 @@
         "title": "Director, AE"
       },
       "oteText": "OTE range for candidates within the San Francisco B"
+    },
+    {
+      "id": "intercom-account-executive-midmarket-7335309",
+      "company": "Intercom",
+      "role": "Account Executive, MidMarket",
+      "roleFamily": "AE",
+      "location": "Chicago, Illinois",
+      "url": "https://job-boards.greenhouse.io/intercom/jobs/7335309",
+      "lookingFor": "Fin , now part of Salesforce, is on a mission to help businesses provide perfect customer experiences. Our AI Agent Fin is the highest-performing AI Customer Agent on the market today, enabling businesses to deliver impeccable, always-on customer support across the customer jour…",
+      "companyBrief": "Intercom opening listed on their Greenhouse board.",
+      "postedAt": "2026-09-16",
+      "segment": "MM",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE range for candidates within the Greater Chicago"
     },
     {
       "id": "jfrog-strategic-account-executive-8163093",
@@ -6035,24 +6033,6 @@
       "oteText": "on-target earnings (OTE) range for full-time employees for this po"
     },
     {
-      "id": "samsara-account-executive-mid-market-northeast-7609147",
-      "company": "Samsara",
-      "role": "Account Executive, Mid Market (Northeast)",
-      "roleFamily": "AE",
-      "location": "Remote - NY; Remote - US",
-      "url": "https://www.samsara.com/company/careers/roles/7609147?gh_jid=7609147",
-      "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
-      "companyBrief": "Samsara opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-23",
-      "segment": "MM",
-      "workplace": "remoteUS",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "oteText": "on-target earnings (OTE) range for full-time employees for this po"
-    },
-    {
       "id": "samsara-account-executive-mid-market-northeast-8304565",
       "company": "Samsara",
       "role": "Account Executive, Mid Market (Northeast)",
@@ -6064,6 +6044,24 @@
       "postedAt": "2026-10-28",
       "segment": "MM",
       "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings (OTE) range for full-time employees for this po"
+    },
+    {
+      "id": "samsara-account-executive-mid-market-northeast-7609147",
+      "company": "Samsara",
+      "role": "Account Executive, Mid Market (Northeast)",
+      "roleFamily": "AE",
+      "location": "Remote - NY; Remote - US",
+      "url": "https://www.samsara.com/company/careers/roles/7609147?gh_jid=7609147",
+      "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
+      "companyBrief": "Samsara opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-23",
+      "segment": "MM",
+      "workplace": "remoteUS",
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
@@ -6466,8 +6464,7 @@
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
-      },
-      "reposted": true
+      }
     },
     {
       "id": "smartsheet-enterprise-account-executive-state-local-government-pnw-8262170",
@@ -6484,8 +6481,7 @@
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
-      },
-      "reposted": true
+      }
     },
     {
       "id": "smartsheet-enterprise-account-executive-state-local-government-pnw-8204553",
@@ -6502,8 +6498,7 @@
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
-      },
-      "reposted": true
+      }
     },
     {
       "id": "smartsheet-enterprise-account-executive-state-local-government-pnw-8192452",
@@ -6520,8 +6515,7 @@
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
-      },
-      "reposted": true
+      }
     },
     {
       "id": "snowflake-account-executive-b47c2374-1a78-43",
@@ -6960,8 +6954,7 @@
         "source": "roster",
         "title": "Director, AE"
       },
-      "oteText": "OTE (on target earnings), inclusive of base salary",
-      "reposted": true
+      "oteText": "OTE (on target earnings), inclusive of base salary"
     },
     {
       "id": "tailscale-strategic-enterprise-account-executive-4744879005",
@@ -7751,8 +7744,7 @@
       "hiringManager": {
         "source": "roster",
         "title": "Manager, SDR"
-      },
-      "reposted": true
+      }
     },
     {
       "id": "grafana-labs-sales-development-representative-germany-remote-5829409004",
@@ -9811,7 +9803,7 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8153017",
       "lookingFor": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communit…",
       "companyBrief": "Reddit opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-30",
+      "postedAt": "2026-10-31",
       "segment": "MM",
       "workplace": "onsite",
       "hiringManager": {
@@ -9828,7 +9820,7 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8276095",
       "lookingFor": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communit…",
       "companyBrief": "Reddit opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-30",
+      "postedAt": "2026-10-31",
       "segment": "MM",
       "workplace": "onsite",
       "hiringManager": {
@@ -9943,6 +9935,22 @@
         "title": "Director, AE"
       },
       "quotaCarrying": true
+    },
+    {
+      "id": "supabase-account-executive-dach-german-speaking-a069c886-1107-40",
+      "company": "Supabase",
+      "role": "Account Executive DACH (German-Speaking)",
+      "roleFamily": "AE",
+      "location": "Remote, EMEA",
+      "url": "https://jobs.ashbyhq.com/supabase/a069c886-1107-408e-88b4-e1aa8d33d4bc",
+      "lookingFor": "Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. About the Role We…",
+      "companyBrief": "Supabase opening listed on their Ashby board.",
+      "postedAt": "2026-10-31",
+      "workplace": "remoteGlobal",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
     },
     {
       "id": "tailscale-customer-account-executive-4724118005",
@@ -10440,6 +10448,9 @@
     },
     "Reddit": {
       "AE": 2
+    },
+    "Supabase": {
+      "AE": 1
     }
   },
   "absent": [
