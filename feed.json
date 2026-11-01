@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T23:55:16+00:00",
+  "updatedAt": "2026-11-01T17:32:20+00:00",
   "openings": [
     {
       "id": "anthropic-manager-sales-development-enterprise-5454142008",
@@ -607,39 +607,6 @@
       "oteText": "OTE), the pay range includes both base salary and t"
     },
     {
-      "id": "navan-sales-development-representative-6782238",
-      "company": "Navan",
-      "role": "Sales Development Representative",
-      "roleFamily": "SDR",
-      "location": "Austin, TX",
-      "url": "https://navan.com/careers/openings?gh_jid=6782238",
-      "lookingFor": "Are you ready to kickstart your career in the fast-paced world of tech sales? Join Navan's Sales Development team and become a crucial player in our explosive growth story! As a Sales Development Representative (SDR) at Navan, you'll be at the forefront of innovation, connecting…",
-      "companyBrief": "Navan opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-28",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Manager, SDR"
-      }
-    },
-    {
-      "id": "navan-sales-development-representative-6790419",
-      "company": "Navan",
-      "role": "Sales Development Representative",
-      "roleFamily": "SDR",
-      "location": "San Francisco, CA",
-      "url": "https://navan.com/careers/openings?gh_jid=6790419",
-      "lookingFor": "Are you ready to kickstart your career in the fast-paced world of tech sales? Join Navan's Sales Development team and become a crucial player in our explosive growth story! As a Sales Development Representative (SDR) at Navan, you'll be at the forefront of innovation, connecting…",
-      "companyBrief": "Navan opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-28",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Manager, SDR"
-      },
-      "oteText": "OTE), the pay range includes both base salary and t"
-    },
-    {
       "id": "navan-sales-development-representative-8095147",
       "company": "Navan",
       "role": "Sales Development Representative",
@@ -672,6 +639,39 @@
         "title": "Manager, SDR"
       },
       "oteText": "OTE), the pay range includes both base salary and t"
+    },
+    {
+      "id": "navan-sales-development-representative-6790419",
+      "company": "Navan",
+      "role": "Sales Development Representative",
+      "roleFamily": "SDR",
+      "location": "San Francisco, CA",
+      "url": "https://navan.com/careers/openings?gh_jid=6790419",
+      "lookingFor": "Are you ready to kickstart your career in the fast-paced world of tech sales? Join Navan's Sales Development team and become a crucial player in our explosive growth story! As a Sales Development Representative (SDR) at Navan, you'll be at the forefront of innovation, connecting…",
+      "companyBrief": "Navan opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-28",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      },
+      "oteText": "OTE), the pay range includes both base salary and t"
+    },
+    {
+      "id": "navan-sales-development-representative-6782238",
+      "company": "Navan",
+      "role": "Sales Development Representative",
+      "roleFamily": "SDR",
+      "location": "Austin, TX",
+      "url": "https://navan.com/careers/openings?gh_jid=6782238",
+      "lookingFor": "Are you ready to kickstart your career in the fast-paced world of tech sales? Join Navan's Sales Development team and become a crucial player in our explosive growth story! As a Sales Development Representative (SDR) at Navan, you'll be at the forefront of innovation, connecting…",
+      "companyBrief": "Navan opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-28",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, SDR"
+      }
     },
     {
       "id": "okta-sales-development-representative-east-7013646",
@@ -3225,6 +3225,23 @@
       }
     },
     {
+      "id": "databricks-account-executive-strategic-core-8880402002",
+      "company": "Databricks",
+      "role": "Account Executive - Strategic Core",
+      "roleFamily": "AE",
+      "location": "United States",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8880402002",
+      "lookingFor": "SLSQ128R22 As a Strategic Core Account Executive, your mission will be to lead the executive relationship, overall consumption growth, and cross-enterprise expansion across a select group of Databricks’ largest strategic accounts in Korea. This role is centered on expanding our…",
+      "companyBrief": "Databricks opening listed on their Greenhouse board.",
+      "postedAt": "2026-11-01",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "title": "Director of Sales, Korea",
+        "source": "jd"
+      }
+    },
+    {
       "id": "databricks-enterprise-account-executive-cpg-8870938002",
       "company": "Databricks",
       "role": "Enterprise Account Executive - CPG",
@@ -3303,23 +3320,6 @@
       "location": "Remote - Massachusetts; Remote - New York; Remote - Virginia; Remote - Washington D.C.",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8893599002",
       "lookingFor": "SLSQ128R81 As an Enterprise Account Executive in Databricks', you are an enterprise sales professional experienced in selling to Enterprise accounts. You know how to sell innovation and change through customer vision expansion and can guide deals forward to compress decision cyc…",
-      "companyBrief": "Databricks opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-28",
-      "segment": "Enterprise",
-      "workplace": "remoteUS",
-      "hiringManager": {
-        "title": "Director of Enterprise Sales",
-        "source": "jd"
-      }
-    },
-    {
-      "id": "databricks-named-core-account-executive-8920452002",
-      "company": "Databricks",
-      "role": "Named Core Account Executive",
-      "roleFamily": "AE",
-      "location": "Remote - New York",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8920452002",
-      "lookingFor": "SLSQ427R1142 Remote-New York As an Enterprise Account Executive in Databricks', you are an enterprise sales professional experienced in selling to Enterprise accounts. You know how to sell innovation and change through customer vision expansion and can guide deals forward to com…",
       "companyBrief": "Databricks opening listed on their Greenhouse board.",
       "postedAt": "2026-10-28",
       "segment": "Enterprise",
@@ -5257,24 +5257,6 @@
       "oteText": "on-target earnings (base pay + commissions) are:</div><div class=\""
     },
     {
-      "id": "motive-mid-market-account-executive-8606982002",
-      "company": "Motive",
-      "role": "Mid-Market Account Executive",
-      "roleFamily": "AE",
-      "location": "Hybrid - Austin, Texas",
-      "url": "https://job-boards.greenhouse.io/gomotive/jobs/8606982002",
-      "lookingFor": "Who we are: Motive empowers the people who run physical operations with tools to make their work safer, more productive, and more profitable. For the first time ever, safety, operations and finance teams can manage their drivers, vehicles, equipment, and fleet related spend in a…",
-      "companyBrief": "Motive opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-13",
-      "segment": "MM",
-      "workplace": "hybrid",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "oteText": "on-target earnings (base pay + commissions) are:</p></div><div cla"
-    },
-    {
       "id": "motive-mid-market-account-executive-8608835002",
       "company": "Motive",
       "role": "Mid-Market Account Executive",
@@ -5291,6 +5273,24 @@
         "title": "Director, AE"
       },
       "oteText": "$142,000 - $197,000 OTE"
+    },
+    {
+      "id": "motive-mid-market-account-executive-8606982002",
+      "company": "Motive",
+      "role": "Mid-Market Account Executive",
+      "roleFamily": "AE",
+      "location": "Hybrid - Austin, Texas",
+      "url": "https://job-boards.greenhouse.io/gomotive/jobs/8606982002",
+      "lookingFor": "Who we are: Motive empowers the people who run physical operations with tools to make their work safer, more productive, and more profitable. For the first time ever, safety, operations and finance teams can manage their drivers, vehicles, equipment, and fleet related spend in a…",
+      "companyBrief": "Motive opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-13",
+      "segment": "MM",
+      "workplace": "hybrid",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings (base pay + commissions) are:</p></div><div cla"
     },
     {
       "id": "motive-mid-market-account-executive-networks-8912734002",
@@ -6006,13 +6006,31 @@
       "url": "https://www.samsara.com/company/careers/roles/8162034?gh_jid=8162034",
       "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
       "companyBrief": "Samsara opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-09",
+      "postedAt": "2026-11-01",
       "workplace": "remoteUS",
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
       },
       "oteText": "on-target earnings (OTE) range for full-time employees for this po"
+    },
+    {
+      "id": "samsara-account-executive-commercial-west-8162025",
+      "company": "Samsara",
+      "role": "Account Executive, Commercial ( West)",
+      "roleFamily": "AE",
+      "location": "Remote - US",
+      "url": "https://www.samsara.com/company/careers/roles/8162025?gh_jid=8162025",
+      "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
+      "companyBrief": "Samsara opening listed on their Greenhouse board.",
+      "postedAt": "2026-11-01",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings (OTE) range for full-time employees for this po",
+      "reposted": true
     },
     {
       "id": "samsara-account-executive-mid-market-midwest-7609126",
@@ -6023,7 +6041,7 @@
       "url": "https://www.samsara.com/company/careers/roles/7609126?gh_jid=7609126",
       "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
       "companyBrief": "Samsara opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-26",
+      "postedAt": "2026-11-01",
       "segment": "MM",
       "workplace": "remoteUS",
       "hiringManager": {
@@ -6041,7 +6059,7 @@
       "url": "https://www.samsara.com/company/careers/roles/7609147?gh_jid=7609147",
       "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
       "companyBrief": "Samsara opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-23",
+      "postedAt": "2026-11-01",
       "segment": "MM",
       "workplace": "remoteUS",
       "hiringManager": {
@@ -6077,7 +6095,7 @@
       "url": "https://www.samsara.com/company/careers/roles/7609156?gh_jid=7609156",
       "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
       "companyBrief": "Samsara opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-28",
+      "postedAt": "2026-11-01",
       "segment": "MM",
       "workplace": "remoteUS",
       "hiringManager": {
@@ -6096,24 +6114,6 @@
       "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
       "companyBrief": "Samsara opening listed on their Greenhouse board.",
       "postedAt": "2026-10-28",
-      "segment": "MM",
-      "workplace": "remoteUS",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "oteText": "on-target earnings (OTE) range for full-time employees for this po"
-    },
-    {
-      "id": "samsara-account-executive-mid-market-tola-8304132",
-      "company": "Samsara",
-      "role": "Account Executive, Mid Market (TOLA)",
-      "roleFamily": "AE",
-      "location": "Dallas, Texas, United States; Remote - TX",
-      "url": "https://www.samsara.com/company/careers/roles/8304132?gh_jid=8304132",
-      "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
-      "companyBrief": "Samsara opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-22",
       "segment": "MM",
       "workplace": "remoteUS",
       "hiringManager": {
@@ -6384,12 +6384,12 @@
       "quotaCarrying": true
     },
     {
-      "id": "smartsheet-account-executive-commercial-named-east-8247017",
+      "id": "smartsheet-account-executive-commercial-named-east-8196285",
       "company": "Smartsheet",
       "role": "Account Executive, Commercial - Named (East)",
       "roleFamily": "AE",
-      "location": "Chicago, IL, USA",
-      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8247017",
+      "location": "Boston, MA, USA",
+      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8196285",
       "lookingFor": "For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights a…",
       "companyBrief": "Smartsheet opening listed on their Greenhouse board.",
       "postedAt": "2026-10-29",
@@ -6400,12 +6400,12 @@
       }
     },
     {
-      "id": "smartsheet-account-executive-commercial-named-east-8196285",
+      "id": "smartsheet-account-executive-commercial-named-east-8247017",
       "company": "Smartsheet",
       "role": "Account Executive, Commercial - Named (East)",
       "roleFamily": "AE",
-      "location": "Boston, MA, USA",
-      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8196285",
+      "location": "Chicago, IL, USA",
+      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8247017",
       "lookingFor": "For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights a…",
       "companyBrief": "Smartsheet opening listed on their Greenhouse board.",
       "postedAt": "2026-10-29",
@@ -6450,23 +6450,6 @@
       }
     },
     {
-      "id": "smartsheet-enterprise-account-executive-state-local-government-pnw-8262162",
-      "company": "Smartsheet",
-      "role": "Enterprise Account Executive - State/Local Government (PNW)",
-      "roleFamily": "AE",
-      "location": "San Francisco, CA, USA",
-      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8262162",
-      "lookingFor": "For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights a…",
-      "companyBrief": "Smartsheet opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-29",
-      "segment": "Enterprise",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      }
-    },
-    {
       "id": "smartsheet-enterprise-account-executive-state-local-government-pnw-8262170",
       "company": "Smartsheet",
       "role": "Enterprise Account Executive - State/Local Government (PNW)",
@@ -6507,6 +6490,23 @@
       "roleFamily": "AE",
       "location": "Bellevue, WA, USA",
       "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8192452",
+      "lookingFor": "For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights a…",
+      "companyBrief": "Smartsheet opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-29",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
+    },
+    {
+      "id": "smartsheet-enterprise-account-executive-state-local-government-pnw-8262162",
+      "company": "Smartsheet",
+      "role": "Enterprise Account Executive - State/Local Government (PNW)",
+      "roleFamily": "AE",
+      "location": "San Francisco, CA, USA",
+      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8262162",
       "lookingFor": "For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights a…",
       "companyBrief": "Smartsheet opening listed on their Greenhouse board.",
       "postedAt": "2026-10-29",
@@ -7006,22 +7006,6 @@
       }
     },
     {
-      "id": "toast-bilingual-strategic-cuisines-account-executive-mandarin-west-coast-7976926",
-      "company": "Toast",
-      "role": "Bilingual Strategic Cuisines Account Executive (Mandarin ) - West Coast",
-      "roleFamily": "AE",
-      "location": "Seattle, WA ",
-      "url": "https://careers.toasttab.com/jobs?gh_jid=7976926",
-      "lookingFor": "This is a fully remote bilingual Mandarin sales opportunity based out of a personal home office. You must live within a PST time zone. ; Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales,…",
-      "companyBrief": "Toast opening listed on their Greenhouse board.",
-      "postedAt": "2026-09-09",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      }
-    },
-    {
       "id": "toast-bilingual-strategic-cuisines-account-executive-mandarin-west-coast-8109020",
       "company": "Toast",
       "role": "Bilingual Strategic Cuisines Account Executive (Mandarin ) - West Coast",
@@ -7044,6 +7028,22 @@
       "roleFamily": "AE",
       "location": "San Francisco, CA ",
       "url": "https://careers.toasttab.com/jobs?gh_jid=8109019",
+      "lookingFor": "This is a fully remote bilingual Mandarin sales opportunity based out of a personal home office. You must live within a PST time zone. ; Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales,…",
+      "companyBrief": "Toast opening listed on their Greenhouse board.",
+      "postedAt": "2026-09-09",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      }
+    },
+    {
+      "id": "toast-bilingual-strategic-cuisines-account-executive-mandarin-west-coast-7976926",
+      "company": "Toast",
+      "role": "Bilingual Strategic Cuisines Account Executive (Mandarin ) - West Coast",
+      "roleFamily": "AE",
+      "location": "Seattle, WA ",
+      "url": "https://careers.toasttab.com/jobs?gh_jid=7976926",
       "lookingFor": "This is a fully remote bilingual Mandarin sales opportunity based out of a personal home office. You must live within a PST time zone. ; Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales,…",
       "companyBrief": "Toast opening listed on their Greenhouse board.",
       "postedAt": "2026-09-09",
@@ -9270,21 +9270,22 @@
       }
     },
     {
-      "id": "jfrog-strategic-account-executive-8045681",
+      "id": "jfrog-new-business-enterprise-account-executive-8344532",
       "company": "JFrog",
-      "role": "Strategic Account Executive",
+      "role": "New Business Enterprise Account Executive",
       "roleFamily": "AE",
-      "location": "Remote, Germany",
-      "url": "https://join.jfrog.com/job/?job=8045681&gh_jid=8045681",
-      "lookingFor": "Residency in Germany is required. Currently, this position is remote and does not require working from the office. ; ; #LI-Remote At JFrog, we’re reinventing DevSecOps to help the world’s greatest companies innovate securely-- recognized by Gartner as a Leader in the Software Su…",
+      "location": "Paris",
+      "url": "https://join.jfrog.com/job/?job=8344532&gh_jid=8344532",
+      "lookingFor": "Residency in Paris, France is required. This role is currently fully remote. #LI-Remote At JFrog, we are reinventing DevOps to help the world’s greatest companies innovate -- and we want you along for the ride. This is a special place with a unique combination of brilliance, spi…",
       "companyBrief": "JFrog opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-19",
+      "postedAt": "2026-11-01",
       "segment": "Enterprise",
-      "workplace": "remoteGlobal",
+      "workplace": "onsite",
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
-      }
+      },
+      "quotaCarrying": true
     },
     {
       "id": "jobber-account-executive-full-cycle-378345d4-0b72-48",
@@ -9803,7 +9804,7 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8153017",
       "lookingFor": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communit…",
       "companyBrief": "Reddit opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-31",
+      "postedAt": "2026-11-01",
       "segment": "MM",
       "workplace": "onsite",
       "hiringManager": {
@@ -9820,7 +9821,7 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8276095",
       "lookingFor": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communit…",
       "companyBrief": "Reddit opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-31",
+      "postedAt": "2026-11-01",
       "segment": "MM",
       "workplace": "onsite",
       "hiringManager": {
@@ -10950,7 +10951,7 @@
     "redis|strategic account executive t mobile",
     "riskified|enterprise account executive",
     "riskified|enterprise business development representative",
-    "samsara|account executive commercial west",
+    "samsara|account executive mid market tola",
     "samsara|account executive mid market west",
     "scale ai|business development representative partnerships physical ai",
     "scale ai|enterprise account executive defence security",
