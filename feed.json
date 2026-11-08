@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T17:19:01+00:00",
+  "updatedAt": "2026-11-08T00:09:18+00:00",
   "openings": [
     {
       "id": "anthropic-manager-sales-development-enterprise-5454142008",
@@ -5965,24 +5965,6 @@
       "quotaCarrying": true
     },
     {
-      "id": "qualtrics-enterprise-account-executive-8318023",
-      "company": "Qualtrics",
-      "role": "Enterprise Account Executive",
-      "roleFamily": "AE",
-      "location": "Reston, Virginia, United States",
-      "url": "https://www.qualtrics.com/careers/us/en/job/8318023?gh_jid=8318023",
-      "lookingFor": "At Qualtrics, we create software the world’s best brands use to deliver exceptional frontline experiences, build high-performing teams, and design products people love. But we are more than a platform—we are the creators and stewards of the Experience Management category serving…",
-      "companyBrief": "Qualtrics opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-30",
-      "segment": "Enterprise",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "quotaCarrying": true
-    },
-    {
       "id": "qualtrics-enterprise-account-executive-business-services-8238370",
       "company": "Qualtrics",
       "role": "Enterprise Account Executive - Business Services",
@@ -5999,6 +5981,25 @@
         "title": "Director, AE"
       },
       "travelText": "travel up to 50%"
+    },
+    {
+      "id": "qualtrics-enterprise-account-executive-dod-dow-8318047",
+      "company": "Qualtrics",
+      "role": "Enterprise Account Executive - DoD/DoW",
+      "roleFamily": "AE",
+      "location": "United States (Remote)",
+      "url": "https://www.qualtrics.com/careers/us/en/job/8318047?gh_jid=8318047",
+      "lookingFor": "At Qualtrics, we create software the world’s best brands use to deliver exceptional frontline experiences, build high-performing teams, and design products people love. But we are more than a platform—we are the creators and stewards of the Experience Management category serving…",
+      "companyBrief": "Qualtrics opening listed on their Greenhouse board.",
+      "postedAt": "2026-11-07",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "travelText": "travel up to 50%",
+      "reposted": true
     },
     {
       "id": "ramp-account-executive-commercial-8c004352-f162-4d",
@@ -6139,24 +6140,6 @@
       "oteText": "on-target earnings (OTE) range for full-time employees for this po"
     },
     {
-      "id": "samsara-account-executive-mid-market-northeast-8304565",
-      "company": "Samsara",
-      "role": "Account Executive, Mid Market (Northeast)",
-      "roleFamily": "AE",
-      "location": "Philadelphia, Pennsylvania, United States",
-      "url": "https://www.samsara.com/company/careers/roles/8304565?gh_jid=8304565",
-      "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
-      "companyBrief": "Samsara opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-28",
-      "segment": "MM",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "oteText": "on-target earnings (OTE) range for full-time employees for this po"
-    },
-    {
       "id": "samsara-account-executive-mid-market-northeast-7609147",
       "company": "Samsara",
       "role": "Account Executive, Mid Market (Northeast)",
@@ -6168,6 +6151,24 @@
       "postedAt": "2026-11-01",
       "segment": "MM",
       "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings (OTE) range for full-time employees for this po"
+    },
+    {
+      "id": "samsara-account-executive-mid-market-northeast-8304565",
+      "company": "Samsara",
+      "role": "Account Executive, Mid Market (Northeast)",
+      "roleFamily": "AE",
+      "location": "Philadelphia, Pennsylvania, United States",
+      "url": "https://www.samsara.com/company/careers/roles/8304565?gh_jid=8304565",
+      "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
+      "companyBrief": "Samsara opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-28",
+      "segment": "MM",
+      "workplace": "onsite",
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
@@ -6928,15 +6929,15 @@
       }
     },
     {
-      "id": "stripe-account-executive-ai-sales-8332467",
+      "id": "stripe-account-executive-ai-sales-8138044",
       "company": "Stripe",
       "role": "Account Executive, AI Sales",
       "roleFamily": "AE",
       "location": "San Francisco, CA",
-      "url": "https://stripe.com/jobs/search?gh_jid=8332467",
-      "lookingFor": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our m…",
+      "url": "https://stripe.com/jobs/search?gh_jid=8138044",
+      "lookingFor": "About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is t…",
       "companyBrief": "Stripe opening listed on their Greenhouse board.",
-      "postedAt": "2026-11-06",
+      "postedAt": "2026-10-29",
       "workplace": "onsite",
       "hiringManager": {
         "source": "roster",
@@ -8472,22 +8473,6 @@
       }
     },
     {
-      "id": "jfrog-business-development-representative-7963399",
-      "company": "JFrog",
-      "role": "Business Development Representative",
-      "roleFamily": "BDR",
-      "location": "london, uk",
-      "url": "https://join.jfrog.com/job/?job=7963399&gh_jid=7963399",
-      "lookingFor": "Hybrid role (3 days in the office, 2 days remote), based in our London office at HYLO, 103–105 Bunhill Row, London EC1Y 8LZ. At JFrog, we’re reinventing DevOps to help the world’s greatest companies innovate -- and we want you along for the ride. This is a special place with a u…",
-      "companyBrief": "JFrog opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-04",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Manager, BDR"
-      }
-    },
-    {
       "id": "jfrog-business-development-representative-7694707",
       "company": "JFrog",
       "role": "Business Development Representative",
@@ -8497,6 +8482,22 @@
       "lookingFor": "Hybrid position, Monday–Friday At JFrog, we’re reinventing DevOps to help the world’s greatest companies innovate -- and we want you along for the ride. This is a special place with a unique combination of brilliance, spirit and just all-around great people. Here, if you’re will…",
       "companyBrief": "JFrog opening listed on their Greenhouse board.",
       "postedAt": "2026-10-20",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Manager, BDR"
+      }
+    },
+    {
+      "id": "jfrog-business-development-representative-7963399",
+      "company": "JFrog",
+      "role": "Business Development Representative",
+      "roleFamily": "BDR",
+      "location": "london, uk",
+      "url": "https://join.jfrog.com/job/?job=7963399&gh_jid=7963399",
+      "lookingFor": "Hybrid role (3 days in the office, 2 days remote), based in our London office at HYLO, 103–105 Bunhill Row, London EC1Y 8LZ. At JFrog, we’re reinventing DevOps to help the world’s greatest companies innovate -- and we want you along for the ride. This is a special place with a u…",
+      "companyBrief": "JFrog opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-04",
       "workplace": "onsite",
       "hiringManager": {
         "source": "roster",
@@ -10960,7 +10961,7 @@
     "qualtrics|account executive life sciences",
     "qualtrics|account executive new logo dallas",
     "qualtrics|account executive slg",
-    "qualtrics|enterprise account executive dod dow",
+    "qualtrics|enterprise account executive",
     "qualtrics|enterprise account executive financial services",
     "qualtrics|enterprise account executive financial services new york northeast",
     "qualtrics|enterprise account executive fsi",
