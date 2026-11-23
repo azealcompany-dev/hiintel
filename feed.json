@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T18:57:39+00:00",
+  "updatedAt": "2026-11-23T01:21:34+00:00",
   "openings": [
     {
       "id": "abnormal-security-sales-development-representative-7730831003",
@@ -3547,24 +3547,6 @@
       }
     },
     {
-      "id": "databricks-enterprise-account-executive-financial-services-8920452002",
-      "company": "Databricks",
-      "role": "Enterprise Account Executive - Financial Services",
-      "roleFamily": "AE",
-      "location": "Northeast - United States; Remote - Massachusetts; Remote - New York",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8920452002",
-      "lookingFor": "SLSQ427R1142 As an Enterprise Account Executive at Databricks, you are a seasoned sales professional with experience selling to Financial Services accounts. You know how to sell innovation and change through customer vision expansion and can guide deals forward to compress decis…",
-      "companyBrief": "Databricks opening listed on their Greenhouse board.",
-      "postedAt": "2026-11-20",
-      "segment": "Enterprise",
-      "workplace": "remoteUS",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "oteText": "on-target earnings for commissionable roles"
-    },
-    {
       "id": "databricks-enterprise-account-executive-financial-services-8932854002",
       "company": "Databricks",
       "role": "Enterprise Account Executive - Financial Services",
@@ -3601,20 +3583,20 @@
       "oteText": "on-target earnings for commissionable roles"
     },
     {
-      "id": "databricks-enterprise-account-executive-healthcare-8925467002",
+      "id": "databricks-enterprise-account-executive-financial-services-8920452002",
       "company": "Databricks",
-      "role": "Enterprise Account Executive, Healthcare",
+      "role": "Enterprise Account Executive - Financial Services",
       "roleFamily": "AE",
-      "location": "Remote - New York; Remote - North Carolina",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8925467002",
-      "lookingFor": "SLSQ128R86 As an Enterprise Account Executive at Databricks, you are a strategic sales professional experienced in selling into large healthcare and provider accounts. You know how to sell innovation and change through customer vision expansion and can guide deals forward to com…",
+      "location": "Northeast - United States; Remote - Massachusetts; Remote - New York",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8920452002",
+      "lookingFor": "SLSQ427R1142 As an Enterprise Account Executive at Databricks, you are a seasoned sales professional with experience selling to Financial Services accounts. You know how to sell innovation and change through customer vision expansion and can guide deals forward to compress decis…",
       "companyBrief": "Databricks opening listed on their Greenhouse board.",
-      "postedAt": "2026-11-19",
+      "postedAt": "2026-11-20",
       "segment": "Enterprise",
       "workplace": "remoteUS",
       "hiringManager": {
-        "title": "Director of Enterprise Provider Sales",
-        "source": "jd"
+        "source": "roster",
+        "title": "Director, AE"
       },
       "oteText": "on-target earnings for commissionable roles"
     },
@@ -3632,6 +3614,24 @@
       "workplace": "remoteUS",
       "hiringManager": {
         "title": "Director of Enterprise Payer Sales",
+        "source": "jd"
+      },
+      "oteText": "on-target earnings for commissionable roles"
+    },
+    {
+      "id": "databricks-enterprise-account-executive-healthcare-8925467002",
+      "company": "Databricks",
+      "role": "Enterprise Account Executive, Healthcare",
+      "roleFamily": "AE",
+      "location": "Remote - New York; Remote - North Carolina",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8925467002",
+      "lookingFor": "SLSQ128R86 As an Enterprise Account Executive at Databricks, you are a strategic sales professional experienced in selling into large healthcare and provider accounts. You know how to sell innovation and change through customer vision expansion and can guide deals forward to com…",
+      "companyBrief": "Databricks opening listed on their Greenhouse board.",
+      "postedAt": "2026-11-19",
+      "segment": "Enterprise",
+      "workplace": "remoteUS",
+      "hiringManager": {
+        "title": "Director of Enterprise Provider Sales",
         "source": "jd"
       },
       "oteText": "on-target earnings for commissionable roles"
@@ -4910,12 +4910,50 @@
       "travelText": "up to 10% travel"
     },
     {
-      "id": "klaviyo-account-executive-large-enterprise-8004340003",
+      "id": "klaviyo-account-executive-large-enterprise-8013033003",
       "company": "Klaviyo",
       "role": "Account Executive, Large Enterprise",
       "roleFamily": "AE",
-      "location": "Boston, MA",
-      "url": "https://www.klaviyo.com/careers/jobs/8004340003?gh_jid=8004340003",
+      "location": "Denver, CO",
+      "url": "https://www.klaviyo.com/careers/jobs/8013033003?gh_jid=8013033003",
+      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
+      "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
+      "postedAt": "2026-11-20",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE) for sales and customer success roles, equity",
+      "travelText": "up to 10% travel"
+    },
+    {
+      "id": "klaviyo-account-executive-large-enterprise-8013119003",
+      "company": "Klaviyo",
+      "role": "Account Executive, Large Enterprise",
+      "roleFamily": "AE",
+      "location": "San Francisco, CA",
+      "url": "https://www.klaviyo.com/careers/jobs/8013119003?gh_jid=8013119003",
+      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
+      "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
+      "postedAt": "2026-11-20",
+      "segment": "Enterprise",
+      "workplace": "onsite",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "OTE) for sales and customer success roles, equity",
+      "travelText": "up to 10% travel"
+    },
+    {
+      "id": "klaviyo-account-executive-large-enterprise-8013125003",
+      "company": "Klaviyo",
+      "role": "Account Executive, Large Enterprise",
+      "roleFamily": "AE",
+      "location": "Chicago, IL",
+      "url": "https://www.klaviyo.com/careers/jobs/8013125003?gh_jid=8013125003",
       "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
       "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
       "postedAt": "2026-11-20",
@@ -4992,44 +5030,6 @@
       "roleFamily": "AE",
       "location": "Miami, FL",
       "url": "https://www.klaviyo.com/careers/jobs/8013143003?gh_jid=8013143003",
-      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
-      "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
-      "postedAt": "2026-11-20",
-      "segment": "Enterprise",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "oteText": "OTE) for sales and customer success roles, equity",
-      "travelText": "up to 10% travel"
-    },
-    {
-      "id": "klaviyo-account-executive-large-enterprise-8013032003",
-      "company": "Klaviyo",
-      "role": "Account Executive, Large Enterprise",
-      "roleFamily": "AE",
-      "location": "New York, NY",
-      "url": "https://www.klaviyo.com/careers/jobs/8013032003?gh_jid=8013032003",
-      "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
-      "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
-      "postedAt": "2026-11-20",
-      "segment": "Enterprise",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "oteText": "OTE) for sales and customer success roles, equity",
-      "travelText": "up to 10% travel"
-    },
-    {
-      "id": "klaviyo-account-executive-large-enterprise-8013033003",
-      "company": "Klaviyo",
-      "role": "Account Executive, Large Enterprise",
-      "roleFamily": "AE",
-      "location": "Denver, CO",
-      "url": "https://www.klaviyo.com/careers/jobs/8013033003?gh_jid=8013033003",
       "lookingFor": "At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the tradit…",
       "companyBrief": "Klaviyo opening listed on their Greenhouse board.",
       "postedAt": "2026-11-20",
@@ -6287,24 +6287,6 @@
       "oteText": "on-target earnings (OTE) range for full-time employees for this po"
     },
     {
-      "id": "samsara-account-executive-mid-market-northeast-8304565",
-      "company": "Samsara",
-      "role": "Account Executive, Mid Market (Northeast)",
-      "roleFamily": "AE",
-      "location": "Philadelphia, Pennsylvania, United States",
-      "url": "https://www.samsara.com/company/careers/roles/8304565?gh_jid=8304565",
-      "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
-      "companyBrief": "Samsara opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-28",
-      "segment": "MM",
-      "workplace": "onsite",
-      "hiringManager": {
-        "source": "roster",
-        "title": "Director, AE"
-      },
-      "oteText": "on-target earnings (OTE) range for full-time employees for this po"
-    },
-    {
       "id": "samsara-account-executive-mid-market-northeast-7609147",
       "company": "Samsara",
       "role": "Account Executive, Mid Market (Northeast)",
@@ -6316,6 +6298,24 @@
       "postedAt": "2026-11-01",
       "segment": "MM",
       "workplace": "remoteUS",
+      "hiringManager": {
+        "source": "roster",
+        "title": "Director, AE"
+      },
+      "oteText": "on-target earnings (OTE) range for full-time employees for this po"
+    },
+    {
+      "id": "samsara-account-executive-mid-market-northeast-8304565",
+      "company": "Samsara",
+      "role": "Account Executive, Mid Market (Northeast)",
+      "roleFamily": "AE",
+      "location": "Philadelphia, Pennsylvania, United States",
+      "url": "https://www.samsara.com/company/careers/roles/8304565?gh_jid=8304565",
+      "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
+      "companyBrief": "Samsara opening listed on their Greenhouse board.",
+      "postedAt": "2026-10-28",
+      "segment": "MM",
+      "workplace": "onsite",
       "hiringManager": {
         "source": "roster",
         "title": "Director, AE"
@@ -6359,15 +6359,15 @@
       "oteText": "on-target earnings (OTE) range for full-time employees for this po"
     },
     {
-      "id": "samsara-account-executive-mid-market-tola-8304132",
+      "id": "samsara-account-executive-mid-market-tola-7608969",
       "company": "Samsara",
       "role": "Account Executive, Mid Market (TOLA)",
       "roleFamily": "AE",
-      "location": "Dallas, Texas, United States; Remote - TX",
-      "url": "https://www.samsara.com/company/careers/roles/8304132?gh_jid=8304132",
+      "location": "Remote - TX; Remote - US",
+      "url": "https://www.samsara.com/company/careers/roles/7608969?gh_jid=7608969",
       "lookingFor": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, w…",
       "companyBrief": "Samsara opening listed on their Greenhouse board.",
-      "postedAt": "2026-10-22",
+      "postedAt": "2026-11-01",
       "segment": "MM",
       "workplace": "remoteUS",
       "hiringManager": {
@@ -10267,7 +10267,7 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8153017",
       "lookingFor": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communit…",
       "companyBrief": "Reddit opening listed on their Greenhouse board.",
-      "postedAt": "2026-11-21",
+      "postedAt": "2026-11-22",
       "segment": "MM",
       "workplace": "onsite",
       "hiringManager": {
@@ -10284,7 +10284,7 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8276095",
       "lookingFor": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communit…",
       "companyBrief": "Reddit opening listed on their Greenhouse board.",
-      "postedAt": "2026-11-21",
+      "postedAt": "2026-11-22",
       "segment": "MM",
       "workplace": "onsite",
       "hiringManager": {
